@@ -2,7 +2,9 @@
 // Replace examples with verified facts. Do not publish unapproved personal information.
 window.CADLAB_CONTENT = {
   
+
 about: "The CAD (Computer-Aided Design) Laboratory is an integral unit of the Department of Industrial Engineering at Ajou University.",
+
   research: [
     { title: "CAD / CAM", description: "Computer-aided design and manufacturing research." },
     { title: "Intelligent Robotics", description: "Robotic systems, sensing and advanced automation." },
