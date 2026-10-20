@@ -1,2 +1,106 @@
 /* CADLAB V3 — complete clean stylesheet; replaces accumulated V2 patches */
 :root{--navy:#142b49;--navy2:#213f63;--blue:#3368e8;--ink:#1b2d43;--muted:#66778a;--line:#e4eaf0;--light:#f5f7fa}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:85px}body{margin:0;font:16px/1.65 Arial,"Noto Sans KR",sans-serif;color:var(--ink)}a:focus-visible,button:focus-visible{outline:3px solid #65b9ff;outline-offset:3px}.skip-link{position:absolute;left:12px;top:-100px;z-index:100;padding:10px 16px;background:white;color:var(--navy)}.skip-link:focus{top:10px}.wrap{width:min(1140px,calc(100% - 48px));margin:auto}.header{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid var(--line)}.nav{min-height:82px;display:flex;align-items:center;justify-content:space-between;gap:25px}.brand{display:inline-flex;align-items:center;gap:12px;color:var(--navy);font-weight:800;text-decoration:none;flex-shrink:0}.brandmark{width:42px;height:42px;background:var(--navy);color:#fff;border-radius:8px;display:grid;place-items:center;font-size:26px;line-height:1}.branddot{color:#7db6ff}.brandword{display:flex;flex-direction:column;align-items:flex-start;gap:2px;font-size:23px;letter-spacing:-.7px;line-height:1.1;white-space:nowrap}.brandword small{font-size:9px;letter-spacing:1.35px;color:#728298;font-weight:700}.accent,.title-dot,.blue-text{color:var(--blue)}.nav nav{display:flex;gap:20px;align-items:center;flex-wrap:wrap}.nav nav a{text-decoration:none;color:var(--ink);font-size:13px;font-weight:700}.nav nav a:hover{color:var(--blue)}.menu{display:none}.hero{background:linear-gradient(120deg,#142b49,#25496f);color:#fff}.hero-layout{min-height:570px;display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:60px;align-items:center}.hero-copy{padding:70px 0}.eyebrow{color:#9cc5f9;font-size:12px;font-weight:800;letter-spacing:2.7px}.hero h1{font-size:clamp(48px,5.8vw,80px);line-height:1.07;letter-spacing:-3px;margin:30px 0 22px}.hero h1 em{font-style:normal;color:#9cc5f9}.hero-descriptor{font-size:20px;font-weight:650}.hero-summary{max-width:540px;color:#d5e1ed;font-size:16px;margin:18px 0 28px}.hero-actions{display:flex;flex-wrap:wrap;gap:12px;align-items:center}.cta,.cta-secondary{display:inline-flex;align-items:center;gap:20px;text-decoration:none;border-radius:6px;padding:12px 18px;font-size:14px;font-weight:700}.cta{background:white;color:var(--navy)}.cta-secondary{color:#fff;border:1px solid #8ca7c4}.cta:hover{background:#ecf3ff}.cta-secondary:hover{background:#ffffff15}.hero-illustration{text-align:center;min-width:0}.hero-illustration img{display:block;width:100%;max-width:520px;height:auto;margin:auto}.hero-illustration p{color:#b9d0e8;font-size:10px;letter-spacing:2px;font-weight:700;margin:5px 0 0}.hero-bottom{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:66px;border-top:1px solid #ffffff24;color:#c2d3e6;font-size:11px;letter-spacing:1px}.hero-bottom a{color:#e3eefc;text-decoration:none}.focus-strip{background:#eef3f8;border-bottom:1px solid var(--line)}.focus-row{display:flex;justify-content:space-between;flex-wrap:wrap;gap:15px 25px;padding:23px 0;color:#4f6379;font-size:11px;font-weight:750;letter-spacing:1px}.focus-label{color:var(--blue)}.section{padding:92px 0}.section.light{background:var(--light)}.section-grid{display:grid;grid-template-columns:1fr 1fr;gap:55px}.overline{font-size:11px;letter-spacing:2px;color:var(--blue);font-weight:800;margin:0 0 14px}h2{font-size:clamp(30px,3.8vw,46px);line-height:1.15;letter-spacing:-1.5px;color:var(--navy);margin:0 0 22px}.muted,.section-heading>p{color:var(--muted)}.lead{font-size:18px}.notice{background:#fffaf1;border-left:3px solid #dcb66c;font-size:13px;color:#80682e;padding:14px 17px;margin:22px 0}.inline-link{color:var(--blue);font-weight:750;text-decoration:none}.section-heading{display:flex;align-items:end;justify-content:space-between;gap:30px;margin-bottom:28px}.section-heading h2{margin:0}.section-heading>p{font-size:14px;max-width:350px;margin:0}.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}.card{background:#fff;border:1px solid var(--line);border-radius:9px;padding:26px;min-height:178px}.card:before{content:"";display:block;width:30px;height:3px;background:var(--blue);margin-bottom:19px}.card h3{font-size:19px;line-height:1.3;color:var(--navy);margin:0 0 12px}.card p{font-size:14px;color:var(--muted);margin:0}.stack{display:grid;gap:12px}.entry{border:1px solid var(--line);border-left:3px solid var(--blue);background:#fff;border-radius:6px;padding:20px 24px;display:flex;justify-content:space-between;gap:20px}.entry strong{color:var(--navy)}.entry span{font-size:13px;color:var(--muted)}.archive-section{background:var(--navy);color:#fff}.archive-section h2{color:#fff}.archive-section p:not(.overline){color:#ccd8e5}.archive-layout{display:flex;align-items:center;justify-content:space-between;gap:30px}.archive-button{flex-shrink:0;text-decoration:none;background:#fff;color:var(--navy);border-radius:6px;padding:14px 18px;font-size:14px;font-weight:750}footer{background:#0b1b2e;color:#dae5f0;padding:42px 0}.footerrow{display:flex;justify-content:space-between;gap:20px;align-items:center}.footer-brand{text-decoration:none;color:white;font-size:23px;font-weight:800}.footer-brand span{color:#93bdff}footer p,footer small{font-size:12px;color:#9aafc4}.footerrow>div:last-child{text-align:right;font-size:12px}@media(max-width:980px){.nav nav{gap:11px}.nav nav a{font-size:12px}.hero-layout{gap:20px}}@media(max-width:760px){.wrap{width:min(100% - 36px,1140px)}.nav{min-height:70px}.menu{display:block;background:none;border:0;color:var(--navy);font-size:25px;cursor:pointer}.nav nav{display:none;position:absolute;top:70px;left:0;right:0;background:white;padding:16px 22px;box-shadow:0 15px 25px #0b203020;flex-direction:column;align-items:stretch;gap:0}.nav nav.open{display:flex}.nav nav a{font-size:15px;padding:10px 0}.hero-layout{grid-template-columns:1fr;gap:0;min-height:auto}.hero-copy{padding:70px 0 20px}.hero h1{letter-spacing:-2px}.hero-illustration{max-width:480px;margin:0 auto 22px}.hero-illustration img{max-height:270px}.hero-bottom{font-size:10px}.section{padding:66px 0}.section-grid{grid-template-columns:1fr;gap:8px}.section-heading{display:block}.section-heading>p{margin-top:12px}.cards{grid-template-columns:1fr}.card{min-height:auto}.archive-layout,.footerrow{flex-direction:column;align-items:flex-start}.footerrow>div:last-child{text-align:left}.focus-row{justify-content:flex-start}.focus-label{width:100%}}@media(max-width:430px){.brandword{font-size:20px}.brandword small{font-size:8px}.hero-actions{align-items:stretch;flex-direction:column}.cta,.cta-secondary{justify-content:space-between}.hero-illustration{display:none}.entry{display:block}.entry span{display:block;margin-top:6px}.hero-bottom{font-size:9px;flex-wrap:wrap;padding:15px 0}}
+
+
+/* CADLAB Dropdown Navigation */
+
+.header {
+  overflow: visible;
+}
+
+.nav {
+  position: relative;
+}
+
+#navigation {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.nav-group {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.nav-group > a {
+  display: block;
+  padding: 18px 0;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 220px;
+  padding: 8px;
+  background: #ffffff;
+  border: 1px solid #e3e8f0;
+  border-radius: 10px;
+  box-shadow: 0 12px 32px rgba(20, 36, 61, 0.12);
+  z-index: 1000;
+}
+
+.nav-group:hover .dropdown,
+.nav-group:focus-within .dropdown {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown a {
+  display: block;
+  padding: 11px 14px;
+  color: #142b49;
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 6px;
+  white-space: normal;
+}
+
+.dropdown a:hover,
+.dropdown a:focus {
+  background: #edf3ff;
+  color: #3368e8;
+}
+
+/* Mobile navigation */
+
+@media (max-width: 900px) {
+  #navigation.open {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    max-height: 75vh;
+    overflow-y: auto;
+  }
+
+  .nav-group {
+    display: block;
+    width: 100%;
+  }
+
+  .nav-group > a {
+    padding: 12px 0;
+  }
+
+  .dropdown {
+    display: flex;
+    position: static;
+    flex-direction: column;
+    min-width: 0;
+    padding: 0 0 8px 14px;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+  }
+
+  .dropdown a {
+    padding: 8px 12px;
+    font-size: 13px;
+  }
+}
