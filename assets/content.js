@@ -1,7 +1,8 @@
 // EDIT THIS FILE to update your website.
 // Replace examples with verified facts. Do not publish unapproved personal information.
 window.CADLAB_CONTENT = {
-  about: "Welcome to the CAD/CAM Laboratory website. We are preparing a refreshed home for our research activities, academic publications, collaborative projects, and laboratory history.",
+  
+about: "The CAD (Computer-Aided Design) Laboratory is an integral unit of the Department of Industrial Engineering at Ajou University.",
   research: [
     { title: "CAD / CAM", description: "Computer-aided design and manufacturing research." },
     { title: "Intelligent Robotics", description: "Robotic systems, sensing and advanced automation." },
