@@ -51,4 +51,77 @@
     gap: .75rem;
   }
 }
-  
+
+
+/* CADLAB V2 refined layout fix */
+
+.brandword {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  white-space: nowrap;
+  gap: 5px;
+}
+
+.brandword small {
+  display: block;
+  margin: 0;
+  font-size: 9px;
+  letter-spacing: 1.5px;
+}
+
+.hero-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, .85fr);
+  gap: 40px;
+  align-items: center;
+}
+
+.hero-art {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 0;
+}
+
+.hero-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.hero-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.focus-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.focus-row > span {
+  display: inline-block;
+}
+
+@media (max-width: 820px) {
+  .hero-layout {
+    display: block;
+  }
+
+  .hero-bottom,
+  .focus-row {
+    flex-wrap: wrap;
+  }
+
+  .brandword {
+    white-space: normal;
+  }
+}
+
