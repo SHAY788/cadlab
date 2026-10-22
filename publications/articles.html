@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Articles | CADLAB</title>
+<meta name="description" content="Articles and technical writings from Ajou University CAD Laboratory.">
+<style>
+:root{font-family:Arial,'Noto Sans KR',sans-serif;color:#172a49;background:#fff}*{box-sizing:border-box}
+body{margin:0;line-height:1.7}a{color:#3464dc}.shell{max-width:1080px;margin:auto;padding:0 24px}
+.top{border-bottom:1px solid #e5eaf3}.top .shell{min-height:78px;display:flex;align-items:center;justify-content:space-between;gap:16px}.brand{text-decoration:none;font-weight:800;font-size:24px;color:#172a49}.brand span{color:#4169dc}.back{font-size:14px;font-weight:600;text-decoration:none}
+.hero{background:#213653;color:white;padding:55px 0}.eyebrow{font-size:12px;letter-spacing:.17em;color:#a8c7f8;font-weight:700}.hero h1{font-size:clamp(36px,5vw,54px);margin:9px 0}.hero p{margin:0;color:#dae5f5}
+main{padding-top:42px;padding-bottom:75px}.heading{font-size:26px;margin:0 0 8px}.intro{color:#62728a;margin:0 0 30px}.year{color:#284a79;font-size:21px;border-bottom:1px solid #dfe7f1;padding-bottom:9px;margin:34px 0 15px}.papers{margin:0;padding:0;list-style:none;counter-reset:article}.papers li{position:relative;counter-increment:article;padding:19px 20px 19px 57px;margin:12px 0;border:1px solid #dfe7f1;background:#f8faff;border-radius:10px;overflow-wrap:anywhere}.papers li:before{content:counter(article,decimal-leading-zero);position:absolute;left:18px;top:20px;font-size:13px;font-weight:700;color:#4169dc}.papers .author{font-weight:700}.papers .title{font-size:16px;margin:6px 0}.papers .source{font-size:14px;color:#5b6b82;margin:6px 0 0}footer{border-top:1px solid #e5eaf3;padding:25px 0;font-size:12px;color:#687991}
+@media(max-width:600px){.hero{padding:40px 0}.papers li{padding-left:48px}.papers li:before{left:13px}}
+</style>
+</head>
+<body><header class="top"><div class="shell"><a href="../index.html" class="brand">CAD<span>LAB</span></a><a href="../index.html" class="back">← Back to homepage</a></div></header>
+<section class="hero"><div class="shell"><div class="eyebrow">PUBLICATIONS / ARTICLES</div><h1>Articles</h1><p>Ajou University CAD Laboratory</p></div></section>
+<main class="shell"><h2 class="heading">Articles · 기고문 및 기술 문서</h2><p class="intro">11 articles and technical writings, transcribed from the former laboratory website. Listed from newest to oldest.</p>
+<div id="article-list"></div>
+</main><footer><div class="shell">CADLAB · Publications / Articles · Historical laboratory records</div></footer>
+<script>
+const articles=[
+{year:2011,author:'양정삼',title:'당신이 꿈꾸는 대로 그들이 만들어 줄 것이다',source:'한국CADCAM 학회지 (CADCAM Review), Vol. 17, No. 1, pp.19–23, 2011.04.'},
+{year:2010,author:'양정삼',title:'첨삭가공(Additive Manufacturing)의 세계적 추세',source:'한국CADCAM 학회지 (CADCAM Review), Vol. 16, No. 2, pp.25–29, 2010.08.'},
+{year:2009,author:'양정삼',title:'Autodesk와 Dassault Systemes은 iPhone 응용프로그램을 통해 가상의 냉기 공간에서 선구자의 지위를 얻었다',source:'한국CADCAM 학회지 (CADCAM Review), Vol. 15, No. 3, pp.21–25, 2009.12.'},
+{year:2009,author:'양정삼',title:'아주대학교의 3DVIA Virtools 교육사례-3DVIA Virtools를 활용한 게임, 열기구 제작',source:'PLM Network, Vol. 35, pp.32–33, 2009.06.'},
+{year:2009,author:'양정삼',title:'3D CAD 모델의 유효성 검증',source:'한국CADCAM 학회지 (CADCAM Review), Vol. 15, No. 1, pp.15–19, 2009.04.'},
+{year:2008,author:'양정삼',title:'CAD/CAM에서의 새로운 변화: 치과 기공소용 CAD/CAM 시스템',source:'한국CADCAM 학회지 (CADCAM Review), Vol. 14, No. 2, pp.12–18, 2008.08.'},
+{year:2007,author:'양정삼',title:'3DLive는 차세대 혁신 기술의 출발선인가?',source:'한국CADCAM 학회지 (CADCAM Review), Vol. 13, No. 3, pp.19–24, 2007.12.'},
+{year:2007,author:'양정삼',title:'[표준화문서]국제표준 SASIG-PDQ V2.1 기반의 제품데이터 품질향상을 위한 가이드라인 및 적용지침',source:'전자상거래표준화포럼 (www.ecif.or.kr), ECIF:157:2007, 2007.'},
+{year:2006,author:'양정삼',title:'미래에 대한 불안, 그 탈출구는?',source:'아주대학보 (제465호), 2006.05.29.'},
+{year:2004,author:'양정삼',title:'[표준화문서]자동차 산업용 제품데이터품질에 대한 CAD시스템 적용지침',source:'전자상거래표준화포럼 (www.ecif.or.kr), ECIF:109:2004, 2004.'},
+{year:2003,author:'양정삼',title:'[표준화문서]자동차산업용 제품데이터품질(PDQ)에 대한 적용지침',source:'전자상거래표준화포럼 (www.ecif.or.kr), ECIF:91:2003, 2003.'}
+];
+const container=document.getElementById('article-list');let year=null,ol=null;
+for(const item of articles){if(item.year!==year){year=item.year;const heading=document.createElement('h3');heading.className='year';heading.textContent=String(year);container.appendChild(heading);ol=document.createElement('ol');ol.className='papers';container.appendChild(ol);}const li=document.createElement('li');for(const [cls,text] of [['author',item.author],['title',item.title],['source',item.source]]){const el=document.createElement('p');el.className=cls;el.textContent=text;li.appendChild(el);}ol.appendChild(li);}
+</script></body></html>
