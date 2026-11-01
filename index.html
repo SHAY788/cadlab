@@ -13,13 +13,13 @@
   <header class="header">
     <div class="wrap nav">
       <a class="brand" href="#home" aria-label="CADLAB home"><span class="brandmark">C<span class="branddot">.</span></span><span class="brandword">CAD<span class="accent">LAB</span><small>RESEARCH LABORATORY</small></span></a>
-      <button id="menuButton" class="menu" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navigation">☰</button>
+      <button type="button" id="menuButton" class="menu" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navigation">☰</button>
      
 <nav id="navigation" aria-label="Main navigation">
 
   <div class="nav-group">
-    <a href="#about">CAD Lab ▾</a>
-    <div class="dropdown">
+    <a href="#about">CAD Lab</a> <button class="submenu-toggle" type="button" aria-label="Toggle CAD Lab submenu" aria-expanded="false" aria-controls="lab-submenu">▾</button>
+    <div class="dropdown" id="lab-submenu">
     <a href="lab/introduction.html">Introduction</a>
       <a href="lab/motto.html">Motto &amp; Logo</a>
       <a href="lab/contact.html">Contact</a>
@@ -28,8 +28,8 @@
 
 
 <div class="nav-group">
-  <a href="#people">People ▾</a>
-  <div class="dropdown">
+  <a href="#people">People</a> <button class="submenu-toggle" type="button" aria-label="Toggle People submenu" aria-expanded="false" aria-controls="people-submenu">▾</button>
+  <div class="dropdown" id="people-submenu">
     <a href="people/professor.html">Professor</a>
     <a href="people/members.html">Members</a>
     <a href="people/alumni.html">Alumni</a>
@@ -38,8 +38,8 @@
 
 
   <div class="nav-group">
-    <a href="#publications">Publications ▾</a>
-    <div class="dropdown">
+    <a href="#publications">Publications</a> <button class="submenu-toggle" type="button" aria-label="Toggle Publications submenu" aria-expanded="false" aria-controls="publications-submenu">▾</button>
+    <div class="dropdown" id="publications-submenu">
       <a href="publications/international.html">International Journal Papers</a>
       <a href="publications/korean.html">Korean Journal Papers</a>
       <a href="publications/articles.html">Articles</a>
@@ -49,8 +49,8 @@
   </div>
 
   <div class="nav-group">
-    <a href="#research">Research ▾</a>
-    <div class="dropdown">
+    <a href="#research">Research</a> <button class="submenu-toggle" type="button" aria-label="Toggle Research submenu" aria-expanded="false" aria-controls="research-submenu">▾</button>
+    <div class="dropdown" id="research-submenu">
       <a href="research/ongoing.html">Ongoing Projects</a>
       <a href="research/completed.html">Closed Projects</a>
     </div>
@@ -73,13 +73,11 @@
         </div>
        
 
-<div class="hero-art" aria-hidden="true">
-  <img src="assets/engineering.svg"
-       alt=""
-       style="width:100%;max-width:420px;height:auto;display:block;margin:auto;">
-</div>
+        <div class="hero-art" aria-hidden="true">
+          <img src="assets/engineering.svg" alt="" width="520" height="380">
+        </div>
+      </div>
 
-  
       <div class="wrap hero-bottom"><span>CADLAB <span class="separator">/</span> RESEARCH & INNOVATION</span><a href="#about">SCROLL TO EXPLORE <span aria-hidden="true">↓</span></a></div>
     </section>
     <div class="focus-strip"><div class="wrap focus-row"><span class="focus-label">OUR FOCUS</span><span>COMPUTER-AIDED DESIGN</span><span>INTELLIGENT ROBOTICS</span><span>IMMERSIVE TECHNOLOGY</span></div></div>
