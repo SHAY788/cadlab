@@ -50,3 +50,30 @@ The browser check requires the `playwright` Node module and Chromium at
 Its Google Maps frame is stubbed locally, so it does not test the external map
 service. Screenshots cover the first 1000 pixels, not the entire page.
 See `.github/review/phase2/REPORT.md` for the review results and comparisons.
+
+## Phase 3 content maintenance
+
+Homepage cards now link to the existing full records. Publication pages provide
+static category/year navigation; Articles also renders without JavaScript.
+Alumni is ordered by recorded graduation year and month, with stable ties.
+
+Original citation wording, people fields, project records and source project
+categories are preserved. Unconfirmed current affiliations, contact details and
+project states remain explicitly unverified. Editorial operation notes and a
+unique project verification register are under `.github/maintenance/phase3/`.
+See its README before changing factual records.
+
+The earlier Phase 2 whole-main comparison is a historical check for that phase.
+For the intentional Phase 3 content/ordering changes, use the record-level guard:
+
+```sh
+mkdir -p /tmp/cadlab-phase3-baseline
+git archive 61dd7e9c8d26229811e4f9670fc6a1f42677abd8 | tar -x -C /tmp/cadlab-phase3-baseline
+python tools/check-content.py --baseline /tmp/cadlab-phase3-baseline
+CADLAB_BASELINE=/tmp/cadlab-phase3-baseline REVIEW_OUTPUT=/tmp/cadlab-phase3-review node tools/check-content-browser.cjs
+```
+
+The browser prerequisites and local-map testing boundary are the same as Phase 2.
+Audit results and before/after screenshots are in `.github/review/phase3/REPORT.md`.
+No third-party evidence, DOI, citation metric or actual project completion date
+has been inferred or invented by this cleanup.

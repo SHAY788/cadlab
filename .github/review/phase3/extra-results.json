@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "checks": [
+    "final Members notice and year-anchor visibility @375",
+    "final Members notice and year-anchor visibility @430",
+    "final Members notice and year-anchor visibility @768",
+    "final Members notice and year-anchor visibility @900",
+    "final Members notice and year-anchor visibility @1024",
+    "final Members notice and year-anchor visibility @1440",
+    "All 10 homepage record links navigate to their real detail pages",
+    "Articles: 11 readable records and year navigation without JavaScript"
+  ]
+}

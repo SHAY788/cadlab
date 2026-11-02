@@ -1,5 +1,5 @@
-// EDIT THIS FILE to update your website.
-// Replace examples with verified facts. Do not publish unapproved personal information.
+// Homepage summaries and links; full records remain on their original pages.
+// Do not infer current appointments, affiliations or project status from historical records. Do not publish unapproved personal information.
 window.CADLAB_CONTENT = {
   
 
@@ -11,15 +11,20 @@ about: "The CAD (Computer-Aided Design) Laboratory is an integral unit of the De
     { title: "AR / VR", description: "Immersive visualization and engineering education." }
   ],
   people: [
-    {title: "Professor", description: "Faculty information will be added after verification."},
-    {title: "Researchers & Students", description: "Current membership will be updated by the laboratory."},
-    {title: "Alumni", description: "Historical membership records will be curated here."}
+    {title: "Professor", description: "Jeongsam Yang — academic profile, education and research interests. Historical appointments require confirmation.", href: "people/professor.html"},
+    {title: "Members", description: "Recorded researchers and students. Current membership and contact details remain to be confirmed.", href: "people/members.html"},
+    {title: "Alumni", description: "Graduation records, degree theses and historical affiliations, from the newest recorded year to the earliest.", href: "people/alumni.html"}
   ],
   publications: [
-    {title: "Publication archive under preparation", detail: "Only verified bibliographic records will be listed."}
+    {title: "International Journal Papers", detail: "Year-organized journal records with original bibliographic details.", href: "publications/international.html"},
+    {title: "Korean Journal Papers", detail: "Korean journal records and year navigation.", href: "publications/korean.html"},
+    {title: "Articles", detail: "Historical articles and technical writings.", href: "publications/articles.html"},
+    {title: "Patents & Software Copyrights", detail: "Recorded applications, registrations and software copyrights; legal status requires verification.", href: "publications/patents.html"},
+    {title: "Korean Industrial Standards", detail: "Historical standards records; consult the official catalogue for current status.", href: "publications/standards.html"}
   ],
   projects: [
-    {title: "Research projects", description: "Verified active and completed projects will appear here."}
+    {title: "Ongoing Projects — source listing", description: "Projects retained in the original Ongoing category. Current status and actual completion dates are not confirmed.", href: "research/ongoing.html"},
+    {title: "Closed Projects — source listing", description: "Historical project records. Two entries also appear in Ongoing and remain subject to status verification.", href: "research/completed.html"}
   ],
   news: [
     {title: "Website renewal in progress", date: "2026", description: "We are rebuilding the laboratory website and organizing historical content."}

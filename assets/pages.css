@@ -105,3 +105,24 @@
  .year-block li,.papers li{padding-left:46px;padding-right:12px}
  .year-block li:before,.papers li:before{left:12px}
 }
+
+/* Phase 3: archive navigation and consistent personnel fields. */
+.section-nav,.year-nav{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:0 0 24px}
+.section-nav a,.year-nav a{display:inline-flex;align-items:center;min-height:44px;padding:8px 14px;border:1px solid var(--line);border-radius:6px;background:#fff;color:var(--navy);text-decoration:none;font-size:14px;font-weight:700}
+.section-nav a[aria-current="page"],.section-nav a:hover,.year-nav a:hover{border-color:var(--blue);background:#edf3ff;color:var(--blue)}
+.year-nav{padding-block:14px;border-block:1px solid var(--line)}
+.year-nav span{font-size:13px;color:var(--muted);margin-right:8px}
+.year-nav a{min-width:58px;justify-content:center;font-variant-numeric:tabular-nums}
+.catalogue-note{color:var(--muted);font-size:14px;max-width:900px;margin:0 0 24px}
+[id^="year-"],.year-anchor{scroll-margin-top:12px}
+.page-members .card{display:grid;grid-template-columns:76px minmax(0,1fr);gap:6px 18px;align-content:start}
+.person-photo-placeholder{width:76px;aspect-ratio:3/4;border:1px dashed #cbd7e8;border-radius:7px;background:linear-gradient(150deg,#eaf0f8,#f5f8fc);display:grid;place-items:center;color:#8191a7;font-size:11px;font-weight:700;letter-spacing:.14em;grid-row:1 / 6}
+.page-members .card>:not(.person-photo-placeholder){grid-column:2}
+.page-members .card h3{margin:0 0 4px}
+.page-members .card p{margin:0}
+.page-members .tag{justify-self:start;line-height:1.5}
+.page-alumni .card .info p,.page-professor .professor-info p{line-height:1.8}
+.page-korean .year-block ol{list-style:decimal;counter-reset:none;padding-left:30px}
+.page-korean .year-block li{padding:18px 8px}
+.page-korean .year-block li:before{content:none}
+@media(max-width:430px){.page-members .grid{grid-template-columns:1fr}.page-members .card{grid-template-columns:60px minmax(0,1fr);gap:6px 12px}.person-photo-placeholder{width:60px}.year-nav span{width:100%}}

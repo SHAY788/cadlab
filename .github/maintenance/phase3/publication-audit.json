@@ -1,0 +1,972 @@
+[
+  {
+    "id": "INTERNATIONAL-001",
+    "page": "publications/international.html",
+    "source_position": 1,
+    "record_original": "Xinpu Gao, Namki Kim, Jeongsam Yang*, “Alarm sequence pattern analysis techniques for alarm prediction in automated manufacturing processes”, Journal of Mechanical Science and Technology, Vol. 40, No. 2, pp. 1393–1402, February 2026.",
+    "date_original": "February 2026",
+    "date_precision": "month or day",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "INTERNATIONAL-002",
+    "page": "publications/international.html",
+    "source_position": 2,
+    "record_original": "Namki Kim, Xinpu Gao, Jeongsam Yang*, “Graph-structured data generation and analysis for anomaly detection in an automated manufacturing process”, Journal of Mechanical Science and Technology, Vol. 38, No. 10, pp. 5617–5625, October 2024.",
+    "date_original": "October 2024",
+    "date_precision": "month or day",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "INTERNATIONAL-003",
+    "page": "publications/international.html",
+    "source_position": 3,
+    "record_original": "Gun-Yeol Na and Jeongsam Yang, “Two-Dimensional Polygon Classification and Pairwise Clustering for Pairing in Ship Parts Nesting”, Journal of Intelligent Manufacturing (online published in August 2023).",
+    "date_original": "August 2023",
+    "date_precision": "month or day",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "INTERNATIONAL-004",
+    "page": "publications/international.html",
+    "source_position": 4,
+    "record_original": "Kwang Bin Yang, Jinwon Lee and Jeongsam Yang, “Multi-Class Semantic Segmentation of Breast Tissues from MRI Images Using U-Net Based on Haar Wavelet Pooling”, Nature Scientific Reports, Vol. 13, No. 11704, 2023.",
+    "date_original": "2023",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "INTERNATIONAL-005",
+    "page": "publications/international.html",
+    "source_position": 5,
+    "record_original": "Young-Hwan Choi and Jeongsam Yang, “Machine learning iterative filtering algorithm for field defect detection in the process stage”, Computers in Industry, Vol. 142, No. 103740, 2022.",
+    "date_original": "2022",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "INTERNATIONAL-006",
+    "page": "publications/international.html",
+    "source_position": 6,
+    "record_original": "Jeongho Han, Jinwon Lee and Jeongsam Yang, “Development of a robot OLP system for the continuous motion control of a mandrel in the radial braiding process”, Journal of Mechanical Science and Technology, Vol. 36, No. 6, pp. 3109–3117, 2022.",
+    "date_original": "2022",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "INTERNATIONAL-007",
+    "page": "publications/international.html",
+    "source_position": 7,
+    "record_original": "Young-Hwan Choi, Jinwon Lee, and Jeongsam Yang, “Development of a service parts recommendation system using clustering and classification of machine learning”, Expert Systems With Applications, Vol. 188, No. 116084, 2022.",
+    "date_original": "2022",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "INTERNATIONAL-008",
+    "page": "publications/international.html",
+    "source_position": 8,
+    "record_original": "Jinwon Lee, Sang-Uk Cheon, and Jeongsam Yang, “Connectivity-based convolutional neural network for classifying point clouds”, Pattern Recognition, Vol. 112, No. 107708, 2021.",
+    "date_original": "2021",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "INTERNATIONAL-009",
+    "page": "publications/international.html",
+    "source_position": 9,
+    "record_original": "Gun-Yeol Na, Jeongsam Yang, Duhwan Mun, and Sanguk Cheon, “Reconstruction of primitive-shaped pipeelbows from a triangular mesh in ship outfitting model”, Journal of Mechanical Science and Technology, Vol. 35, No. 12, pp. 5551–5560, 2021.",
+    "date_original": "2021",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "INTERNATIONAL-010",
+    "page": "publications/international.html",
+    "source_position": 10,
+    "record_original": "Young-Hwan Choi, Gun-Yeol Na, and Jeongsam Yang, “Fuzzy-inference-based decision-making method for the systematization of statistical process capability control”, Computers in Industry, Vol. 123, No. 103296, 2020.",
+    "date_original": "2020",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "INTERNATIONAL-011",
+    "page": "publications/international.html",
+    "source_position": 11,
+    "record_original": "Inwoong Yeo, Inho Song, Sang-Uk Cheon and Jeongsam Yang, “Development of a feature-recognition and measurement path generation system based on NURBS surfaces for 5-axis on-machine measurement”, Journal of Mechanical Science and Technology, Vol. 33, No. 7, pp. 3445–3455, 2019.",
+    "date_original": "2019",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "INTERNATIONAL-012",
+    "page": "publications/international.html",
+    "source_position": 12,
+    "record_original": "Gun-Yeol Na, Jeongsam Yang and Sungwoo Cho, “Development of a 3D breast shape generation and deformation system for breast implant fabrication”, Journal of Mechanical Science and Technology, Vol. 33, No. 3, pp. 1293–1303, 2019.",
+    "date_original": "2019",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "INTERNATIONAL-013",
+    "page": "publications/international.html",
+    "source_position": 13,
+    "record_original": "Jinwon Lee, Hyeong-Gyu Lee and Jeongsam Yang, “A rasterization method for generating exposure pattern images in optical maskless lithography”, Journal of Mechanical Science and Technology, Vol. 32, No. 5, pp. 2209–2218, 2018.",
+    "date_original": "2018",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "INTERNATIONAL-014",
+    "page": "publications/international.html",
+    "source_position": 14,
+    "record_original": "Sungyol Song and Jeongsam Yang, “Configurable component framework supporting motion platform-based VR simulators”, Journal of Mechanical Science and Technology, Vol. 31, No. 6, pp. 2985–2996, 2017.",
+    "date_original": "2017",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "INTERNATIONAL-015",
+    "page": "publications/international.html",
+    "source_position": 15,
+    "record_original": "Hyesung Jeon, Jinwon Lee and Jeongsam Yang, “A touch-probe path generation method through similarity analysis between the feature vectors in new and old models”, Journal of Mechanical Science and Technology, Vol. 30, No. 10, pp. 4705–4716, 2016.",
+    "date_original": "2016",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "INTERNATIONAL-016",
+    "page": "publications/international.html",
+    "source_position": 16,
+    "record_original": "Daeseung Cho, Jeongho Han and Jeongsam Yang, “Sandglass-type product specification management method for supporting modular design of semiconductor manufacturing equipment”, Journal of Mechanical Science and Technology, Vol. 30, No. 5, pp. 2243–2256, 2016.",
+    "date_original": "2016",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "INTERNATIONAL-017",
+    "page": "publications/international.html",
+    "source_position": 17,
+    "record_original": "Jeongsu Oh, Sehee Lee and Jeongsam Yang, “A collaboration model for new product development through the integration of PLM and SCM in the electronics industry”, Computers In Industry, Vol. 73, No. 1, pp. 82–92, 2015.",
+    "date_original": "2015",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "INTERNATIONAL-018",
+    "page": "publications/international.html",
+    "source_position": 18,
+    "record_original": "Sehee Lee, Sang Uk Cheon, and Jeongsam Yang, “Development of a fuzzy rule-based decision-making system for evaluating the lifetime of a rubber fender”, Quality and Reliability Engineering International, Vol. 31, No. 5, pp. 811–828, 2015.",
+    "date_original": "2015",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "INTERNATIONAL-019",
+    "page": "publications/international.html",
+    "source_position": 19,
+    "record_original": "Hyosun You and Jeongsam Yang, “Development of an analysis system for geometric contour error evaluation in ultra-precision machining for microlens arrays”, Journal of Mechanical Science and Technology, Vol. 28, No. 10, pp. 4121–4129, 2014.",
+    "date_original": "2014",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "INTERNATIONAL-020",
+    "page": "publications/international.html",
+    "source_position": 20,
+    "record_original": "Jeongsu Oh, Jungho Han and Jeongsam Yang, “A fuzzy-based decision-making method for evaluating product discontinuity at the product transition point”, Computers In Industry, Vol. 65, No. 4, pp. 746–760, 2014.",
+    "date_original": "2014",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "INTERNATIONAL-021",
+    "page": "publications/international.html",
+    "source_position": 21,
+    "record_original": "In-Ho Song, Kenji Shimada, and Jeongsam Yang, “Development of a sketch-based 3-D modeling system for rapid generation and evaluation of automotive seat shape using a reference model”, ASME Journal of Mechanical Design, Vol. 136, No. 5, pp. 051001-1–051001-12, 2014.",
+    "date_original": "2014",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "INTERNATIONAL-022",
+    "page": "publications/international.html",
+    "source_position": 22,
+    "record_original": "Zhe Yang, Sang Uk Cheon, and Jeongsam Yang, “A kinematic calibration method of a 3-DOF secondary mirror of the giant magellan telescope based on least square algorithm”, Journal of Mechanical Science and Technology, Vol. 27, No. 12, pp. 3779–3786, 2013.",
+    "date_original": "2013",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "INTERNATIONAL-023",
+    "page": "publications/international.html",
+    "source_position": 23,
+    "record_original": "Sehee Lee, Jeongsam Yang and Jungho Han, “Development of a decision making system for selection of dental implant abutments based on the fuzzy cognitive map”, Expert Systems with Applications, Vol. 39, No. 14, pp. 11564–11575, 2012.",
+    "date_original": "2012",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "INTERNATIONAL-024",
+    "page": "publications/international.html",
+    "source_position": 24,
+    "record_original": "Sungyol Song, Jeongsam Yang and Namhyuk Kim, “Development of a BIM-based structural framework optimization and simulation system for building construction”, Computers In Industry, Vol. 63, No. 9, pp. 895–912, 2012.",
+    "date_original": "2012",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "INTERNATIONAL-025",
+    "page": "publications/international.html",
+    "source_position": 25,
+    "record_original": "Jeongsu Oh, Jeongsam Yang and Sungjoo Lee, “Managing uncertainty to improve decision-making in NPD portfolio management with a fuzzy expert system”, Expert Systems with Applications, Vol. 39, No. 10, pp. 9868–9885, 2012.",
+    "date_original": "2012",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "INTERNATIONAL-026",
+    "page": "publications/international.html",
+    "source_position": 26,
+    "record_original": "In-Ho Song and Jeongsam Yang, “A scene graph based visualization method for representing continuous simulation data”, Computers In Industry, Vol. 62, No. 3, pp. 301–310, 2011.",
+    "date_original": "2011",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "INTERNATIONAL-027",
+    "page": "publications/international.html",
+    "source_position": 27,
+    "record_original": "Sehee Lee, Jeongsam Yang and Gwangsub Kim, “Establishment of an effective product liability prevention plan by analyzing product liability cases”, Quality and Reliability Engineering International, Vol. 27, No. 4, pp. 581–593, 2011.",
+    "date_original": "2011",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "INTERNATIONAL-028",
+    "page": "publications/international.html",
+    "source_position": 28,
+    "record_original": "Jonghwan Lee, Soonhung Han and Jeongsam Yang, “Construction of a computer-simulated mixed reality environment for virtual factory layout planning”, Computers In Industry, Vol. 62, No. 1, pp. 86–98, 2011.",
+    "date_original": "2011",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "INTERNATIONAL-029",
+    "page": "publications/international.html",
+    "source_position": 29,
+    "record_original": "Duhwan Mun and Jeongsam Yang, “An integrated translation of design data of a nuclear power plant from a specification-driven plant design system to neutral model data”, Annals of Nuclear Energy, Vol. 37, No. 3, pp. 389–397, 2010.",
+    "date_original": "2010",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "INTERNATIONAL-030",
+    "page": "publications/international.html",
+    "source_position": 30,
+    "record_original": "Haixia Wang, Jeongsam Yang and Dariusz J. Ceglarek, “A graph-based data structure for assembly dimensional variation control at a preliminary phase of product design”, International Journal of Computer Integrated Manufacturing, Vol. 22, No. 10, pp. 948–961, 2009.",
+    "date_original": "2009",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "INTERNATIONAL-031",
+    "page": "publications/international.html",
+    "source_position": 31,
+    "record_original": "In-Ho Song, Jeongsam Yang, Hyunjei Jo and Sangsu Choi, “Development of a lightweight CAE middleware for CAE data exchange”, International Journal of Computer Integrated Manufacturing, Vol. 22, No. 9, pp. 823–835, 2009.",
+    "date_original": "2009",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "INTERNATIONAL-032",
+    "page": "publications/international.html",
+    "source_position": 32,
+    "record_original": "Pilwon Hur, Jeongsam Yang, Soonhung Han and Byounghyun You, “An underwater vehicle simulator with immersive interface using X3D and HLA”, Simulation: Transactions of The Society for Modeling and Simulation International, Vol. 85, No. 1, pp. 33–44, 2009.",
+    "date_original": "2009",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "INTERNATIONAL-033",
+    "page": "publications/international.html",
+    "source_position": 33,
+    "record_original": "Jeongsam Yang, Soonhung Han, Matthias Grau and Duhwan Mun, “OpenPDM-based product data exchange among heterogeneous PDM systems in the distributed environment”, International Journal of Advanced Manufacturing Technology, Vol. 40, No. 9–10, pp. 1033–1043, 2009.",
+    "date_original": "2009",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "INTERNATIONAL-034",
+    "page": "publications/international.html",
+    "source_position": 34,
+    "record_original": "Moohyun Cha, Jeongsam Yang and Soonhung Han, “A hybrid driving simulator with dynamics-driven motion and data-driven motion”, Simulation: Transactions of The Society for Modeling and Simulation International, Vol. 84, No. 7, pp. 359–371, 2008.",
+    "date_original": "2008",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "INTERNATIONAL-035",
+    "page": "publications/international.html",
+    "source_position": 35,
+    "record_original": "In-Ho Song, Jeongsam Yang and Beom Park, “Development of an authoring framework for the simplified customization of PDM systems”, Journal of Mechanical Science and Technology, Vol. 22, No. 11, pp. 2180–2189, 2008.",
+    "date_original": "2008",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "INTERNATIONAL-036",
+    "page": "publications/international.html",
+    "source_position": 36,
+    "record_original": "Moohyun Cha, Jeongsam Yang and Soonhung Han, “An interactive data-driven driving simulator using motion blending”, Computers In Industry, Vol. 59, No. 5, pp. 520–531, 2008.",
+    "date_original": "2008",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "INTERNATIONAL-037",
+    "page": "publications/international.html",
+    "source_position": 37,
+    "record_original": "Duhwan Mun, Jinsang Hwang, Soonhung Han, Hiroshi Seki and Jeongsam Yang, “Sharing product data of nuclear power plants across their lifecycles by utilizing a neutral model”, Annals of Nuclear Energy, Vol. 35, No. 2, pp. 175–186, 2008.",
+    "date_original": "2008",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "INTERNATIONAL-038",
+    "page": "publications/international.html",
+    "source_position": 38,
+    "record_original": "Yongsik Kim, Jeongsam Yang and Soonhung Han, “A multichannel visualization module for virtual manufacturing”, Computers In Industry, Vol. 57, No. 7, pp. 653–662, 2006.",
+    "date_original": "2006",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "INTERNATIONAL-039",
+    "page": "publications/international.html",
+    "source_position": 39,
+    "record_original": "Jeongsam Yang and Soonhung Han, “Repairing CAD model errors based on design history”, Computer Aided Design, Vol. 38, No. 6, pp. 627–640, 2006.",
+    "date_original": "2006",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "INTERNATIONAL-040",
+    "page": "publications/international.html",
+    "source_position": 40,
+    "record_original": "Jeongsam Yang, Soonhung Han, Hyejeong Kang and Jongbae Kim, “Product Data Quality Assurance for e-Manufacturing in the Automotive Industry”, International Journal of Computer Integrated Manufacturing (IJCIM), Vol. 19, No. 2, pp. 136–147, 2006.",
+    "date_original": "2006",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "INTERNATIONAL-041",
+    "page": "publications/international.html",
+    "source_position": 41,
+    "record_original": "Jeongsam Yang, Soonhung Han and Songho Park, “A method for verification of computer-aided design model errors”, Journal of Engineering Design (JED), Vol. 16, No. 3, pp. 337–352, 2005.",
+    "date_original": "2005",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "INTERNATIONAL-042",
+    "page": "publications/international.html",
+    "source_position": 42,
+    "record_original": "Jeongsam Yang, Michael Goltz and Soonhung Han, “Parameter-Based Engineering Changes for a Distributed Engineering Environment”, Concurrent Engineering: Research and Applications (CERA), Vol. 12, No. 4, pp. 275–286, 2004.",
+    "date_original": "2004",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "INTERNATIONAL-043",
+    "page": "publications/international.html",
+    "source_position": 43,
+    "record_original": "Jeongsam Yang, “A Procedural Approach of Inspecting CAD Model Errors”, Engineering Computations: International Journal for Computer-Aided Engineering and Software (EC), Vol. 21, No. 7, pp. 736–747, 2004.",
+    "date_original": "2004",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "INTERNATIONAL-044",
+    "page": "publications/international.html",
+    "source_position": 44,
+    "record_original": "Jeongsam Yang, Soonhung Han, Joonmyun Cho, Byungchul Kim and Hyunyup Lee, “An XML-Based Macro Data Representation for a Parametric CAD Model Exchange”, Computer-Aided Design and Applications (CADA), Vol. 1, pp. 153–162, 2004.",
+    "date_original": "2004",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "KOREAN-001",
+    "page": "publications/korean.html",
+    "source_position": 1,
+    "record_original": "오소향, 양정삼* 주조 공정에서 제어 로직과 온도 데이터를 활용한 CNN Autoencoder 기반 공정 이상 진단 한국CDE학회 논문집, No. 3, pp. 267-279, 2024.09.",
+    "date_original": "2024.09",
+    "date_precision": "month or day",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "KOREAN-002",
+    "page": "publications/korean.html",
+    "source_position": 2,
+    "record_original": "조현곤, 정성주, 양정삼* 차량 서스펜션의 최적 설계에서 사양관리와 부품 공용화를 위한 CAD 템플릿 및 부품 라이브러리 구축 한국CDE학회 논문집, Vol. 29, No. 1, pp. 72-83, 2024.03.",
+    "date_original": "2024.03",
+    "date_precision": "month or day",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "KOREAN-003",
+    "page": "publications/korean.html",
+    "source_position": 3,
+    "record_original": "유재홍, 양정삼 선박 CAD 모델과 VR 메쉬 모델 사이의 데이터 변환을 위한 B-Rep 형상 간략화 한국CDE학회 논문집, 제28권, 제3호, pp. 260-272, 2023.",
+    "date_original": "2023",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "KOREAN-004",
+    "page": "publications/korean.html",
+    "source_position": 4,
+    "record_original": "나건열, 유재홍, 양정삼 이기종 CAD시스템에서 설계된 엘보우 파이프 모델의 통합을 위한 부분 토러스 재건 한국CDE학회 논문집, 제27권, 제3호, pp. 350-360, 2022.",
+    "date_original": "2022",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "KOREAN-005",
+    "page": "publications/korean.html",
+    "source_position": 5,
+    "record_original": "나건열, 천상욱, 양정삼 조선 네스팅 문제의 부재 페어링을 위한 딥러닝 기반 부재 분류 방법 한국CDE학회 논문집, 제26권, 제4호, pp. 514-524, 2021.",
+    "date_original": "2021",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "KOREAN-006",
+    "page": "publications/korean.html",
+    "source_position": 6,
+    "record_original": "양광빈, 양정삼 섬유 공장의 안전 교육훈련을 위한 ISM 기반 가상환경 시나리오 설계 한국CDE학회 논문집, 제26권, 제3호, pp. 249-261, 2021.",
+    "date_original": "2021",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "KOREAN-007",
+    "page": "publications/korean.html",
+    "source_position": 7,
+    "record_original": "김철신, 이세희, 양정삼 X-Ray 기기의 설계변경에 따른 FDA 510(k) 인허가 영향 평가 모델 개발 한국CDE학회 논문집, 제23권, 제4호, pp. 361-372, 2018.",
+    "date_original": "2018",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "KOREAN-008",
+    "page": "publications/korean.html",
+    "source_position": 8,
+    "record_original": "전혜성, 이진원, 양정삼 인체부위 인식을 통한 깊이 카메라 기반의 자전거 피팅 시스템 개발 한국 CAD/CAM 학회 논문집, 제20권, 제4호, pp. 375-384, 2015.",
+    "date_original": "2015",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "KOREAN-009",
+    "page": "publications/korean.html",
+    "source_position": 9,
+    "record_original": "이진원, 한정호, 양정삼 실시간 휴먼 시뮬레이션을 위한 깊이 카메라 기반의 자세 판별 및 모션 보간 한국 CAD/CAM 학회 논문집, 제19권, 제1호, pp. 68-79, 2014.",
+    "date_original": "2014",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "KOREAN-010",
+    "page": "publications/korean.html",
+    "source_position": 10,
+    "record_original": "이태목, 양정삼 중소기업의 정보화 도입사례 분석을 통한 효과적인 PLM 구축 방안에 대한 연구 청촌논총, 제13집, pp. 65-92, 2012.",
+    "date_original": "2012",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "KOREAN-011",
+    "page": "publications/korean.html",
+    "source_position": 11,
+    "record_original": "송성열, 양정삼, 명태식 4D 시뮬레이션을 위한 공법 템플릿 기반의 건설 공정 자동 생성 산업공학 IE Interfaces, 제25권, 제2호, pp. 216-228, 2012.",
+    "date_original": "2012",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "KOREAN-012",
+    "page": "publications/korean.html",
+    "source_position": 12,
+    "record_original": "유효선, 양정삼, 박재일 3D CAD 모델의 품질 측정을 위한 오류 발생 특징 별 시그마 수준 분석 산업공학 IE Interfaces, 제24권, 제1호, pp. 58-70, 2011.",
+    "date_original": "2011",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "KOREAN-013",
+    "page": "publications/korean.html",
+    "source_position": 13,
+    "record_original": "오정수, 양정삼 제조업 분야에서 Product Data Management 기반의 BSC 성과평가 시스템 구축 사례 연구 산업공학 IE Interfaces, 제23권, 제4호, pp. 275-285, 2010.",
+    "date_original": "2010",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "KOREAN-014",
+    "page": "publications/korean.html",
+    "source_position": 14,
+    "record_original": "송인호, 양정삼, 조현재, 최상수 연속해석 데이터의 상호운용성을 지원하는 CAE 미들웨어와 가시화 시스템의 개발 한국 CAD/CAM 학회 논문집, 제15권, 제2호, pp. 85-93, 2010.",
+    "date_original": "2010",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "KOREAN-015",
+    "page": "publications/korean.html",
+    "source_position": 15,
+    "record_original": "문두환, 양정삼, 한순흥 사양 기반 플랜트 설계 시스템에서 생성된 원자력 플랜트 설계 데이터의 중립 모델로의 통합 변환 한국 CAD/CAM 학회 논문집, 제14권, 제2호, pp. 96-104, 2009.",
+    "date_original": "2009",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "KOREAN-016",
+    "page": "publications/korean.html",
+    "source_position": 16,
+    "record_original": "송인호, 양정삼, 조현재, 최상수 가상현실 환경을 위한 해석데이터 변환 기술 개발 한국 CAD/CAM 학회 논문집, 제13권, 제5호, pp. 334-341, 2008.",
+    "date_original": "2008",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "KOREAN-017",
+    "page": "publications/korean.html",
+    "source_position": 17,
+    "record_original": "박동석, 양정삼, 유기헌, 박범 주문 생산형 반도체 장비를 위한 E-BOM 복제 알고리즘의 구현 한국 CAD/CAM 학회 논문집, 제13권, 제4호, pp. 273-285, 2008.",
+    "date_original": "2008",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "KOREAN-018",
+    "page": "publications/korean.html",
+    "source_position": 18,
+    "record_original": "양정삼, 한순흥, 문두환 서로 다른 PDM 시스템 간에 OpenPDM을 이용한 제품데이터의 교환 한국 CAD/CAM 학회 논문집, 제13권, 제2호, pp. 89-97, 2008.",
+    "date_original": "2008",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "KOREAN-019",
+    "page": "publications/korean.html",
+    "source_position": 19,
+    "record_original": "허필원, 양정삼, 한순흥 다채널 디스플레이에서 X3D와 무선제어를 이용한 수중운동체 시뮬레이터 한국 CAD/CAM 학회 논문집, 제13권, 제1호, pp. 45-57, 2008.",
+    "date_original": "2008",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "KOREAN-020",
+    "page": "publications/korean.html",
+    "source_position": 20,
+    "record_original": "양정삼, 한순흥, 천상욱 전문가시스템을 이용한 CAD 모델 수정 시스템 대한기계학회논문집 A권, 제30권, 제3호, pp. 219-230, 2006.",
+    "date_original": "2006",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "KOREAN-021",
+    "page": "publications/korean.html",
+    "source_position": 21,
+    "record_original": "김용식, 양정삼, 한순흥 가상 공장 시뮬레이션을 위한 PC 클러스터 기반의 멀티채널 가시화 모듈의 설계와 구현 대한기계학회논문집 A권, 제30권, 제3호, pp. 231-240, 2006.",
+    "date_original": "2006",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "KOREAN-022",
+    "page": "publications/korean.html",
+    "source_position": 22,
+    "record_original": "양정삼, 한순흥, 박상호, 장광섭 국내 자동차산업에서 제품데이터품질에 대한 현황 조사 한국 CAD/CAM 학회 논문집, 제10권, 제4호, pp. 274-283, 2005.",
+    "date_original": "2005",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "KOREAN-023",
+    "page": "publications/korean.html",
+    "source_position": 23,
+    "record_original": "양정삼, 한순흥 설계이력 정보를 이용한 CAD 모델의 오류 수정 한국 CAD/CAM 학회 논문집, 제10권, 제4호, pp. 262-273, 2005.",
+    "date_original": "2005",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "KOREAN-024",
+    "page": "publications/korean.html",
+    "source_position": 24,
+    "record_original": "양정삼, 한순흥, 강혜정, 김준기 자동차산업에서 제품데이터품질 향상을 위한 연구 한국자동차공학회논문집, 제13권, 제1호, pp. 184-193, 2005.",
+    "date_original": "2005",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "KOREAN-025",
+    "page": "publications/korean.html",
+    "source_position": 25,
+    "record_original": "양정삼, 한순흥, 김병철, 박찬국 CAD 모델 교환을 위한 매크로 파라메트릭 정보의 XML 표현 대한기계학회논문집 A권, 제27권, 제12호, pp. 2061-2071, 2004.",
+    "date_original": "2004",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "KOREAN-026",
+    "page": "publications/korean.html",
+    "source_position": 26,
+    "record_original": "박상호, 박종욱, 한순흥, 최영, 양정삼 IGES CAD 데이터의 교환에서 오류 진단 시스템 한국정밀공학회논문집, 제20권, 제10호, pp. 218-225, 2004.",
+    "date_original": "2004",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "KOREAN-027",
+    "page": "publications/korean.html",
+    "source_position": 27,
+    "record_original": "양정삼, Michael Goltz, 한순흥 파라미터 네트워크 기반의 워크플로를 적용한 제품의 설계 변경 대한산업공학회논문집, 제29권, 제2호, pp. 157-164, 2003.",
+    "date_original": "2003",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "KOREAN-028",
+    "page": "publications/korean.html",
+    "source_position": 28,
+    "record_original": "양정삼, 한순흥 STEP AP214 자동차 설계 데이터 정리 시스템 한국CAD/CAM학회 논문집, 제7권, 제3호, pp. 170-176, 2002.",
+    "date_original": "2002",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "KOREAN-029",
+    "page": "publications/korean.html",
+    "source_position": 29,
+    "record_original": "양정삼, 한순흥, 최영, 박상호 OpenCASCADE를 이용한 CAD 모델의 오류 진단 시스템의 개발 한국자동차공학회논문집, 제10권, 제3호, pp. 151-158, 2002.",
+    "date_original": "2002",
+    "date_precision": "year only",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "PATENTS-001",
+    "page": "publications/patents.html",
+    "source_position": 1,
+    "record_original": "등록특허 등록번호: 10-2352826 2022-01-13 이웃 연결성 합성곱 신경망을 이용한 포인트 클라우드 분류 장치 및 방법 발명자: 양정삼, 이진원",
+    "date_original": "2022-01-13",
+    "date_precision": "day",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "PATENTS-002",
+    "page": "publications/patents.html",
+    "source_position": 2,
+    "record_original": "특허출원 (원문 표기) 출원번호: 10-2020-0154289 2020-11-18 3차원 캐드 이미지 모델링 방법 발명자: 양정삼, 나건열",
+    "date_original": "2020-11-18",
+    "date_precision": "day",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "PATENTS-003",
+    "page": "publications/patents.html",
+    "source_position": 3,
+    "record_original": "등록특허 등록번호: 10-2006795 2019-07-29 유방 형상 변형 방법 및 장치 발명자: 양정삼",
+    "date_original": "2019-07-29",
+    "date_precision": "day",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "PATENTS-004",
+    "page": "publications/patents.html",
+    "source_position": 4,
+    "record_original": "등록특허 등록번호: 10-1836125 2018-12-22 모델의 형상 특징 정보 생성 방법 및 형상 유사도 분석 방법 발명자: 양정삼",
+    "date_original": "2018-12-22",
+    "date_precision": "day",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "PATENTS-005",
+    "page": "publications/patents.html",
+    "source_position": 5,
+    "record_original": "저작권 등록 등록번호: C-2023-032874 2023-08-07 ShipCADOptimizer (CAD 모델 간략화 및 FBX 변환 모듈) 저작자: 양정삼, 유재홍",
+    "date_original": "2023-08-07",
+    "date_precision": "day",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "PATENTS-006",
+    "page": "publications/patents.html",
+    "source_position": 6,
+    "record_original": "저작권 등록 등록번호: C-2022-031775 2022-08-12 가상현실 지원 3차원 형상 변환기 저작자: 양정삼, 나건열",
+    "date_original": "2022-08-12",
+    "date_precision": "day",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "PATENTS-007",
+    "page": "publications/patents.html",
+    "source_position": 7,
+    "record_original": "저작권 등록 등록번호: C-2021-031943 2021-09-30 BIMWebViz (웹 기반 BIM 구성정보 가시화 프로그램) 저작자: 양정삼, 양광빈",
+    "date_original": "2021-09-30",
+    "date_precision": "day",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "STANDARDS-001",
+    "page": "publications/standards.html",
+    "source_position": 1,
+    "record_original": "산업 자동화 시스템 및 통합 – 3D 시각화를 위한 JT 파일 포맷 명세서 KS X ISO 14306 : 2018",
+    "date_original": "2018",
+    "date_precision": "standard edition year",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "STANDARDS-002",
+    "page": "publications/standards.html",
+    "source_position": 2,
+    "record_original": "산업 자동화 시스템 및 통합 – 제품 데이터 표현 및 교환 – 제239부 응용 프로토콜 : 제품 생애주기 지원 KS B ISO 10303-239 : 2017",
+    "date_original": "2017",
+    "date_precision": "standard edition year",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "STANDARDS-003",
+    "page": "publications/standards.html",
+    "source_position": 3,
+    "record_original": "제품 모델 기본 용어 KS X 7071 : 2016",
+    "date_original": "2016",
+    "date_precision": "standard edition year",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "STANDARDS-004",
+    "page": "publications/standards.html",
+    "source_position": 4,
+    "record_original": "산업 자동화 시스템 및 통합 – 제품 데이터 표현 및 교환 – 제1011부 응용모듈 : 개인과 조직 KS X ISO 10303-1011 : 2015",
+    "date_original": "2015",
+    "date_precision": "standard edition year",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "STANDARDS-005",
+    "page": "publications/standards.html",
+    "source_position": 5,
+    "record_original": "산업 자동화 시스템 및 통합 – 제품 데이터의 표현 및 교환 – 제439부 응용 모듈 : 응용 프로토콜 239 제품 수명주기 지원 KS B ISO 10303-439 : 2011",
+    "date_original": "2011",
+    "date_precision": "standard edition year",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "STANDARDS-006",
+    "page": "publications/standards.html",
+    "source_position": 6,
+    "record_original": "산업 자동화 시스템 및 통합 – 제품 데이터 표현 및 교환 – 제54부 통합 일반 자원 : 분류 및 집합 이론 KS B ISO 10303-54 : 2009",
+    "date_original": "2009",
+    "date_precision": "standard edition year",
+    "action": "原页、原文保留；同年仅有年份者保持原顺序",
+    "verification": "待官方来源核实；未新增 DOI、链接或引用次数"
+  },
+  {
+    "id": "ARTICLES-001",
+    "page": "publications/articles.html",
+    "source_position": 1,
+    "record_original": "당신이 꿈꾸는 대로 그들이 만들어 줄 것이다 / 한국CADCAM 학회지 (CADCAM Review), Vol. 17, No. 1, pp.19–23, 2011.04.",
+    "date_original": "2011.04",
+    "date_precision": "month or day",
+    "action": "静态 HTML 渲染，原文及同年原顺序保留",
+    "verification": "待出版机构核实"
+  },
+  {
+    "id": "ARTICLES-002",
+    "page": "publications/articles.html",
+    "source_position": 2,
+    "record_original": "첨삭가공(Additive Manufacturing)의 세계적 추세 / 한국CADCAM 학회지 (CADCAM Review), Vol. 16, No. 2, pp.25–29, 2010.08.",
+    "date_original": "2010.08",
+    "date_precision": "month or day",
+    "action": "静态 HTML 渲染，原文及同年原顺序保留",
+    "verification": "待出版机构核实"
+  },
+  {
+    "id": "ARTICLES-003",
+    "page": "publications/articles.html",
+    "source_position": 3,
+    "record_original": "Autodesk와 Dassault Systemes은 iPhone 응용프로그램을 통해 가상의 냉기 공간에서 선구자의 지위를 얻었다 / 한국CADCAM 학회지 (CADCAM Review), Vol. 15, No. 3, pp.21–25, 2009.12.",
+    "date_original": "2009.12",
+    "date_precision": "month or day",
+    "action": "静态 HTML 渲染，原文及同年原顺序保留",
+    "verification": "待出版机构核实"
+  },
+  {
+    "id": "ARTICLES-004",
+    "page": "publications/articles.html",
+    "source_position": 4,
+    "record_original": "아주대학교의 3DVIA Virtools 교육사례-3DVIA Virtools를 활용한 게임, 열기구 제작 / PLM Network, Vol. 35, pp.32–33, 2009.06.",
+    "date_original": "2009.06",
+    "date_precision": "month or day",
+    "action": "静态 HTML 渲染，原文及同年原顺序保留",
+    "verification": "待出版机构核实"
+  },
+  {
+    "id": "ARTICLES-005",
+    "page": "publications/articles.html",
+    "source_position": 5,
+    "record_original": "3D CAD 모델의 유효성 검증 / 한국CADCAM 학회지 (CADCAM Review), Vol. 15, No. 1, pp.15–19, 2009.04.",
+    "date_original": "2009.04",
+    "date_precision": "month or day",
+    "action": "静态 HTML 渲染，原文及同年原顺序保留",
+    "verification": "待出版机构核实"
+  },
+  {
+    "id": "ARTICLES-006",
+    "page": "publications/articles.html",
+    "source_position": 6,
+    "record_original": "CAD/CAM에서의 새로운 변화: 치과 기공소용 CAD/CAM 시스템 / 한국CADCAM 학회지 (CADCAM Review), Vol. 14, No. 2, pp.12–18, 2008.08.",
+    "date_original": "2008.08",
+    "date_precision": "month or day",
+    "action": "静态 HTML 渲染，原文及同年原顺序保留",
+    "verification": "待出版机构核实"
+  },
+  {
+    "id": "ARTICLES-007",
+    "page": "publications/articles.html",
+    "source_position": 7,
+    "record_original": "3DLive는 차세대 혁신 기술의 출발선인가? / 한국CADCAM 학회지 (CADCAM Review), Vol. 13, No. 3, pp.19–24, 2007.12.",
+    "date_original": "2007.12",
+    "date_precision": "month or day",
+    "action": "静态 HTML 渲染，原文及同年原顺序保留",
+    "verification": "待出版机构核实"
+  },
+  {
+    "id": "ARTICLES-008",
+    "page": "publications/articles.html",
+    "source_position": 8,
+    "record_original": "[표준화문서]국제표준 SASIG-PDQ V2.1 기반의 제품데이터 품질향상을 위한 가이드라인 및 적용지침 / 전자상거래표준화포럼 (www.ecif.or.kr), ECIF:157:2007, 2007.",
+    "date_original": "2007",
+    "date_precision": "year only",
+    "action": "静态 HTML 渲染，原文及同年原顺序保留",
+    "verification": "待出版机构核实"
+  },
+  {
+    "id": "ARTICLES-009",
+    "page": "publications/articles.html",
+    "source_position": 9,
+    "record_original": "미래에 대한 불안, 그 탈출구는? / 아주대학보 (제465호), 2006.05.29.",
+    "date_original": "2006.05.29",
+    "date_precision": "month or day",
+    "action": "静态 HTML 渲染，原文及同年原顺序保留",
+    "verification": "待出版机构核实"
+  },
+  {
+    "id": "ARTICLES-010",
+    "page": "publications/articles.html",
+    "source_position": 10,
+    "record_original": "[표준화문서]자동차 산업용 제품데이터품질에 대한 CAD시스템 적용지침 / 전자상거래표준화포럼 (www.ecif.or.kr), ECIF:109:2004, 2004.",
+    "date_original": "2004",
+    "date_precision": "year only",
+    "action": "静态 HTML 渲染，原文及同年原顺序保留",
+    "verification": "待出版机构核实"
+  },
+  {
+    "id": "ARTICLES-011",
+    "page": "publications/articles.html",
+    "source_position": 11,
+    "record_original": "[표준화문서]자동차산업용 제품데이터품질(PDQ)에 대한 적용지침 / 전자상거래표준화포럼 (www.ecif.or.kr), ECIF:91:2003, 2003.",
+    "date_original": "2003",
+    "date_precision": "year only",
+    "action": "静态 HTML 渲染，原文及同年原顺序保留",
+    "verification": "待出版机构核实"
+  }
+]
