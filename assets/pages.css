@@ -1,0 +1,107 @@
+/* Shared content styles for the fourteen secondary pages.
+   Page-specific layouts are scoped; source records remain in their HTML files. */
+.subpage .hero{padding:60px 0;background:linear-gradient(120deg,var(--navy),var(--navy2))}
+.subpage .hero h1{font-size:clamp(34px,4.8vw,54px);line-height:1.15;letter-spacing:-1.5px;margin:12px 0 16px;overflow-wrap:anywhere}
+.subpage .hero p{max-width:850px;margin:0;color:#dae5f5}
+.subpage .eyebrow{font-size:12px;letter-spacing:.17em}
+.subpage main{padding-block:48px 80px;overflow-wrap:anywhere}
+.subpage h2{font-size:26px;line-height:1.3;letter-spacing:-.5px;margin:36px 0 18px}
+.subpage h3{font-size:20px;line-height:1.45;color:var(--navy)}
+.subpage .section-title:first-child,.subpage .heading:first-child,.subpage main>h2:first-child{margin-top:0}
+.subpage .intro,.subpage .summary,.subpage .lead{color:var(--muted);margin:0 0 28px}
+.subpage .note,.subpage .notice{border-left:3px solid var(--blue);background:#f2f5fa;color:#526480;font-size:14px;padding:16px 20px;margin:24px 0}
+.subpage .grid,.subpage .cards,.project-grid,.goals,.contacts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.subpage .card,.project,.project-card,.record,.page-patents .item,.goals li{border:1px solid var(--line);background:var(--card-bg);border-radius:var(--radius);padding:24px;min-width:0}
+.subpage .card{min-height:0}
+.subpage .card:before{content:none}
+.subpage .card h2,.subpage .card h3,.project h3,.project-card h3,.record h3{margin:0 0 12px;font-size:20px}
+.subpage .card p{margin:8px 0;color:#455a74}
+.subpage .year,.year-section h2,.year-block h2{font-size:22px;margin:36px 0 16px;padding-bottom:10px;border-bottom:1px solid var(--line)}
+.subpage .year-block h2 span{font-size:13px;font-weight:400;color:var(--muted);margin-left:10px}
+/* Professor profile and definition lists. */
+.page-professor .intro{display:flex;align-items:flex-start;gap:30px;padding:28px;border:1px solid var(--line);border-radius:var(--radius);background:var(--card-bg);color:var(--ink)}
+.professor-photo{width:184px;max-width:100%;height:auto;max-height:240px;object-fit:contain;flex:0 0 auto;border:1px solid var(--line);border-radius:8px;background:#fff}
+.professor-info{min-width:0}
+.page-professor .intro h2{margin:0 0 8px;font-size:27px}
+.page-professor .intro h2 small{font-size:18px}
+.page-professor .intro p{margin:6px 0}
+.entries{border-top:1px solid var(--line)}
+.page-professor .entry{display:grid;grid-template-columns:180px minmax(0,1fr);gap:22px;padding:14px 0;border:0;border-bottom:1px solid var(--line);border-radius:0;background:transparent}
+.entry dt{font-weight:700;color:#4c5d75}
+.entry dd{margin:0}
+.role,.email{font-size:14px}
+.tag{display:inline-block;margin-top:8px;background:#e9eef7;color:#435672;border-radius:20px;font-size:12px;padding:5px 10px}
+/* Alumni records retain the original photo placeholders. */
+.page-alumni .card{display:grid;grid-template-columns:106px minmax(0,1fr);gap:18px;align-items:start}
+.portrait{width:106px;aspect-ratio:3/4;border:1px dashed #cbd7e8;border-radius:7px;background:linear-gradient(150deg,#eaf0f8,#f5f8fc);display:grid;place-items:center;color:#8191a7;font-size:11px;font-weight:700;letter-spacing:.14em}
+.info{min-width:0}
+.page-alumni .card p{font-size:14px;overflow-wrap:anywhere}
+.page-alumni .degree{font-weight:700;color:#274c83}
+/* Journal and article lists. */
+.year-block{margin:30px 0}
+.year-block ol,.papers{list-style:none;counter-reset:papers;padding:0;margin:0}
+.year-block li,.papers li{counter-increment:papers;position:relative;padding:20px 20px 20px 58px;border-bottom:1px solid var(--line);font-size:15px;overflow-wrap:anywhere}
+.year-block li:nth-child(even){background:var(--card-bg)}
+.year-block li:before,.papers li:before{content:counter(papers,decimal-leading-zero);position:absolute;left:18px;top:22px;color:var(--blue);font-size:13px;font-weight:700}
+.papers li{margin:12px 0;border:1px solid var(--line);border-radius:var(--radius);background:var(--card-bg)}
+.papers .title{font-size:16px;margin:0 0 8px}
+.papers .source,.source,.authors{font-size:14px;color:#52657f}
+.overview{display:flex;justify-content:space-between;align-items:baseline;gap:18px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:16px}
+.subpage .overview h2{margin:0}
+.count{color:var(--muted)}
+.page-korean main>ol{padding-left:30px;margin-top:22px}
+.paper{padding:18px 8px;border-bottom:1px solid var(--line)}
+.paper::marker{color:var(--blue);font-weight:700}
+.paper-title{font-weight:700;font-size:17px;margin:6px 0}
+.group{margin-top:40px}
+.page-patents .item{margin-bottom:16px}
+.meta{display:flex;gap:12px;flex-wrap:wrap;font-size:13px;color:#526783}
+.type,.number{color:var(--blue);font-weight:700;font-size:13px}
+.page-patents .item h3{margin:12px 0;font-size:20px}
+.page-patents .item p{margin:6px 0;font-size:14px}
+.record{margin:12px 0}
+.record p{margin:0}
+/* Projects. Status and dates are unchanged. */
+.projects{display:grid;gap:20px}
+.project h3,.project-card h3{font-size:19px}
+.period{font-size:14px;font-weight:700;color:#365d97;margin:10px 0}
+.agency{font-size:14px;color:#5e7087;margin:0}
+/* Laboratory history and location. */
+.goals{list-style:none;padding:0;counter-reset:goal}
+.goals li{counter-increment:goal}
+.goals li::before{content:'0' counter(goal);display:block;color:var(--blue);font-weight:800;font-size:13px;letter-spacing:.1em;margin-bottom:12px}
+.contacts>div{border-top:1px solid var(--line);padding-top:14px;min-width:0}
+.logo-card{border:1px solid var(--line);background:var(--card-bg);border-radius:var(--radius);padding:24px;margin:24px 0 48px}
+.logo-card img{display:block;width:100%;height:auto;object-fit:contain}
+.quote{margin:18px 0;padding:20px 24px;border-left:4px solid var(--blue);background:var(--light);font-size:clamp(19px,3vw,25px);font-weight:600}
+.attribution{color:#536582}
+.korean{font-size:21px;line-height:1.9}
+.page-contact .item{font-weight:700;font-size:19px;color:var(--navy)}
+.pill{font-size:12px;letter-spacing:.1em;font-weight:700;color:var(--blue)}
+.map-section{margin-top:40px}
+.map-frame{border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;background:var(--light)}
+.map-frame iframe{display:block;width:100%;height:430px;border:0}
+.buttons{display:flex;gap:12px;flex-wrap:wrap;margin:18px 0}
+.button{display:inline-block;padding:12px 18px;border-radius:6px;background:var(--blue);color:#fff;text-decoration:none;font-weight:700}
+.button.secondary{background:#eef3fd;color:#22467f}
+.textlink{color:var(--blue);text-underline-offset:4px}
+.page-index main h1{font-size:clamp(34px,4.8vw,54px);line-height:1.15;color:var(--navy)}
+@media(max-width:800px){.page-alumni .cards{grid-template-columns:1fr}}
+@media(max-width:760px){
+ .subpage .hero{padding:42px 0}
+ .subpage main{padding-block:36px 60px}
+ .subpage .grid,.project-grid,.goals,.contacts{grid-template-columns:1fr}
+ .page-professor .intro{flex-direction:column;padding:22px}
+ .professor-photo{width:160px}
+ .page-professor .entry{grid-template-columns:1fr;gap:4px}
+ .map-frame iframe{height:340px}
+ .subpage .card,.project,.project-card,.record,.page-patents .item{padding:20px}
+ .korean{font-size:18px}
+}
+@media(max-width:430px){
+ .page-alumni .card{grid-template-columns:76px minmax(0,1fr);gap:12px;padding:16px}
+ .portrait{width:76px}
+ .logo-card{padding:12px}
+ .year-block li,.papers li{padding-left:46px;padding-right:12px}
+ .year-block li:before,.papers li:before{left:12px}
+}

@@ -8,61 +8,55 @@
   <title>CADLAB | CAD/CAM Laboratory</title>
   <link rel="stylesheet" href="assets/styles.css">
 </head>
-<body>
+<body class="home-page">
+  <!-- shared-header:start -->
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="header">
     <div class="wrap nav">
-      <a class="brand" href="#home" aria-label="CADLAB home"><span class="brandmark">C<span class="branddot">.</span></span><span class="brandword">CAD<span class="accent">LAB</span><small>RESEARCH LABORATORY</small></span></a>
+      <a class="brand" href="index.html" aria-label="CADLAB home"><img src="assets/cadlab-logo.jpg" alt="CADLAB — Computer-Aided Design Laboratory" width="1500" height="234" fetchpriority="high"></a>
       <button type="button" id="menuButton" class="menu" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navigation">☰</button>
-     
-<nav id="navigation" aria-label="Main navigation">
-
-  <div class="nav-group">
-    <a href="#about">CAD Lab</a> <button class="submenu-toggle" type="button" aria-label="Toggle CAD Lab submenu" aria-expanded="false" aria-controls="lab-submenu">▾</button>
-    <div class="dropdown" id="lab-submenu">
-    <a href="lab/introduction.html">Introduction</a>
-      <a href="lab/motto.html">Motto &amp; Logo</a>
-      <a href="lab/contact.html">Contact</a>
-    </div>
-  </div>
-
-
+      <nav id="navigation" aria-label="Main navigation">
+        <a href="index.html" aria-current="page">Home</a>
 <div class="nav-group">
-  <a href="#people">People</a> <button class="submenu-toggle" type="button" aria-label="Toggle People submenu" aria-expanded="false" aria-controls="people-submenu">▾</button>
-  <div class="dropdown" id="people-submenu">
-    <a href="people/professor.html">Professor</a>
-    <a href="people/members.html">Members</a>
-    <a href="people/alumni.html">Alumni</a>
-  </div>
-</div>
-
-
-  <div class="nav-group">
-    <a href="#publications">Publications</a> <button class="submenu-toggle" type="button" aria-label="Toggle Publications submenu" aria-expanded="false" aria-controls="publications-submenu">▾</button>
-    <div class="dropdown" id="publications-submenu">
-      <a href="publications/international.html">International Journal Papers</a>
-      <a href="publications/korean.html">Korean Journal Papers</a>
-      <a href="publications/articles.html">Articles</a>
-      <a href="publications/patents.html">Patents</a>
-      <a href="publications/standards.html">Korean Industrial Standards</a>
-    </div>
-  </div>
-
-  <div class="nav-group">
-    <a href="#research">Research</a> <button class="submenu-toggle" type="button" aria-label="Toggle Research submenu" aria-expanded="false" aria-controls="research-submenu">▾</button>
-    <div class="dropdown" id="research-submenu">
-      <a href="research/ongoing.html">Ongoing Projects</a>
-      <a href="research/completed.html">Closed Projects</a>
-    </div>
-  </div>
-
-  <a href="#news">News</a>
-  <a href="archive/index.html">Archive ↗</a>
-
-</nav>
-  
+          <a href="index.html#about">CAD Lab</a> <button class="submenu-toggle" type="button" aria-label="Toggle CAD Lab submenu" aria-expanded="false" aria-controls="lab-submenu">▾</button>
+          <div class="dropdown" id="lab-submenu">
+            <a href="lab/introduction.html">Introduction</a>
+<a href="lab/motto.html">Motto &amp; Logo</a>
+<a href="lab/contact.html">Contact</a>
+          </div>
+        </div>
+<div class="nav-group">
+          <a href="index.html#people">People</a> <button class="submenu-toggle" type="button" aria-label="Toggle People submenu" aria-expanded="false" aria-controls="people-submenu">▾</button>
+          <div class="dropdown" id="people-submenu">
+            <a href="people/professor.html">Professor</a>
+<a href="people/members.html">Members</a>
+<a href="people/alumni.html">Alumni</a>
+          </div>
+        </div>
+<div class="nav-group">
+          <a href="index.html#publications">Publications</a> <button class="submenu-toggle" type="button" aria-label="Toggle Publications submenu" aria-expanded="false" aria-controls="publications-submenu">▾</button>
+          <div class="dropdown" id="publications-submenu">
+            <a href="publications/international.html">International Journal Papers</a>
+<a href="publications/korean.html">Korean Journal Papers</a>
+<a href="publications/articles.html">Articles</a>
+<a href="publications/patents.html">Patents</a>
+<a href="publications/standards.html">Korean Industrial Standards</a>
+          </div>
+        </div>
+<div class="nav-group">
+          <a href="index.html#research">Research</a> <button class="submenu-toggle" type="button" aria-label="Toggle Research submenu" aria-expanded="false" aria-controls="research-submenu">▾</button>
+          <div class="dropdown" id="research-submenu">
+            <a href="research/ongoing.html">Ongoing Projects</a>
+<a href="research/completed.html">Closed Projects</a>
+          </div>
+        </div>
+<a href="index.html#news">News</a>
+<a href="archive/index.html">Archive</a>
+<a href="lab/contact.html">Contact</a>
+      </nav>
     </div>
   </header>
+  <!-- shared-header:end -->
   <main id="main">
     <section class="hero" id="home">
       <div class="hero-grid" aria-hidden="true"></div>
@@ -131,7 +125,15 @@
     <section class="section light" id="news"><div class="wrap"><div class="section-heading"><div><p class="overline">06 / NEWS</p><h2>Latest updates<span class="title-dot">.</span></h2></div><p>News and milestones from our laboratory.</p></div><div id="newsList" class="stack"></div></div></section>
     <section class="section archive-section" id="archive"><div class="wrap archive-layout"><div><p class="overline">07 / OUR HERITAGE</p><h2>Preserving our<br>research legacy.</h2><p>Historical laboratory pages and verified records will be preserved as part of the CADLAB archive.</p></div><a class="archive-button" href="archive/index.html">Explore the archive <span aria-hidden="true">↗</span></a></div></section>
   </main>
-  <footer><div class="wrap footerrow"><div><a href="#home" class="footer-brand">CAD<span>LAB</span></a><p>CAD/CAM Laboratory · Research & Innovation</p></div><div><span>© <span id="year"></span> CADLAB. All rights reserved.</span><br><small>Content published subject to laboratory verification and approval.</small></div></div></footer>
+  <!-- shared-footer:start -->
+  <footer class="site-footer">
+    <div class="wrap footerrow">
+      <div><a class="footer-logo" href="index.html" aria-label="CADLAB home"><img src="assets/cadlab-logo.jpg" alt="CADLAB — Computer-Aided Design Laboratory" width="1500" height="234" loading="lazy"></a><p>CAD/CAM Laboratory · Research &amp; Innovation</p></div>
+      <div><a href="index.html">Home</a> · <a href="lab/contact.html">Contact</a><p>© <span data-year>2026</span> CADLAB. All rights reserved.</p><small class="footer-context">Content published subject to laboratory verification and approval.</small></div>
+    </div>
+  </footer>
+  <!-- shared-footer:end -->
   <script src="assets/content.js"></script><script src="assets/site.js"></script>
+<script src="assets/navigation.js" defer></script>
 </body>
 </html>
