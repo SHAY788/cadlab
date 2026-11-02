@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "pages": 15,
+  "local_references": 585,
+  "members": 5,
+  "alumni": 27,
+  "publication_counts": [
+    44,
+    29,
+    11,
+    7,
+    6
+  ],
+  "publications_total": 97,
+  "ongoing": 1,
+  "closed": 26,
+  "unique_projects": 27,
+  "historical_project_occurrences": 29,
+  "internal_note_in_current_tree": false
+}

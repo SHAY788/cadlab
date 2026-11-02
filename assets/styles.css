@@ -149,3 +149,10 @@ button{font-family:inherit}
 }
 @media(max-width:760px){.wrap,.shell{width:calc(100% - 36px)}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* Homepage summaries link to the complete source records. */
+.record-link{color:var(--navy);text-decoration:underline;text-decoration-color:#b7c9e8;text-underline-offset:4px}
+.record-link:hover{color:var(--blue);text-decoration-color:currentColor}
+#publicationList .entry{align-items:baseline;flex-wrap:wrap}
+#publicationList .entry strong{flex:0 1 300px}
+#publicationList .entry span{flex:1 1 360px}

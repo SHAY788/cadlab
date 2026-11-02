@@ -1,0 +1,974 @@
+{
+  "baseline": "61dd7e9c8d26229811e4f9670fc6a1f42677abd8",
+  "records": {
+    "people/alumni.html": [
+      {
+        "position": 1,
+        "sha256": "3488a4b1153a1029c2e57dcd2f91f7b983e914c5afe2d866d2d1fb6ba1ca0bef",
+        "html": "<article class=\"card\"><div class=\"portrait\" aria-label=\"Photo space for 박동석\"><span>PHOTO</span></div><div class=\"info\"><h3>박동석</h3><p class=\"degree\">비즈니스 정보공학 석사 (2009.02)</p><p><b>석사 논문:</b> 주문생산형 반도체장비의 E-BOM 복제방법 구현에 관한 연구</p><p><b>소속:</b> PSK Inc. 연구소 기술1팀 팀장</p></div></article>",
+        "text": "PHOTO 박동석 비즈니스 정보공학 석사 (2009.02) 석사 논문: 주문생산형 반도체장비의 E-BOM 복제방법 구현에 관한 연구 소속: PSK Inc. 연구소 기술1팀 팀장"
+      },
+      {
+        "position": 2,
+        "sha256": "94053a65620ddbd03a18ac4f6de3c200bed83f9d5dec455974f4996e5c57d068",
+        "html": "<article class=\"card\"><div class=\"portrait\" aria-label=\"Photo space for 박봉현\"><span>PHOTO</span></div><div class=\"info\"><h3>박봉현</h3><p class=\"degree\">비즈니스 정보공학 석사 (2009.02)</p><p><b>석사 논문:</b> ERP 시스템의 효과적인 구축 방법에 대한 사례 연구</p><p><b>소속:</b> 헨켄홈케어코리아(유)</p></div></article>",
+        "text": "PHOTO 박봉현 비즈니스 정보공학 석사 (2009.02) 석사 논문: ERP 시스템의 효과적인 구축 방법에 대한 사례 연구 소속: 헨켄홈케어코리아(유)"
+      },
+      {
+        "position": 3,
+        "sha256": "50b747fd2d0ca0127eb44485a1e486fd52f95c2ab62586aef3739ef2df7abbb0",
+        "html": "<article class=\"card\"><div class=\"portrait\" aria-label=\"Photo space for 장광섭\"><span>PHOTO</span></div><div class=\"info\"><h3>장광섭</h3><p class=\"degree\">산업공학 석사 (2010.08)</p><p><b>석사 논문:</b> 템플릿 모델과 설계이력 데이터를 이용한 자동차 기구 요소의 지식 기반 설계 시스템의 개발</p><p><b>소속:</b> LIG 에이디피(주)</p></div></article>",
+        "text": "PHOTO 장광섭 산업공학 석사 (2010.08) 석사 논문: 템플릿 모델과 설계이력 데이터를 이용한 자동차 기구 요소의 지식 기반 설계 시스템의 개발 소속: LIG 에이디피(주)"
+      },
+      {
+        "position": 4,
+        "sha256": "8716d25e36507df1bfaa5d302c28b9332c6cc44c1e3cddf784bf93c85d831cd9",
+        "html": "<article class=\"card\"><div class=\"portrait\" aria-label=\"Photo space for 염하림\"><span>PHOTO</span></div><div class=\"info\"><h3>염하림</h3><p class=\"degree\">산업공학 석사 (2011.02)</p><p><b>석사 논문:</b> 치과 임플란트 상부구조물 최적 선택을 위한 전문가시스템 개발</p><p><b>소속:</b> 삼성 SDS</p></div></article>",
+        "text": "PHOTO 염하림 산업공학 석사 (2011.02) 석사 논문: 치과 임플란트 상부구조물 최적 선택을 위한 전문가시스템 개발 소속: 삼성 SDS"
+      },
+      {
+        "position": 5,
+        "sha256": "745f07b3170c713fab2f47239fb04f9c2e32055e4dee2e9b3c871745da0a7b61",
+        "html": "<article class=\"card\"><div class=\"portrait\" aria-label=\"Photo space for 이태목\"><span>PHOTO</span></div><div class=\"info\"><h3>이태목</h3><p class=\"degree\">산업공학 석사 (2011.02)</p><p><b>석사 논문:</b> 기업 경쟁력 강화를 위한 LED산업의 PLM 구축 사례 분석</p><p><b>소속:</b> 삼성 SDS</p></div></article>",
+        "text": "PHOTO 이태목 산업공학 석사 (2011.02) 석사 논문: 기업 경쟁력 강화를 위한 LED산업의 PLM 구축 사례 분석 소속: 삼성 SDS"
+      },
+      {
+        "position": 6,
+        "sha256": "d3524163acc914eed2fdcf2c99facdb53f28bb7a5a5564921bcd91184a178b0c",
+        "html": "<article class=\"card\"><div class=\"portrait\" aria-label=\"Photo space for 유효선\"><span>PHOTO</span></div><div class=\"info\"><h3>유효선</h3><p class=\"degree\">산업공학 석사 (2012.02)</p><p><b>석사 논문:</b> Z-map 모델을 이용한 3차원 형상의 초정밀 밀링 가공 CAM 시스템 개발 연구</p><p><b>소속:</b> 삼성 SDS</p></div></article>",
+        "text": "PHOTO 유효선 산업공학 석사 (2012.02) 석사 논문: Z-map 모델을 이용한 3차원 형상의 초정밀 밀링 가공 CAM 시스템 개발 연구 소속: 삼성 SDS"
+      },
+      {
+        "position": 7,
+        "sha256": "b85d37b1a82ea609561b11884ab602a4b9527d03e1cd5537f43c7c4c37cd7e76",
+        "html": "<article class=\"card\"><div class=\"portrait\" aria-label=\"Photo space for 신승호\"><span>PHOTO</span></div><div class=\"info\"><h3>신승호</h3><p class=\"degree\">산업공학 석사 (2012.08)</p><p><b>석사 논문:</b> Z-map 모델을 이용한 3차원 형상의 초정밀 밀링 가공 CAM 시스템 개발 연구</p><p><b>소속:</b> 삼성 SDS</p></div></article>",
+        "text": "PHOTO 신승호 산업공학 석사 (2012.08) 석사 논문: Z-map 모델을 이용한 3차원 형상의 초정밀 밀링 가공 CAM 시스템 개발 연구 소속: 삼성 SDS"
+      },
+      {
+        "position": 8,
+        "sha256": "76d4eb0d1f065cac47a1f7181e791a554c54420470d7fd45d4d7821d92fee06a",
+        "html": "<article class=\"card\"><div class=\"portrait\" aria-label=\"Photo space for Yang Zhe\"><span>PHOTO</span></div><div class=\"info\"><h3>Yang Zhe</h3><p class=\"degree\">산업공학 석사 (2012.08)</p><p><b>석사 논문:</b> Kinematic Calibration of 3-DOF Secondary Mirror of Giant Magellan Telescope Based on Least Square Method</p><p><b>소속:</b> 삼성전자(중국법인)</p></div></article>",
+        "text": "PHOTO Yang Zhe 산업공학 석사 (2012.08) 석사 논문: Kinematic Calibration of 3-DOF Secondary Mirror of Giant Magellan Telescope Based on Least Square Method 소속: 삼성전자(중국법인)"
+      },
+      {
+        "position": 9,
+        "sha256": "1f067fd5035eb11fe7fea7e12992c3da0bb7b9d68849ccf22219a580704de3a8",
+        "html": "<article class=\"card\"><div class=\"portrait\" aria-label=\"Photo space for 이세희\"><span>PHOTO</span></div><div class=\"info\"><h3>이세희</h3><p class=\"degree\">산업공학 박사 (2013.02)</p><p><b>박사 논문:</b> 수명 평가를 위한 퍼지 기반의 의사결정시스템의 개발 – 고무 방현재에 적용</p><p><b>소속:</b> 한국생산기술연구원</p></div></article>",
+        "text": "PHOTO 이세희 산업공학 박사 (2013.02) 박사 논문: 수명 평가를 위한 퍼지 기반의 의사결정시스템의 개발 – 고무 방현재에 적용 소속: 한국생산기술연구원"
+      },
+      {
+        "position": 10,
+        "sha256": "6190db360d6ac4cbed2bde4fc20f3b574a4af6a341f7fe12d85404b2742f3905",
+        "html": "<article class=\"card\"><div class=\"portrait\" aria-label=\"Photo space for Cheng Chao\"><span>PHOTO</span></div><div class=\"info\"><h3>Cheng Chao</h3><p class=\"degree\">산업공학 석사 (2013.02)</p><p><b>석사 논문:</b> 엔지니어링 CAD 데이터의 최적화를 통한 다수의 건물들에 대한 가상현실 환경 구축</p><p><b>당소속:</b> 현대모비스(중국법인)</p></div></article>",
+        "text": "PHOTO Cheng Chao 산업공학 석사 (2013.02) 석사 논문: 엔지니어링 CAD 데이터의 최적화를 통한 다수의 건물들에 대한 가상현실 환경 구축 당소속: 현대모비스(중국법인)"
+      },
+      {
+        "position": 11,
+        "sha256": "8f76a9b3d3c17a0add7b643da2baba33a4519f6c3548603d4cebc8edd827664b",
+        "html": "<article class=\"card\"><div class=\"portrait\" aria-label=\"Photo space for 오정수\"><span>PHOTO</span></div><div class=\"info\"><h3>오정수</h3><p class=\"degree\">산업공학 박사 (2015.02), 석사 (2009.02)</p><p><b>박사 논문:</b> 신제품 개발 포트폴리오의 불확실성 제어를 위한 퍼지 추론 전문가 시스템 개발</p><p><b>석사 논문:</b> 6시그마와 BSC를 활용한 성과측정 시스템 구축 – 제조업 사례분석</p><p><b>소속:</b> 삼성 SDS</p></div></article>",
+        "text": "PHOTO 오정수 산업공학 박사 (2015.02), 석사 (2009.02) 박사 논문: 신제품 개발 포트폴리오의 불확실성 제어를 위한 퍼지 추론 전문가 시스템 개발 석사 논문: 6시그마와 BSC를 활용한 성과측정 시스템 구축 – 제조업 사례분석 소속: 삼성 SDS"
+      },
+      {
+        "position": 12,
+        "sha256": "9fa37e9e29f2c24fc09ba8d816267a0471479c75c830b7afeece1fae60706f4f",
+        "html": "<article class=\"card\"><div class=\"portrait\" aria-label=\"Photo space for 조대승\"><span>PHOTO</span></div><div class=\"info\"><h3>조대승</h3><p class=\"degree\">산업공학 석사 (2015.02)</p><p><b>석사 논문:</b> 6시그마와 BSC를 활용한 성과측정 시스템 구축 – 제조업 사례분석</p><p><b>소속:</b> PSK㈜ PLM Group</p></div></article>",
+        "text": "PHOTO 조대승 산업공학 석사 (2015.02) 석사 논문: 6시그마와 BSC를 활용한 성과측정 시스템 구축 – 제조업 사례분석 소속: PSK㈜ PLM Group"
+      },
+      {
+        "position": 13,
+        "sha256": "0c87ac3e3f18c35a01d9003d647c62becd86a85e8092725d1d05d6180d694b3f",
+        "html": "<article class=\"card\"><div class=\"portrait\" aria-label=\"Photo space for 전혜성\"><span>PHOTO</span></div><div class=\"info\"><h3>전혜성</h3><p class=\"degree\">산업공학 석사 (2016.02)</p><p><b>석사 논문:</b> 기존 측정점 재사용을 위한 유사도 기반의 CAIP 시스템 개발</p><p><b>소속:</b> LG화학</p></div></article>",
+        "text": "PHOTO 전혜성 산업공학 석사 (2016.02) 석사 논문: 기존 측정점 재사용을 위한 유사도 기반의 CAIP 시스템 개발 소속: LG화학"
+      },
+      {
+        "position": 14,
+        "sha256": "f2e66a9c31ff28cd147c0b417434778342bf733665b9e75fd9118aa5412c5357",
+        "html": "<article class=\"card\"><div class=\"portrait\" aria-label=\"Photo space for 송성열\"><span>PHOTO</span></div><div class=\"info\"><h3>송성열</h3><p class=\"degree\">산업공학 박사 (2017.02)</p><p><b>박사 논문:</b> 모션 플랫폼 기반의 가상현실 시뮬레이터를 위한 구성 가능한 컴포넌트 프레임워크 설계</p><p><b>소속:</b> (주)옵티머스 시스템 연구소장</p></div></article>",
+        "text": "PHOTO 송성열 산업공학 박사 (2017.02) 박사 논문: 모션 플랫폼 기반의 가상현실 시뮬레이터를 위한 구성 가능한 컴포넌트 프레임워크 설계 소속: (주)옵티머스 시스템 연구소장"
+      },
+      {
+        "position": 15,
+        "sha256": "082aea9e34355bee4ddc43a6e04e18583931f9849af3e1e6312749543be97702",
+        "html": "<article class=\"card\"><div class=\"portrait\" aria-label=\"Photo space for 김철신\"><span>PHOTO</span></div><div class=\"info\"><h3>김철신</h3><p class=\"degree\">산업공학 석사 (2017.08)</p><p><b>석사 논문:</b> FDA 규정에 대한 디지털 X-ray 의료기기의 설계변경 개선 연구</p><p><b>소속:</b> 삼성전자</p></div></article>",
+        "text": "PHOTO 김철신 산업공학 석사 (2017.08) 석사 논문: FDA 규정에 대한 디지털 X-ray 의료기기의 설계변경 개선 연구 소속: 삼성전자"
+      },
+      {
+        "position": 16,
+        "sha256": "90a97aca6d1b143f343c30793730b2599325c91ec1c15a8fc2fb4ecb3e69cd5a",
+        "html": "<article class=\"card\"><div class=\"portrait\" aria-label=\"Photo space for 강종욱\"><span>PHOTO</span></div><div class=\"info\"><h3>강종욱</h3><p class=\"degree\">산업공학 석사 (2017.08)</p><p><b>석사 논문:</b> 자동차 통풍 시트의 이상 소음 원인 분석을 통한 효율적 원인 대책 수립</p><p><b>소속:</b> Gentherm</p></div></article>",
+        "text": "PHOTO 강종욱 산업공학 석사 (2017.08) 석사 논문: 자동차 통풍 시트의 이상 소음 원인 분석을 통한 효율적 원인 대책 수립 소속: Gentherm"
+      },
+      {
+        "position": 17,
+        "sha256": "27d7592c56204bb8a69e032dfbdb88575e380f8bf00dd1f25cb8d1d3f788504b",
+        "html": "<article class=\"card\"><div class=\"portrait\" aria-label=\"Photo space for 한정호\"><span>PHOTO</span></div><div class=\"info\"><h3>한정호</h3><p class=\"degree\">산업공학 박사 (2019.02), 석사 (2013.02)</p><p><b>박사 논문:</b> 3D 원형 브레이딩 공정에서 맨드릴 제어를 위한 로봇 OLP 시스템 설계</p><p><b>석사 논문:</b> 점군집 데이터에 의한 3차원 형상 모델의 복합적 특징형상 패턴 인식 연구</p><p><b>소속:</b> (주)옵티머스시스템</p></div></article>",
+        "text": "PHOTO 한정호 산업공학 박사 (2019.02), 석사 (2013.02) 박사 논문: 3D 원형 브레이딩 공정에서 맨드릴 제어를 위한 로봇 OLP 시스템 설계 석사 논문: 점군집 데이터에 의한 3차원 형상 모델의 복합적 특징형상 패턴 인식 연구 소속: (주)옵티머스시스템"
+      },
+      {
+        "position": 18,
+        "sha256": "0e8bd6a9eb07190fa5c78fa096b3b2ad3f65b619a4c2448c3ac7b854081fd210",
+        "html": "<article class=\"card\"><div class=\"portrait\" aria-label=\"Photo space for 여인웅\"><span>PHOTO</span></div><div class=\"info\"><h3>여인웅</h3><p class=\"degree\">산업공학 석사 (2019.02)</p><p><b>석사 논문:</b> 5축 기상측정을 위한 NURBS 곡면 기반의 특징정보 인식 및 측정경로 생성 시스템 개발</p><p><b>소속:</b> 건솔루션(주)</p></div></article>",
+        "text": "PHOTO 여인웅 산업공학 석사 (2019.02) 석사 논문: 5축 기상측정을 위한 NURBS 곡면 기반의 특징정보 인식 및 측정경로 생성 시스템 개발 소속: 건솔루션(주)"
+      },
+      {
+        "position": 19,
+        "sha256": "fc973c92c32470e583c6eb2c48affcf571607c8a6cd73d10ef69cd54610295a3",
+        "html": "<article class=\"card\"><div class=\"portrait\" aria-label=\"Photo space for 이진원\"><span>PHOTO</span></div><div class=\"info\"><h3>이진원</h3><p class=\"degree\">산업공학 박사 (2019.08), 석사 (2014.02)</p><p><b>박사 논문:</b> 포인트 클라우드 분류를 위한 이웃 연결성 합성곱 신경망</p><p><b>석사 논문:</b> 실시간 휴먼 시뮬레이션을 위한 마커리스 카메라 기반의 자세 판별 및 모션 보간</p><p><b>소속:</b> 강릉원주대학교 산업경영공학과</p></div></article>",
+        "text": "PHOTO 이진원 산업공학 박사 (2019.08), 석사 (2014.02) 박사 논문: 포인트 클라우드 분류를 위한 이웃 연결성 합성곱 신경망 석사 논문: 실시간 휴먼 시뮬레이션을 위한 마커리스 카메라 기반의 자세 판별 및 모션 보간 소속: 강릉원주대학교 산업경영공학과"
+      },
+      {
+        "position": 20,
+        "sha256": "4f45709c5c7cd2baaf7a82577c5c33a461646009e313a4d3ef7e4aa6d4cc1547",
+        "html": "<article class=\"card\"><div class=\"portrait\" aria-label=\"Photo space for 김도연\"><span>PHOTO</span></div><div class=\"info\"><h3>김도연</h3><p class=\"degree\">산업공학 석사 (2019.08)</p><p><b>석사 논문:</b> 3D 기하 프리미티브 재생성을 위한 영역확장 방식의 효과적인 메쉬 분할</p><p><b>소속:</b> 사이버 로지텍</p></div></article>",
+        "text": "PHOTO 김도연 산업공학 석사 (2019.08) 석사 논문: 3D 기하 프리미티브 재생성을 위한 영역확장 방식의 효과적인 메쉬 분할 소속: 사이버 로지텍"
+      },
+      {
+        "position": 21,
+        "sha256": "bbfb10408ea4aaf98dc30ee03d33971c2d2cb37afb4b40748183910466d20e9c",
+        "html": "<article class=\"card\"><div class=\"portrait\" aria-label=\"Photo space for 나건열\"><span>PHOTO</span></div><div class=\"info\"><h3>나건열</h3><p class=\"degree\">산업공학 박사 (2022.08), 석사 (2018.02)</p><p><b>박사 논문:</b> 선박부재의 네스팅에서 페어링을 위한 2차원 폴리곤 분류 및 쌍별 클러스터링</p><p><b>석사 논문:</b> 유방재건술 계획을 위한 유한요소해석 기반 유방 형상 변형 시스템 개발</p><p><b>소속:</b> 한국과학기술연구원(KIST) 인공지능연구단</p></div></article>",
+        "text": "PHOTO 나건열 산업공학 박사 (2022.08), 석사 (2018.02) 박사 논문: 선박부재의 네스팅에서 페어링을 위한 2차원 폴리곤 분류 및 쌍별 클러스터링 석사 논문: 유방재건술 계획을 위한 유한요소해석 기반 유방 형상 변형 시스템 개발 소속: 한국과학기술연구원(KIST) 인공지능연구단"
+      },
+      {
+        "position": 22,
+        "sha256": "4a894004e155cfbf5e2874ad5a0dddb3853ddbdb6eb4dd4e6633fc583fa882a6",
+        "html": "<article class=\"card\"><div class=\"portrait\" aria-label=\"Photo space for 양광빈\"><span>PHOTO</span></div><div class=\"info\"><h3>양광빈</h3><p class=\"degree\">산업공학 석사 (2022.08)</p><p><b>석사 논문:</b> MRI 영상에서의 유방 조직 다중 분할을 위한 Haar Wavelet Pooling 기반 컨볼루션 신경망</p><p><b>소속:</b> 삼성전자 메모리사업부</p></div></article>",
+        "text": "PHOTO 양광빈 산업공학 석사 (2022.08) 석사 논문: MRI 영상에서의 유방 조직 다중 분할을 위한 Haar Wavelet Pooling 기반 컨볼루션 신경망 소속: 삼성전자 메모리사업부"
+      },
+      {
+        "position": 23,
+        "sha256": "6eb9c60c7cf8526d4e38d0db8eab47bf27d3d77326034a26c3dc540537a34014",
+        "html": "<article class=\"card\"><div class=\"portrait\" aria-label=\"Photo space for 유재홍\"><span>PHOTO</span></div><div class=\"info\"><h3>유재홍</h3><p class=\"degree\">산업공학 석사 (2023.08)</p><p><b>석사 논문:</b> 선박 CAD 모델과 VR 메쉬 모델 사이의 데이터 변환을 위한 B-Rep 형상 간략화</p><p><b>소속:</b> 한국과학기술연구원(KIST)</p></div></article>",
+        "text": "PHOTO 유재홍 산업공학 석사 (2023.08) 석사 논문: 선박 CAD 모델과 VR 메쉬 모델 사이의 데이터 변환을 위한 B-Rep 형상 간략화 소속: 한국과학기술연구원(KIST)"
+      },
+      {
+        "position": 24,
+        "sha256": "f95fcd0466e359d6b6ff290080e7261b64786e81a56b7c9747fbc10c0deb0482",
+        "html": "<article class=\"card\"><div class=\"portrait\" aria-label=\"Photo space for 김남기\"><span>PHOTO</span></div><div class=\"info\"><h3>김남기</h3><p class=\"degree\">산업공학 박사 (2024.08)</p><p><b>박사 논문:</b> 자동화 제조 공정에서의 이상 탐지를 위한 그래프 구조 데이터 생성 및 분석</p><p><b>소속:</b> 경동나비엔</p></div></article>",
+        "text": "PHOTO 김남기 산업공학 박사 (2024.08) 박사 논문: 자동화 제조 공정에서의 이상 탐지를 위한 그래프 구조 데이터 생성 및 분석 소속: 경동나비엔"
+      },
+      {
+        "position": 25,
+        "sha256": "52c982d4403fc0dab7a765c79c4f83378796d5a77d4e04b7b5f9fe41edc2501e",
+        "html": "<article class=\"card\"><div class=\"portrait\" aria-label=\"Photo space for 오소향\"><span>PHOTO</span></div><div class=\"info\"><h3>오소향</h3><p class=\"degree\">산업공학 석사 (2024.08)</p><p><b>석사 논문:</b> 제어 로직과 온도 데이터를 활용한 CNN Autoencoder 기반 공정 분석</p><p><b>소속:</b> 유디엠텍</p></div></article>",
+        "text": "PHOTO 오소향 산업공학 석사 (2024.08) 석사 논문: 제어 로직과 온도 데이터를 활용한 CNN Autoencoder 기반 공정 분석 소속: 유디엠텍"
+      },
+      {
+        "position": 26,
+        "sha256": "8e95c59ee1948b912eeb7cc30b0d30498a2b8e855df84e2e7a5b53cb4d0b43c5",
+        "html": "<article class=\"card\"><div class=\"portrait\" aria-label=\"Photo space for 조현곤\"><span>PHOTO</span></div><div class=\"info\"><h3>조현곤</h3><p class=\"degree\">산업공학 석사 (2024.08)</p><p><b>석사 논문:</b> 차량 서스펜션의 최적 설계에서 사양관리와 부품 공용화를 위한 CAD 템플릿 및 부품 라이브러리 구축</p><p><b>소속:</b> HL만도</p></div></article>",
+        "text": "PHOTO 조현곤 산업공학 석사 (2024.08) 석사 논문: 차량 서스펜션의 최적 설계에서 사양관리와 부품 공용화를 위한 CAD 템플릿 및 부품 라이브러리 구축 소속: HL만도"
+      },
+      {
+        "position": 27,
+        "sha256": "1e92767d4b8b71ee7277d49e408b4d60676c02c746021350deaa510c1b920b42",
+        "html": "<article class=\"card\"><div class=\"portrait\" aria-label=\"Photo space for GAO XINPU\"><span>PHOTO</span></div><div class=\"info\"><h3>GAO XINPU</h3><p class=\"degree\">산업공학 박사 (2026.08)</p><p><b>박사 논문:</b> 제어 공정에서 알람 사전 예측을 위한 GSP 기반 알람 시퀀스 패턴 분석에 관한 연구</p><p><b>석사 논문:</b> 가상현실 환경에서 산업용 로봇의 협업을 위한 다중 참여자의 상호작용 프레임워크 설계</p><p><b>소속:</b> 아주대학교 소프트웨어학과</p></div></article>",
+        "text": "PHOTO GAO XINPU 산업공학 박사 (2026.08) 박사 논문: 제어 공정에서 알람 사전 예측을 위한 GSP 기반 알람 시퀀스 패턴 분석에 관한 연구 석사 논문: 가상현실 환경에서 산업용 로봇의 협업을 위한 다중 참여자의 상호작용 프레임워크 설계 소속: 아주대학교 소프트웨어학과"
+      }
+    ],
+    "people/members.html": [
+      {
+        "position": 1,
+        "sha256": "733776a5b539937a1fafc0a6d3b18d1295b4b50da2899853605f89d834a4879e",
+        "html": "<article class=\"card\"><h3>송인호</h3><p class=\"role\">전임연구원（旧网站记录）</p><p class=\"email\"><a href=\"mailto:songphd@gmail.com\">songphd@gmail.com</a></p><span class=\"tag\">현재 재적 여부 확인 필요</span></article>",
+        "text": "송인호 전임연구원（旧网站记录） songphd@gmail.com 현재 재적 여부 확인 필요"
+      },
+      {
+        "position": 2,
+        "sha256": "b4e3c2beba7731a8b6e6fe4cd69fdb53416452a76112215fb4e577ec3078c365",
+        "html": "<article class=\"card\"><h3>김영준</h3><p class=\"role\">석·박 통합과정 (수료)（旧网站记录）</p><p class=\"email\"><a href=\"mailto:yjk4004@ajou.ac.kr\">yjk4004@ajou.ac.kr</a></p><span class=\"tag\">현재 재적 여부 확인 필요</span></article>",
+        "text": "김영준 석·박 통합과정 (수료)（旧网站记录） yjk4004@ajou.ac.kr 현재 재적 여부 확인 필요"
+      },
+      {
+        "position": 3,
+        "sha256": "f9b0045db1661c3a082cce4595a1b25a44a0b2b06576be91b711f2ad97be5440",
+        "html": "<article class=\"card\"><h3>여인웅</h3><p class=\"role\">박사과정 (수료)（旧网站记录）</p><p class=\"email\"><a href=\"mailto:yiw@gunsol.com\">yiw@gunsol.com</a></p><span class=\"tag\">현재 재적 여부 확인 필요</span></article>",
+        "text": "여인웅 박사과정 (수료)（旧网站记录） yiw@gunsol.com 현재 재적 여부 확인 필요"
+      }
+    ],
+    "people/professor.html": [
+      {
+        "position": 1,
+        "sha256": "27730ec91e23dc559497c3040c9ec5b3c412f3cb461a91db3783fe172df30356",
+        "html": "<section class=\"intro\">\n  <img class=\"professor-photo\" src=\"../assets/professor-yang.jpg\" alt=\"Professor Jeongsam Yang\" width=\"193\" height=\"230\">\n  <div class=\"professor-info\">\n    <h2>양정삼 <small>(楊正三, Jeongsam YANG)</small></h2>\n    <p>산업공학과 교수 · Ajou University</p>\n    <p><strong>연구실:</strong> 팔달관 817호</p>\n    <p><strong>전화:</strong> <a href=\"tel:+82312191879\">031-219-1879</a></p>\n    <p><strong>이메일:</strong> <a href=\"mailto:jyang@ajou.ac.kr\">jyang@ajou.ac.kr</a></p>\n  </div>\n</section>",
+        "text": "양정삼 (楊正三, Jeongsam YANG) 산업공학과 교수 · Ajou University 연구실: 팔달관 817호 전화: 031-219-1879 이메일: jyang@ajou.ac.kr"
+      },
+      {
+        "position": 2,
+        "sha256": "0d2f0b91c34148108a96d77f72e125f590852c20fe56398e949de5f88907c8bb",
+        "html": "<dl class=\"entries\">\n<div class=\"entry\"><dt>2004.08</dt><dd>한국과학기술원(KAIST) 기계공학 박사</dd></div>\n<div class=\"entry\"><dt>1997.02</dt><dd>한국과학기술원(KAIST) 기계공학 석사</dd></div>\n</dl>",
+        "text": "2004.08 한국과학기술원(KAIST) 기계공학 박사 1997.02 한국과학기술원(KAIST) 기계공학 석사"
+      },
+      {
+        "position": 3,
+        "sha256": "07a569192c2a4536b84e43a4d0cc86b72686944a7930edf1cb60caf13a2fa4d7",
+        "html": "<dl class=\"entries\">\n<div class=\"entry\"><dt>2015.03– 현재</dt><dd>아주대학교 교수</dd></div>\n<div class=\"entry\"><dt>2010.03–2015.02</dt><dd>아주대학교 부교수</dd></div>\n<div class=\"entry\"><dt>2006.03–2010.02</dt><dd>아주대학교 조교수</dd></div>\n<div class=\"entry\"><dt>2007.01– 현재</dt><dd>국립기술표준원 산업표준심의회 구조 및 통신 전문위원회 위원</dd></div>\n<div class=\"entry\"><dt>2011.12–2013.02</dt><dd>Carnegie Mellon University (US), Visiting Scholar</dd></div>\n<div class=\"entry\"><dt>2005.03–2006.02</dt><dd>University of Wisconsin–Madison (US), Postdoctoral Associate</dd></div>\n<div class=\"entry\"><dt>2002.02–2005.02</dt><dd>㈜부품디비 책임연구원</dd></div>\n<div class=\"entry\"><dt>2002.04–2002.12</dt><dd>Clausthal University of Technology (Germany), Visiting Researcher</dd></div>\n<div class=\"entry\"><dt>1997.02–2000.02</dt><dd>고등기술연구원</dd></div>\n<div class=\"entry\"><dt>1993.09–1996.12</dt><dd>한국전력 일산복합화력발전소</dd></div>\n</dl>",
+        "text": "2015.03– 현재 아주대학교 교수 2010.03–2015.02 아주대학교 부교수 2006.03–2010.02 아주대학교 조교수 2007.01– 현재 국립기술표준원 산업표준심의회 구조 및 통신 전문위원회 위원 2011.12–2013.02 Carnegie Mellon University (US), Visiting Scholar 2005.03–2006.02 University of Wisconsin–Madison (US), Postdoctoral Associate 2002.02–2005.02 ㈜부품디비 책임연구원 2002.04–2002.12 Clausthal University of Technology (Germany), Visiting Researcher 1997.02–2000.02 고등기술연구원 1993.09–1996.12 한국전력 일산복합화력발전소"
+      },
+      {
+        "position": 4,
+        "sha256": "908f66e620065636b2829578b6cf85b304a5d2db794d07be482e9ddb40163e64",
+        "html": "<dl class=\"entries\">\n<div class=\"entry\"><dt>Computational Geometry</dt><dd>컴퓨터 기하학</dd></div>\n<div class=\"entry\"><dt>Graphics & Geometry Modeling</dt><dd>그래픽스 및 형상 모델링</dd></div>\n<div class=\"entry\"><dt>Numerical Analysis / Manufacturing</dt><dd>수치해석 및 가공</dd></div>\n<div class=\"entry\"><dt>VR Application in Engineering Design</dt><dd>공학 설계를 위한 가상현실</dd></div>\n<div class=\"entry\"><dt>Knowledge-based Design System</dt><dd>지식 기반 설계 시스템</dd></div>\n<div class=\"entry\"><dt>Product Lifecycle Management</dt><dd>제품 라이프사이클 관리 (PLM)</dd></div>\n</dl>",
+        "text": "Computational Geometry 컴퓨터 기하학 Graphics & Geometry Modeling 그래픽스 및 형상 모델링 Numerical Analysis / Manufacturing 수치해석 및 가공 VR Application in Engineering Design 공학 설계를 위한 가상현실 Knowledge-based Design System 지식 기반 설계 시스템 Product Lifecycle Management 제품 라이프사이클 관리 (PLM)"
+      }
+    ],
+    "publications/international.html": [
+      {
+        "position": 1,
+        "sha256": "7ff8e43a980c7d309d9bd1bf2f76a389f56eafc9c03e491a11dc251c8cb0dd57",
+        "html": "<li>Xinpu Gao, Namki Kim, Jeongsam Yang*, “Alarm sequence pattern analysis techniques for alarm prediction in automated manufacturing processes”, Journal of Mechanical Science and Technology, Vol. 40, No. 2, pp. 1393–1402, February 2026.</li>",
+        "text": "Xinpu Gao, Namki Kim, Jeongsam Yang*, “Alarm sequence pattern analysis techniques for alarm prediction in automated manufacturing processes”, Journal of Mechanical Science and Technology, Vol. 40, No. 2, pp. 1393–1402, February 2026."
+      },
+      {
+        "position": 2,
+        "sha256": "a1ad2ee3851c2dee72631e9ffc5b4415add37e38ad0f5d13cbe682dbdb4eb726",
+        "html": "<li>Namki Kim, Xinpu Gao, Jeongsam Yang*, “Graph-structured data generation and analysis for anomaly detection in an automated manufacturing process”, Journal of Mechanical Science and Technology, Vol. 38, No. 10, pp. 5617–5625, October 2024.</li>",
+        "text": "Namki Kim, Xinpu Gao, Jeongsam Yang*, “Graph-structured data generation and analysis for anomaly detection in an automated manufacturing process”, Journal of Mechanical Science and Technology, Vol. 38, No. 10, pp. 5617–5625, October 2024."
+      },
+      {
+        "position": 3,
+        "sha256": "aab4cca1be2384bc34beebeee9b79b17b542e6bf01efd083749e974f4256ae29",
+        "html": "<li>Gun-Yeol Na and Jeongsam Yang, “Two-Dimensional Polygon Classification and Pairwise Clustering for Pairing in Ship Parts Nesting”, Journal of Intelligent Manufacturing (online published in August 2023).</li>",
+        "text": "Gun-Yeol Na and Jeongsam Yang, “Two-Dimensional Polygon Classification and Pairwise Clustering for Pairing in Ship Parts Nesting”, Journal of Intelligent Manufacturing (online published in August 2023)."
+      },
+      {
+        "position": 4,
+        "sha256": "7a5b55f7a7dbeffdcca410257db57f1e04794b03e784f537fa924daee4d997c3",
+        "html": "<li>Kwang Bin Yang, Jinwon Lee and Jeongsam Yang, “Multi-Class Semantic Segmentation of Breast Tissues from MRI Images Using U-Net Based on Haar Wavelet Pooling”, Nature Scientific Reports, Vol. 13, No. 11704, 2023.</li>",
+        "text": "Kwang Bin Yang, Jinwon Lee and Jeongsam Yang, “Multi-Class Semantic Segmentation of Breast Tissues from MRI Images Using U-Net Based on Haar Wavelet Pooling”, Nature Scientific Reports, Vol. 13, No. 11704, 2023."
+      },
+      {
+        "position": 5,
+        "sha256": "32ee07d1d5a5b02c13b5f0b14a7ea2983f2bdcb368f489c0d276450746e7decd",
+        "html": "<li>Young-Hwan Choi and Jeongsam Yang, “Machine learning iterative filtering algorithm for field defect detection in the process stage”, Computers in Industry, Vol. 142, No. 103740, 2022.</li>",
+        "text": "Young-Hwan Choi and Jeongsam Yang, “Machine learning iterative filtering algorithm for field defect detection in the process stage”, Computers in Industry, Vol. 142, No. 103740, 2022."
+      },
+      {
+        "position": 6,
+        "sha256": "43f03dbd21ad72f6c8ef7d018bedd5c6167d7ec1ac0371b5dbe9c24b21bf0e97",
+        "html": "<li>Jeongho Han, Jinwon Lee and Jeongsam Yang, “Development of a robot OLP system for the continuous motion control of a mandrel in the radial braiding process”, Journal of Mechanical Science and Technology, Vol. 36, No. 6, pp. 3109–3117, 2022.</li>",
+        "text": "Jeongho Han, Jinwon Lee and Jeongsam Yang, “Development of a robot OLP system for the continuous motion control of a mandrel in the radial braiding process”, Journal of Mechanical Science and Technology, Vol. 36, No. 6, pp. 3109–3117, 2022."
+      },
+      {
+        "position": 7,
+        "sha256": "6be5851681faeb59842574158f6af0055a09f9dc2d056714d567470af5da8012",
+        "html": "<li>Young-Hwan Choi, Jinwon Lee, and Jeongsam Yang, “Development of a service parts recommendation system using clustering and classification of machine learning”, Expert Systems With Applications, Vol. 188, No. 116084, 2022.</li>",
+        "text": "Young-Hwan Choi, Jinwon Lee, and Jeongsam Yang, “Development of a service parts recommendation system using clustering and classification of machine learning”, Expert Systems With Applications, Vol. 188, No. 116084, 2022."
+      },
+      {
+        "position": 8,
+        "sha256": "a0980e56afa97c14eda8568a96eb64acdc91c20f04d2b352ad8b7264748f9225",
+        "html": "<li>Jinwon Lee, Sang-Uk Cheon, and Jeongsam Yang, “Connectivity-based convolutional neural network for classifying point clouds”, Pattern Recognition, Vol. 112, No. 107708, 2021.</li>",
+        "text": "Jinwon Lee, Sang-Uk Cheon, and Jeongsam Yang, “Connectivity-based convolutional neural network for classifying point clouds”, Pattern Recognition, Vol. 112, No. 107708, 2021."
+      },
+      {
+        "position": 9,
+        "sha256": "a6ab6872a44874893d0b057517b6adcaa3358762b25a15d7a93b0be86a8b149b",
+        "html": "<li>Gun-Yeol Na, Jeongsam Yang, Duhwan Mun, and Sanguk Cheon, “Reconstruction of primitive-shaped pipeelbows from a triangular mesh in ship outfitting model”, Journal of Mechanical Science and Technology, Vol. 35, No. 12, pp. 5551–5560, 2021.</li>",
+        "text": "Gun-Yeol Na, Jeongsam Yang, Duhwan Mun, and Sanguk Cheon, “Reconstruction of primitive-shaped pipeelbows from a triangular mesh in ship outfitting model”, Journal of Mechanical Science and Technology, Vol. 35, No. 12, pp. 5551–5560, 2021."
+      },
+      {
+        "position": 10,
+        "sha256": "5e2ff27da16b2b2b505f4e58d298b5793c61727e8492f8b9f21cd5544b5efe4d",
+        "html": "<li>Young-Hwan Choi, Gun-Yeol Na, and Jeongsam Yang, “Fuzzy-inference-based decision-making method for the systematization of statistical process capability control”, Computers in Industry, Vol. 123, No. 103296, 2020.</li>",
+        "text": "Young-Hwan Choi, Gun-Yeol Na, and Jeongsam Yang, “Fuzzy-inference-based decision-making method for the systematization of statistical process capability control”, Computers in Industry, Vol. 123, No. 103296, 2020."
+      },
+      {
+        "position": 11,
+        "sha256": "025ef043f04437f93a10ec920ac2fd5a3c937fe039d3b6e107f7d99848c9b183",
+        "html": "<li>Inwoong Yeo, Inho Song, Sang-Uk Cheon and Jeongsam Yang, “Development of a feature-recognition and measurement path generation system based on NURBS surfaces for 5-axis on-machine measurement”, Journal of Mechanical Science and Technology, Vol. 33, No. 7, pp. 3445–3455, 2019.</li>",
+        "text": "Inwoong Yeo, Inho Song, Sang-Uk Cheon and Jeongsam Yang, “Development of a feature-recognition and measurement path generation system based on NURBS surfaces for 5-axis on-machine measurement”, Journal of Mechanical Science and Technology, Vol. 33, No. 7, pp. 3445–3455, 2019."
+      },
+      {
+        "position": 12,
+        "sha256": "c769b2bee89b7db920622b11c6e034544728c121dcd70e0af34f34c5d939a92d",
+        "html": "<li>Gun-Yeol Na, Jeongsam Yang and Sungwoo Cho, “Development of a 3D breast shape generation and deformation system for breast implant fabrication”, Journal of Mechanical Science and Technology, Vol. 33, No. 3, pp. 1293–1303, 2019.</li>",
+        "text": "Gun-Yeol Na, Jeongsam Yang and Sungwoo Cho, “Development of a 3D breast shape generation and deformation system for breast implant fabrication”, Journal of Mechanical Science and Technology, Vol. 33, No. 3, pp. 1293–1303, 2019."
+      },
+      {
+        "position": 13,
+        "sha256": "aaa8a4cea3b65e0eef4f24d66e4eaa3c01c8546f98fee39a598e191d010f040e",
+        "html": "<li>Jinwon Lee, Hyeong-Gyu Lee and Jeongsam Yang, “A rasterization method for generating exposure pattern images in optical maskless lithography”, Journal of Mechanical Science and Technology, Vol. 32, No. 5, pp. 2209–2218, 2018.</li>",
+        "text": "Jinwon Lee, Hyeong-Gyu Lee and Jeongsam Yang, “A rasterization method for generating exposure pattern images in optical maskless lithography”, Journal of Mechanical Science and Technology, Vol. 32, No. 5, pp. 2209–2218, 2018."
+      },
+      {
+        "position": 14,
+        "sha256": "c5de3e700e9470172a352a979d7ca4be3b2ee98d7e4302f478f2f278b6c9b252",
+        "html": "<li>Sungyol Song and Jeongsam Yang, “Configurable component framework supporting motion platform-based VR simulators”, Journal of Mechanical Science and Technology, Vol. 31, No. 6, pp. 2985–2996, 2017.</li>",
+        "text": "Sungyol Song and Jeongsam Yang, “Configurable component framework supporting motion platform-based VR simulators”, Journal of Mechanical Science and Technology, Vol. 31, No. 6, pp. 2985–2996, 2017."
+      },
+      {
+        "position": 15,
+        "sha256": "592be0cc445ece7e4d92eb3ac97006f3bc0ef25d3e9544365d1e6d3dbe11144e",
+        "html": "<li>Hyesung Jeon, Jinwon Lee and Jeongsam Yang, “A touch-probe path generation method through similarity analysis between the feature vectors in new and old models”, Journal of Mechanical Science and Technology, Vol. 30, No. 10, pp. 4705–4716, 2016.</li>",
+        "text": "Hyesung Jeon, Jinwon Lee and Jeongsam Yang, “A touch-probe path generation method through similarity analysis between the feature vectors in new and old models”, Journal of Mechanical Science and Technology, Vol. 30, No. 10, pp. 4705–4716, 2016."
+      },
+      {
+        "position": 16,
+        "sha256": "d8895fa42ee45f7372da92e9c0b8f0112ac74b22a7981f400f9d90d11c08b9cc",
+        "html": "<li>Daeseung Cho, Jeongho Han and Jeongsam Yang, “Sandglass-type product specification management method for supporting modular design of semiconductor manufacturing equipment”, Journal of Mechanical Science and Technology, Vol. 30, No. 5, pp. 2243–2256, 2016.</li>",
+        "text": "Daeseung Cho, Jeongho Han and Jeongsam Yang, “Sandglass-type product specification management method for supporting modular design of semiconductor manufacturing equipment”, Journal of Mechanical Science and Technology, Vol. 30, No. 5, pp. 2243–2256, 2016."
+      },
+      {
+        "position": 17,
+        "sha256": "50a537ea7a4597ff3cfe19df58ff64102bb698315c38d0a0ba36c16627a81861",
+        "html": "<li>Jeongsu Oh, Sehee Lee and Jeongsam Yang, “A collaboration model for new product development through the integration of PLM and SCM in the electronics industry”, Computers In Industry, Vol. 73, No. 1, pp. 82–92, 2015.</li>",
+        "text": "Jeongsu Oh, Sehee Lee and Jeongsam Yang, “A collaboration model for new product development through the integration of PLM and SCM in the electronics industry”, Computers In Industry, Vol. 73, No. 1, pp. 82–92, 2015."
+      },
+      {
+        "position": 18,
+        "sha256": "75998276c235aebc378db93d6337a3c3a3643b4cd889b39641847ed49fa5f03b",
+        "html": "<li>Sehee Lee, Sang Uk Cheon, and Jeongsam Yang, “Development of a fuzzy rule-based decision-making system for evaluating the lifetime of a rubber fender”, Quality and Reliability Engineering International, Vol. 31, No. 5, pp. 811–828, 2015.</li>",
+        "text": "Sehee Lee, Sang Uk Cheon, and Jeongsam Yang, “Development of a fuzzy rule-based decision-making system for evaluating the lifetime of a rubber fender”, Quality and Reliability Engineering International, Vol. 31, No. 5, pp. 811–828, 2015."
+      },
+      {
+        "position": 19,
+        "sha256": "3ca8e7234f7706580eff17fa498ce3f906a7d5ed23d7bf1fd164503baa520f1a",
+        "html": "<li>Hyosun You and Jeongsam Yang, “Development of an analysis system for geometric contour error evaluation in ultra-precision machining for microlens arrays”, Journal of Mechanical Science and Technology, Vol. 28, No. 10, pp. 4121–4129, 2014.</li>",
+        "text": "Hyosun You and Jeongsam Yang, “Development of an analysis system for geometric contour error evaluation in ultra-precision machining for microlens arrays”, Journal of Mechanical Science and Technology, Vol. 28, No. 10, pp. 4121–4129, 2014."
+      },
+      {
+        "position": 20,
+        "sha256": "3506140853be9b5019e72f50fb64fd97e079d5008ed3db2d689ffb993636f7c1",
+        "html": "<li>Jeongsu Oh, Jungho Han and Jeongsam Yang, “A fuzzy-based decision-making method for evaluating product discontinuity at the product transition point”, Computers In Industry, Vol. 65, No. 4, pp. 746–760, 2014.</li>",
+        "text": "Jeongsu Oh, Jungho Han and Jeongsam Yang, “A fuzzy-based decision-making method for evaluating product discontinuity at the product transition point”, Computers In Industry, Vol. 65, No. 4, pp. 746–760, 2014."
+      },
+      {
+        "position": 21,
+        "sha256": "b8bf12b5a29224477e0c542ad901b6a06605017ffa9975a0373ad0f376dc1fa5",
+        "html": "<li>In-Ho Song, Kenji Shimada, and Jeongsam Yang, “Development of a sketch-based 3-D modeling system for rapid generation and evaluation of automotive seat shape using a reference model”, ASME Journal of Mechanical Design, Vol. 136, No. 5, pp. 051001-1–051001-12, 2014.</li>",
+        "text": "In-Ho Song, Kenji Shimada, and Jeongsam Yang, “Development of a sketch-based 3-D modeling system for rapid generation and evaluation of automotive seat shape using a reference model”, ASME Journal of Mechanical Design, Vol. 136, No. 5, pp. 051001-1–051001-12, 2014."
+      },
+      {
+        "position": 22,
+        "sha256": "2ca94c19074071c1058610317913d965bc6ef4c0fbba5d95fb816a1e72827af2",
+        "html": "<li>Zhe Yang, Sang Uk Cheon, and Jeongsam Yang, “A kinematic calibration method of a 3-DOF secondary mirror of the giant magellan telescope based on least square algorithm”, Journal of Mechanical Science and Technology, Vol. 27, No. 12, pp. 3779–3786, 2013.</li>",
+        "text": "Zhe Yang, Sang Uk Cheon, and Jeongsam Yang, “A kinematic calibration method of a 3-DOF secondary mirror of the giant magellan telescope based on least square algorithm”, Journal of Mechanical Science and Technology, Vol. 27, No. 12, pp. 3779–3786, 2013."
+      },
+      {
+        "position": 23,
+        "sha256": "b6009dc68f54d3f39b4d53363a6cb7a9e8617e1577a460bd11632e144134b1dc",
+        "html": "<li>Sehee Lee, Jeongsam Yang and Jungho Han, “Development of a decision making system for selection of dental implant abutments based on the fuzzy cognitive map”, Expert Systems with Applications, Vol. 39, No. 14, pp. 11564–11575, 2012.</li>",
+        "text": "Sehee Lee, Jeongsam Yang and Jungho Han, “Development of a decision making system for selection of dental implant abutments based on the fuzzy cognitive map”, Expert Systems with Applications, Vol. 39, No. 14, pp. 11564–11575, 2012."
+      },
+      {
+        "position": 24,
+        "sha256": "4c9babcf572c7f2aaf0056035ddb4fc72104c44cbf526890acfc51ae2d06440f",
+        "html": "<li>Sungyol Song, Jeongsam Yang and Namhyuk Kim, “Development of a BIM-based structural framework optimization and simulation system for building construction”, Computers In Industry, Vol. 63, No. 9, pp. 895–912, 2012.</li>",
+        "text": "Sungyol Song, Jeongsam Yang and Namhyuk Kim, “Development of a BIM-based structural framework optimization and simulation system for building construction”, Computers In Industry, Vol. 63, No. 9, pp. 895–912, 2012."
+      },
+      {
+        "position": 25,
+        "sha256": "1829ff54ec7855b17eeafd6eb7b11c897e7a5d9958a8134737b3c8b4e4e39ce7",
+        "html": "<li>Jeongsu Oh, Jeongsam Yang and Sungjoo Lee, “Managing uncertainty to improve decision-making in NPD portfolio management with a fuzzy expert system”, Expert Systems with Applications, Vol. 39, No. 10, pp. 9868–9885, 2012.</li>",
+        "text": "Jeongsu Oh, Jeongsam Yang and Sungjoo Lee, “Managing uncertainty to improve decision-making in NPD portfolio management with a fuzzy expert system”, Expert Systems with Applications, Vol. 39, No. 10, pp. 9868–9885, 2012."
+      },
+      {
+        "position": 26,
+        "sha256": "6a955b049d6c19df1daa1640ea95bcff666bad737e71a05aadcc602c17d4d8d3",
+        "html": "<li>In-Ho Song and Jeongsam Yang, “A scene graph based visualization method for representing continuous simulation data”, Computers In Industry, Vol. 62, No. 3, pp. 301–310, 2011.</li>",
+        "text": "In-Ho Song and Jeongsam Yang, “A scene graph based visualization method for representing continuous simulation data”, Computers In Industry, Vol. 62, No. 3, pp. 301–310, 2011."
+      },
+      {
+        "position": 27,
+        "sha256": "7d1a0e6b89dfaac18746335ad73eb6daeca8ce73628e5f1f40324d97d3134f69",
+        "html": "<li>Sehee Lee, Jeongsam Yang and Gwangsub Kim, “Establishment of an effective product liability prevention plan by analyzing product liability cases”, Quality and Reliability Engineering International, Vol. 27, No. 4, pp. 581–593, 2011.</li>",
+        "text": "Sehee Lee, Jeongsam Yang and Gwangsub Kim, “Establishment of an effective product liability prevention plan by analyzing product liability cases”, Quality and Reliability Engineering International, Vol. 27, No. 4, pp. 581–593, 2011."
+      },
+      {
+        "position": 28,
+        "sha256": "193f7ac18052300586717e2dabd24cae96c81928c4378c84c58c900e90e47b97",
+        "html": "<li>Jonghwan Lee, Soonhung Han and Jeongsam Yang, “Construction of a computer-simulated mixed reality environment for virtual factory layout planning”, Computers In Industry, Vol. 62, No. 1, pp. 86–98, 2011.</li>",
+        "text": "Jonghwan Lee, Soonhung Han and Jeongsam Yang, “Construction of a computer-simulated mixed reality environment for virtual factory layout planning”, Computers In Industry, Vol. 62, No. 1, pp. 86–98, 2011."
+      },
+      {
+        "position": 29,
+        "sha256": "8466e1c6c6b69d14ebfc4893c723635b7f43dfd397650662c2c03bbfdad1dce9",
+        "html": "<li>Duhwan Mun and Jeongsam Yang, “An integrated translation of design data of a nuclear power plant from a specification-driven plant design system to neutral model data”, Annals of Nuclear Energy, Vol. 37, No. 3, pp. 389–397, 2010.</li>",
+        "text": "Duhwan Mun and Jeongsam Yang, “An integrated translation of design data of a nuclear power plant from a specification-driven plant design system to neutral model data”, Annals of Nuclear Energy, Vol. 37, No. 3, pp. 389–397, 2010."
+      },
+      {
+        "position": 30,
+        "sha256": "a27b76233ab433973573d7f778e33d44eaa918a78918ac52c97a44f4b1bac334",
+        "html": "<li>Haixia Wang, Jeongsam Yang and Dariusz J. Ceglarek, “A graph-based data structure for assembly dimensional variation control at a preliminary phase of product design”, International Journal of Computer Integrated Manufacturing, Vol. 22, No. 10, pp. 948–961, 2009.</li>",
+        "text": "Haixia Wang, Jeongsam Yang and Dariusz J. Ceglarek, “A graph-based data structure for assembly dimensional variation control at a preliminary phase of product design”, International Journal of Computer Integrated Manufacturing, Vol. 22, No. 10, pp. 948–961, 2009."
+      },
+      {
+        "position": 31,
+        "sha256": "a2b1b7b2f72562289b234222ecc3844fc6c33a11d873ffe404907da6481d1dbf",
+        "html": "<li>In-Ho Song, Jeongsam Yang, Hyunjei Jo and Sangsu Choi, “Development of a lightweight CAE middleware for CAE data exchange”, International Journal of Computer Integrated Manufacturing, Vol. 22, No. 9, pp. 823–835, 2009.</li>",
+        "text": "In-Ho Song, Jeongsam Yang, Hyunjei Jo and Sangsu Choi, “Development of a lightweight CAE middleware for CAE data exchange”, International Journal of Computer Integrated Manufacturing, Vol. 22, No. 9, pp. 823–835, 2009."
+      },
+      {
+        "position": 32,
+        "sha256": "d06206e1a02a290b349896532459bf66f90f9d49e88bb04fa438b7431cee6b60",
+        "html": "<li>Pilwon Hur, Jeongsam Yang, Soonhung Han and Byounghyun You, “An underwater vehicle simulator with immersive interface using X3D and HLA”, Simulation: Transactions of The Society for Modeling and Simulation International, Vol. 85, No. 1, pp. 33–44, 2009.</li>",
+        "text": "Pilwon Hur, Jeongsam Yang, Soonhung Han and Byounghyun You, “An underwater vehicle simulator with immersive interface using X3D and HLA”, Simulation: Transactions of The Society for Modeling and Simulation International, Vol. 85, No. 1, pp. 33–44, 2009."
+      },
+      {
+        "position": 33,
+        "sha256": "37250280497f215e7f355829494b8142af3824e1b5075829245e36722a2717ff",
+        "html": "<li>Jeongsam Yang, Soonhung Han, Matthias Grau and Duhwan Mun, “OpenPDM-based product data exchange among heterogeneous PDM systems in the distributed environment”, International Journal of Advanced Manufacturing Technology, Vol. 40, No. 9–10, pp. 1033–1043, 2009.</li>",
+        "text": "Jeongsam Yang, Soonhung Han, Matthias Grau and Duhwan Mun, “OpenPDM-based product data exchange among heterogeneous PDM systems in the distributed environment”, International Journal of Advanced Manufacturing Technology, Vol. 40, No. 9–10, pp. 1033–1043, 2009."
+      },
+      {
+        "position": 34,
+        "sha256": "7c96181a8aeb9452a7a8821febd681830170624ca338cf1d95f061c9796f40e5",
+        "html": "<li>Moohyun Cha, Jeongsam Yang and Soonhung Han, “A hybrid driving simulator with dynamics-driven motion and data-driven motion”, Simulation: Transactions of The Society for Modeling and Simulation International, Vol. 84, No. 7, pp. 359–371, 2008.</li>",
+        "text": "Moohyun Cha, Jeongsam Yang and Soonhung Han, “A hybrid driving simulator with dynamics-driven motion and data-driven motion”, Simulation: Transactions of The Society for Modeling and Simulation International, Vol. 84, No. 7, pp. 359–371, 2008."
+      },
+      {
+        "position": 35,
+        "sha256": "24d35a47a36ad371e5cb0aff73ffec085bcc09c622e9362e893cb17d12949da9",
+        "html": "<li>In-Ho Song, Jeongsam Yang and Beom Park, “Development of an authoring framework for the simplified customization of PDM systems”, Journal of Mechanical Science and Technology, Vol. 22, No. 11, pp. 2180–2189, 2008.</li>",
+        "text": "In-Ho Song, Jeongsam Yang and Beom Park, “Development of an authoring framework for the simplified customization of PDM systems”, Journal of Mechanical Science and Technology, Vol. 22, No. 11, pp. 2180–2189, 2008."
+      },
+      {
+        "position": 36,
+        "sha256": "b68a3537f83c3297a27e580f5b4888f4c39292d8a72a954b9823f2d159dd3a38",
+        "html": "<li>Moohyun Cha, Jeongsam Yang and Soonhung Han, “An interactive data-driven driving simulator using motion blending”, Computers In Industry, Vol. 59, No. 5, pp. 520–531, 2008.</li>",
+        "text": "Moohyun Cha, Jeongsam Yang and Soonhung Han, “An interactive data-driven driving simulator using motion blending”, Computers In Industry, Vol. 59, No. 5, pp. 520–531, 2008."
+      },
+      {
+        "position": 37,
+        "sha256": "2e59aec74327b94a56508e87ee7b53aa273be622d0e9fe3afd3ad5adf7eeec6d",
+        "html": "<li>Duhwan Mun, Jinsang Hwang, Soonhung Han, Hiroshi Seki and Jeongsam Yang, “Sharing product data of nuclear power plants across their lifecycles by utilizing a neutral model”, Annals of Nuclear Energy, Vol. 35, No. 2, pp. 175–186, 2008.</li>",
+        "text": "Duhwan Mun, Jinsang Hwang, Soonhung Han, Hiroshi Seki and Jeongsam Yang, “Sharing product data of nuclear power plants across their lifecycles by utilizing a neutral model”, Annals of Nuclear Energy, Vol. 35, No. 2, pp. 175–186, 2008."
+      },
+      {
+        "position": 38,
+        "sha256": "f67adad7f59e514bd439f86935989fde947a1071dec27bcb762e45f60386d3af",
+        "html": "<li>Yongsik Kim, Jeongsam Yang and Soonhung Han, “A multichannel visualization module for virtual manufacturing”, Computers In Industry, Vol. 57, No. 7, pp. 653–662, 2006.</li>",
+        "text": "Yongsik Kim, Jeongsam Yang and Soonhung Han, “A multichannel visualization module for virtual manufacturing”, Computers In Industry, Vol. 57, No. 7, pp. 653–662, 2006."
+      },
+      {
+        "position": 39,
+        "sha256": "0921fe45a143a196e2d6f7749da48a67b63054eabb33d3ce28d4eb3d6f0568de",
+        "html": "<li>Jeongsam Yang and Soonhung Han, “Repairing CAD model errors based on design history”, Computer Aided Design, Vol. 38, No. 6, pp. 627–640, 2006.</li>",
+        "text": "Jeongsam Yang and Soonhung Han, “Repairing CAD model errors based on design history”, Computer Aided Design, Vol. 38, No. 6, pp. 627–640, 2006."
+      },
+      {
+        "position": 40,
+        "sha256": "e09f08a245595d8640e1656213a08b662d94c386043f167c705863b875bee8e0",
+        "html": "<li>Jeongsam Yang, Soonhung Han, Hyejeong Kang and Jongbae Kim, “Product Data Quality Assurance for e-Manufacturing in the Automotive Industry”, International Journal of Computer Integrated Manufacturing (IJCIM), Vol. 19, No. 2, pp. 136–147, 2006.</li>",
+        "text": "Jeongsam Yang, Soonhung Han, Hyejeong Kang and Jongbae Kim, “Product Data Quality Assurance for e-Manufacturing in the Automotive Industry”, International Journal of Computer Integrated Manufacturing (IJCIM), Vol. 19, No. 2, pp. 136–147, 2006."
+      },
+      {
+        "position": 41,
+        "sha256": "c8c96335d24a65c6e28e4e2e764927df06d67bfae0afd271ac7d3b68706aba4a",
+        "html": "<li>Jeongsam Yang, Soonhung Han and Songho Park, “A method for verification of computer-aided design model errors”, Journal of Engineering Design (JED), Vol. 16, No. 3, pp. 337–352, 2005.</li>",
+        "text": "Jeongsam Yang, Soonhung Han and Songho Park, “A method for verification of computer-aided design model errors”, Journal of Engineering Design (JED), Vol. 16, No. 3, pp. 337–352, 2005."
+      },
+      {
+        "position": 42,
+        "sha256": "a3921ce7531e54e927a8a92d0eed7ab3903e48b49b0103d7200d7d0b08d19f8c",
+        "html": "<li>Jeongsam Yang, Michael Goltz and Soonhung Han, “Parameter-Based Engineering Changes for a Distributed Engineering Environment”, Concurrent Engineering: Research and Applications (CERA), Vol. 12, No. 4, pp. 275–286, 2004.</li>",
+        "text": "Jeongsam Yang, Michael Goltz and Soonhung Han, “Parameter-Based Engineering Changes for a Distributed Engineering Environment”, Concurrent Engineering: Research and Applications (CERA), Vol. 12, No. 4, pp. 275–286, 2004."
+      },
+      {
+        "position": 43,
+        "sha256": "6f6f28a2508949788df255932770f5bb46b39b2524042901965d09acff10459b",
+        "html": "<li>Jeongsam Yang, “A Procedural Approach of Inspecting CAD Model Errors”, Engineering Computations: International Journal for Computer-Aided Engineering and Software (EC), Vol. 21, No. 7, pp. 736–747, 2004.</li>",
+        "text": "Jeongsam Yang, “A Procedural Approach of Inspecting CAD Model Errors”, Engineering Computations: International Journal for Computer-Aided Engineering and Software (EC), Vol. 21, No. 7, pp. 736–747, 2004."
+      },
+      {
+        "position": 44,
+        "sha256": "77e6a8db4e905865eb66c817c3f678db192b1dd45705dc66bb34cd45361c667d",
+        "html": "<li>Jeongsam Yang, Soonhung Han, Joonmyun Cho, Byungchul Kim and Hyunyup Lee, “An XML-Based Macro Data Representation for a Parametric CAD Model Exchange”, Computer-Aided Design and Applications (CADA), Vol. 1, pp. 153–162, 2004.</li>",
+        "text": "Jeongsam Yang, Soonhung Han, Joonmyun Cho, Byungchul Kim and Hyunyup Lee, “An XML-Based Macro Data Representation for a Parametric CAD Model Exchange”, Computer-Aided Design and Applications (CADA), Vol. 1, pp. 153–162, 2004."
+      }
+    ],
+    "publications/korean.html": [
+      {
+        "position": 1,
+        "sha256": "88073f013419941d632de8961661588857e6a76c1542a0acb799906f8503f4d6",
+        "html": "<li class=\"paper\"><div class=\"authors\">오소향, 양정삼*</div><div class=\"paper-title\">주조 공정에서 제어 로직과 온도 데이터를 활용한 CNN Autoencoder 기반 공정 이상 진단</div><div class=\"source\">한국CDE학회 논문집, No. 3, pp. 267-279, 2024.09.</div></li>",
+        "text": "오소향, 양정삼* 주조 공정에서 제어 로직과 온도 데이터를 활용한 CNN Autoencoder 기반 공정 이상 진단 한국CDE학회 논문집, No. 3, pp. 267-279, 2024.09."
+      },
+      {
+        "position": 2,
+        "sha256": "21095ca639dd6dd93e52216d89c1bdde396ef714dc7a446a27373b6239cb1463",
+        "html": "<li class=\"paper\"><div class=\"authors\">조현곤, 정성주, 양정삼*</div><div class=\"paper-title\">차량 서스펜션의 최적 설계에서 사양관리와 부품 공용화를 위한 CAD 템플릿 및 부품 라이브러리 구축</div><div class=\"source\">한국CDE학회 논문집, Vol. 29, No. 1, pp. 72-83, 2024.03.</div></li>",
+        "text": "조현곤, 정성주, 양정삼* 차량 서스펜션의 최적 설계에서 사양관리와 부품 공용화를 위한 CAD 템플릿 및 부품 라이브러리 구축 한국CDE학회 논문집, Vol. 29, No. 1, pp. 72-83, 2024.03."
+      },
+      {
+        "position": 3,
+        "sha256": "9547e968b4ca9fbd7200fc39cf57d71999ee25417f676e14cb23005411f4ff70",
+        "html": "<li class=\"paper\"><div class=\"authors\">유재홍, 양정삼</div><div class=\"paper-title\">선박 CAD 모델과 VR 메쉬 모델 사이의 데이터 변환을 위한 B-Rep 형상 간략화</div><div class=\"source\">한국CDE학회 논문집, 제28권, 제3호, pp. 260-272, 2023.</div></li>",
+        "text": "유재홍, 양정삼 선박 CAD 모델과 VR 메쉬 모델 사이의 데이터 변환을 위한 B-Rep 형상 간략화 한국CDE학회 논문집, 제28권, 제3호, pp. 260-272, 2023."
+      },
+      {
+        "position": 4,
+        "sha256": "c3524345beaa82a12260df3e63798eba0b7cb1b052e069bfc3cdb0a784b8fd2f",
+        "html": "<li class=\"paper\"><div class=\"authors\">나건열, 유재홍, 양정삼</div><div class=\"paper-title\">이기종 CAD시스템에서 설계된 엘보우 파이프 모델의 통합을 위한 부분 토러스 재건</div><div class=\"source\">한국CDE학회 논문집, 제27권, 제3호, pp. 350-360, 2022.</div></li>",
+        "text": "나건열, 유재홍, 양정삼 이기종 CAD시스템에서 설계된 엘보우 파이프 모델의 통합을 위한 부분 토러스 재건 한국CDE학회 논문집, 제27권, 제3호, pp. 350-360, 2022."
+      },
+      {
+        "position": 5,
+        "sha256": "c6c715c816b0f2bf5af41dd599f0f8cd2aefa6c0894483fdaabe9c2ecf555ebe",
+        "html": "<li class=\"paper\"><div class=\"authors\">나건열, 천상욱, 양정삼</div><div class=\"paper-title\">조선 네스팅 문제의 부재 페어링을 위한 딥러닝 기반 부재 분류 방법</div><div class=\"source\">한국CDE학회 논문집, 제26권, 제4호, pp. 514-524, 2021.</div></li>",
+        "text": "나건열, 천상욱, 양정삼 조선 네스팅 문제의 부재 페어링을 위한 딥러닝 기반 부재 분류 방법 한국CDE학회 논문집, 제26권, 제4호, pp. 514-524, 2021."
+      },
+      {
+        "position": 6,
+        "sha256": "52e6ceb7a8f17cabd6d29cb4fc3ee9566cdc9f6e0733fdceba7daa15854fa910",
+        "html": "<li class=\"paper\"><div class=\"authors\">양광빈, 양정삼</div><div class=\"paper-title\">섬유 공장의 안전 교육훈련을 위한 ISM 기반 가상환경 시나리오 설계</div><div class=\"source\">한국CDE학회 논문집, 제26권, 제3호, pp. 249-261, 2021.</div></li>",
+        "text": "양광빈, 양정삼 섬유 공장의 안전 교육훈련을 위한 ISM 기반 가상환경 시나리오 설계 한국CDE학회 논문집, 제26권, 제3호, pp. 249-261, 2021."
+      },
+      {
+        "position": 7,
+        "sha256": "d92606515925d33e394405dbb708404edcc0b90efe9e0c6f3d98dafb31f5ef0a",
+        "html": "<li class=\"paper\"><div class=\"authors\">김철신, 이세희, 양정삼</div><div class=\"paper-title\">X-Ray 기기의 설계변경에 따른 FDA 510(k) 인허가 영향 평가 모델 개발</div><div class=\"source\">한국CDE학회 논문집, 제23권, 제4호, pp. 361-372, 2018.</div></li>",
+        "text": "김철신, 이세희, 양정삼 X-Ray 기기의 설계변경에 따른 FDA 510(k) 인허가 영향 평가 모델 개발 한국CDE학회 논문집, 제23권, 제4호, pp. 361-372, 2018."
+      },
+      {
+        "position": 8,
+        "sha256": "dad333aa7566583c65b649a3150dbcf79a203856e9bca07aa8ebe46f90661ff8",
+        "html": "<li class=\"paper\"><div class=\"authors\">전혜성, 이진원, 양정삼</div><div class=\"paper-title\">인체부위 인식을 통한 깊이 카메라 기반의 자전거 피팅 시스템 개발</div><div class=\"source\">한국 CAD/CAM 학회 논문집, 제20권, 제4호, pp. 375-384, 2015.</div></li>",
+        "text": "전혜성, 이진원, 양정삼 인체부위 인식을 통한 깊이 카메라 기반의 자전거 피팅 시스템 개발 한국 CAD/CAM 학회 논문집, 제20권, 제4호, pp. 375-384, 2015."
+      },
+      {
+        "position": 9,
+        "sha256": "f26cc69f96c4c6ce6712d671e868790f0ce0378a84e40f6b218e8009b49fbe12",
+        "html": "<li class=\"paper\"><div class=\"authors\">이진원, 한정호, 양정삼</div><div class=\"paper-title\">실시간 휴먼 시뮬레이션을 위한 깊이 카메라 기반의 자세 판별 및 모션 보간</div><div class=\"source\">한국 CAD/CAM 학회 논문집, 제19권, 제1호, pp. 68-79, 2014.</div></li>",
+        "text": "이진원, 한정호, 양정삼 실시간 휴먼 시뮬레이션을 위한 깊이 카메라 기반의 자세 판별 및 모션 보간 한국 CAD/CAM 학회 논문집, 제19권, 제1호, pp. 68-79, 2014."
+      },
+      {
+        "position": 10,
+        "sha256": "0f28acd3b836b459ee0eeab32d0eb801d45aa1d5682106dda58faca429857034",
+        "html": "<li class=\"paper\"><div class=\"authors\">이태목, 양정삼</div><div class=\"paper-title\">중소기업의 정보화 도입사례 분석을 통한 효과적인 PLM 구축 방안에 대한 연구</div><div class=\"source\">청촌논총, 제13집, pp. 65-92, 2012.</div></li>",
+        "text": "이태목, 양정삼 중소기업의 정보화 도입사례 분석을 통한 효과적인 PLM 구축 방안에 대한 연구 청촌논총, 제13집, pp. 65-92, 2012."
+      },
+      {
+        "position": 11,
+        "sha256": "87db7dff3955bdfc027eef25f770642b35fa84dbf9930beac90ffa248f72bea9",
+        "html": "<li class=\"paper\"><div class=\"authors\">송성열, 양정삼, 명태식</div><div class=\"paper-title\">4D 시뮬레이션을 위한 공법 템플릿 기반의 건설 공정 자동 생성</div><div class=\"source\">산업공학 IE Interfaces, 제25권, 제2호, pp. 216-228, 2012.</div></li>",
+        "text": "송성열, 양정삼, 명태식 4D 시뮬레이션을 위한 공법 템플릿 기반의 건설 공정 자동 생성 산업공학 IE Interfaces, 제25권, 제2호, pp. 216-228, 2012."
+      },
+      {
+        "position": 12,
+        "sha256": "faf754a075ef7460ef525fec4c09148b6ce4a4fa26ed27a5dda0fde5f7866d44",
+        "html": "<li class=\"paper\"><div class=\"authors\">유효선, 양정삼, 박재일</div><div class=\"paper-title\">3D CAD 모델의 품질 측정을 위한 오류 발생 특징 별 시그마 수준 분석</div><div class=\"source\">산업공학 IE Interfaces, 제24권, 제1호, pp. 58-70, 2011.</div></li>",
+        "text": "유효선, 양정삼, 박재일 3D CAD 모델의 품질 측정을 위한 오류 발생 특징 별 시그마 수준 분석 산업공학 IE Interfaces, 제24권, 제1호, pp. 58-70, 2011."
+      },
+      {
+        "position": 13,
+        "sha256": "88504148262ff0e38c6c0564be0c00c7dff45099e4680d0a9b6d5acb6acb5ece",
+        "html": "<li class=\"paper\"><div class=\"authors\">오정수, 양정삼</div><div class=\"paper-title\">제조업 분야에서 Product Data Management 기반의 BSC 성과평가 시스템 구축 사례 연구</div><div class=\"source\">산업공학 IE Interfaces, 제23권, 제4호, pp. 275-285, 2010.</div></li>",
+        "text": "오정수, 양정삼 제조업 분야에서 Product Data Management 기반의 BSC 성과평가 시스템 구축 사례 연구 산업공학 IE Interfaces, 제23권, 제4호, pp. 275-285, 2010."
+      },
+      {
+        "position": 14,
+        "sha256": "4b9a3d2fbafe0a06a9547d3ff40bdf13885cd7521716c6e59866b048b7f5d2cd",
+        "html": "<li class=\"paper\"><div class=\"authors\">송인호, 양정삼, 조현재, 최상수</div><div class=\"paper-title\">연속해석 데이터의 상호운용성을 지원하는 CAE 미들웨어와 가시화 시스템의 개발</div><div class=\"source\">한국 CAD/CAM 학회 논문집, 제15권, 제2호, pp. 85-93, 2010.</div></li>",
+        "text": "송인호, 양정삼, 조현재, 최상수 연속해석 데이터의 상호운용성을 지원하는 CAE 미들웨어와 가시화 시스템의 개발 한국 CAD/CAM 학회 논문집, 제15권, 제2호, pp. 85-93, 2010."
+      },
+      {
+        "position": 15,
+        "sha256": "fd57b61b72af120c3c551010585bb597249dca6404c3ba9f59d4155c0207b9bc",
+        "html": "<li class=\"paper\"><div class=\"authors\">문두환, 양정삼, 한순흥</div><div class=\"paper-title\">사양 기반 플랜트 설계 시스템에서 생성된 원자력 플랜트 설계 데이터의 중립 모델로의 통합 변환</div><div class=\"source\">한국 CAD/CAM 학회 논문집, 제14권, 제2호, pp. 96-104, 2009.</div></li>",
+        "text": "문두환, 양정삼, 한순흥 사양 기반 플랜트 설계 시스템에서 생성된 원자력 플랜트 설계 데이터의 중립 모델로의 통합 변환 한국 CAD/CAM 학회 논문집, 제14권, 제2호, pp. 96-104, 2009."
+      },
+      {
+        "position": 16,
+        "sha256": "0a2e930e8ffab6aa152a9ef8e04908fee63558098fe10d7adbf3c1fa5dd80808",
+        "html": "<li class=\"paper\"><div class=\"authors\">송인호, 양정삼, 조현재, 최상수</div><div class=\"paper-title\">가상현실 환경을 위한 해석데이터 변환 기술 개발</div><div class=\"source\">한국 CAD/CAM 학회 논문집, 제13권, 제5호, pp. 334-341, 2008.</div></li>",
+        "text": "송인호, 양정삼, 조현재, 최상수 가상현실 환경을 위한 해석데이터 변환 기술 개발 한국 CAD/CAM 학회 논문집, 제13권, 제5호, pp. 334-341, 2008."
+      },
+      {
+        "position": 17,
+        "sha256": "dbc4695409f3b6cbd97affffa53587884d2badeb6791f138aef759f70a82168e",
+        "html": "<li class=\"paper\"><div class=\"authors\">박동석, 양정삼, 유기헌, 박범</div><div class=\"paper-title\">주문 생산형 반도체 장비를 위한 E-BOM 복제 알고리즘의 구현</div><div class=\"source\">한국 CAD/CAM 학회 논문집, 제13권, 제4호, pp. 273-285, 2008.</div></li>",
+        "text": "박동석, 양정삼, 유기헌, 박범 주문 생산형 반도체 장비를 위한 E-BOM 복제 알고리즘의 구현 한국 CAD/CAM 학회 논문집, 제13권, 제4호, pp. 273-285, 2008."
+      },
+      {
+        "position": 18,
+        "sha256": "1c4eb450ac37aeaa71e9b322b67dda7de9b0024b0a3082025b3840bde05a1b7c",
+        "html": "<li class=\"paper\"><div class=\"authors\">양정삼, 한순흥, 문두환</div><div class=\"paper-title\">서로 다른 PDM 시스템 간에 OpenPDM을 이용한 제품데이터의 교환</div><div class=\"source\">한국 CAD/CAM 학회 논문집, 제13권, 제2호, pp. 89-97, 2008.</div></li>",
+        "text": "양정삼, 한순흥, 문두환 서로 다른 PDM 시스템 간에 OpenPDM을 이용한 제품데이터의 교환 한국 CAD/CAM 학회 논문집, 제13권, 제2호, pp. 89-97, 2008."
+      },
+      {
+        "position": 19,
+        "sha256": "932fb48c649672e6a66e28a5caf8c9bb0f07ad1358be8124c54d3987fd4cbbb7",
+        "html": "<li class=\"paper\"><div class=\"authors\">허필원, 양정삼, 한순흥</div><div class=\"paper-title\">다채널 디스플레이에서 X3D와 무선제어를 이용한 수중운동체 시뮬레이터</div><div class=\"source\">한국 CAD/CAM 학회 논문집, 제13권, 제1호, pp. 45-57, 2008.</div></li>",
+        "text": "허필원, 양정삼, 한순흥 다채널 디스플레이에서 X3D와 무선제어를 이용한 수중운동체 시뮬레이터 한국 CAD/CAM 학회 논문집, 제13권, 제1호, pp. 45-57, 2008."
+      },
+      {
+        "position": 20,
+        "sha256": "3c51dcf84930820bb9f69b75adf27c658469790d9a8bec5c5962463cf52a5bde",
+        "html": "<li class=\"paper\"><div class=\"authors\">양정삼, 한순흥, 천상욱</div><div class=\"paper-title\">전문가시스템을 이용한 CAD 모델 수정 시스템</div><div class=\"source\">대한기계학회논문집 A권, 제30권, 제3호, pp. 219-230, 2006.</div></li>",
+        "text": "양정삼, 한순흥, 천상욱 전문가시스템을 이용한 CAD 모델 수정 시스템 대한기계학회논문집 A권, 제30권, 제3호, pp. 219-230, 2006."
+      },
+      {
+        "position": 21,
+        "sha256": "8d91059c3998175fc732080950d02dbb98d23f0e16303196791318a1b5c4031d",
+        "html": "<li class=\"paper\"><div class=\"authors\">김용식, 양정삼, 한순흥</div><div class=\"paper-title\">가상 공장 시뮬레이션을 위한 PC 클러스터 기반의 멀티채널 가시화 모듈의 설계와 구현</div><div class=\"source\">대한기계학회논문집 A권, 제30권, 제3호, pp. 231-240, 2006.</div></li>",
+        "text": "김용식, 양정삼, 한순흥 가상 공장 시뮬레이션을 위한 PC 클러스터 기반의 멀티채널 가시화 모듈의 설계와 구현 대한기계학회논문집 A권, 제30권, 제3호, pp. 231-240, 2006."
+      },
+      {
+        "position": 22,
+        "sha256": "0e2b4ed5a36969e1524a672ab0953b201df66051d68381ae5659a851ed07096e",
+        "html": "<li class=\"paper\"><div class=\"authors\">양정삼, 한순흥, 박상호, 장광섭</div><div class=\"paper-title\">국내 자동차산업에서 제품데이터품질에 대한 현황 조사</div><div class=\"source\">한국 CAD/CAM 학회 논문집, 제10권, 제4호, pp. 274-283, 2005.</div></li>",
+        "text": "양정삼, 한순흥, 박상호, 장광섭 국내 자동차산업에서 제품데이터품질에 대한 현황 조사 한국 CAD/CAM 학회 논문집, 제10권, 제4호, pp. 274-283, 2005."
+      },
+      {
+        "position": 23,
+        "sha256": "d0c1d24ba6205efd2676cc1f6a0419c02f69789cc4127dfdce1333d145f8cafd",
+        "html": "<li class=\"paper\"><div class=\"authors\">양정삼, 한순흥</div><div class=\"paper-title\">설계이력 정보를 이용한 CAD 모델의 오류 수정</div><div class=\"source\">한국 CAD/CAM 학회 논문집, 제10권, 제4호, pp. 262-273, 2005.</div></li>",
+        "text": "양정삼, 한순흥 설계이력 정보를 이용한 CAD 모델의 오류 수정 한국 CAD/CAM 학회 논문집, 제10권, 제4호, pp. 262-273, 2005."
+      },
+      {
+        "position": 24,
+        "sha256": "6d826a54aa6e540677d72b2c42ea2e843bf9e487508bfe84406787a6e20420ab",
+        "html": "<li class=\"paper\"><div class=\"authors\">양정삼, 한순흥, 강혜정, 김준기</div><div class=\"paper-title\">자동차산업에서 제품데이터품질 향상을 위한 연구</div><div class=\"source\">한국자동차공학회논문집, 제13권, 제1호, pp. 184-193, 2005.</div></li>",
+        "text": "양정삼, 한순흥, 강혜정, 김준기 자동차산업에서 제품데이터품질 향상을 위한 연구 한국자동차공학회논문집, 제13권, 제1호, pp. 184-193, 2005."
+      },
+      {
+        "position": 25,
+        "sha256": "8d2c839a7ebd91be495bc303f5733afc3b7990adc5724cdf68cb869c992c0bc5",
+        "html": "<li class=\"paper\"><div class=\"authors\">양정삼, 한순흥, 김병철, 박찬국</div><div class=\"paper-title\">CAD 모델 교환을 위한 매크로 파라메트릭 정보의 XML 표현</div><div class=\"source\">대한기계학회논문집 A권, 제27권, 제12호, pp. 2061-2071, 2004.</div></li>",
+        "text": "양정삼, 한순흥, 김병철, 박찬국 CAD 모델 교환을 위한 매크로 파라메트릭 정보의 XML 표현 대한기계학회논문집 A권, 제27권, 제12호, pp. 2061-2071, 2004."
+      },
+      {
+        "position": 26,
+        "sha256": "a1b125eec952ddb7ce368a2e7cf2b663229aeda154ceb0a8509e937f198c1b38",
+        "html": "<li class=\"paper\"><div class=\"authors\">박상호, 박종욱, 한순흥, 최영, 양정삼</div><div class=\"paper-title\">IGES CAD 데이터의 교환에서 오류 진단 시스템</div><div class=\"source\">한국정밀공학회논문집, 제20권, 제10호, pp. 218-225, 2004.</div></li>",
+        "text": "박상호, 박종욱, 한순흥, 최영, 양정삼 IGES CAD 데이터의 교환에서 오류 진단 시스템 한국정밀공학회논문집, 제20권, 제10호, pp. 218-225, 2004."
+      },
+      {
+        "position": 27,
+        "sha256": "de0b928d4f385e4ca6113d1aa9c7be56e7a8dd45012cc1f5781db91946ef4a08",
+        "html": "<li class=\"paper\"><div class=\"authors\">양정삼, Michael Goltz, 한순흥</div><div class=\"paper-title\">파라미터 네트워크 기반의 워크플로를 적용한 제품의 설계 변경</div><div class=\"source\">대한산업공학회논문집, 제29권, 제2호, pp. 157-164, 2003.</div></li>",
+        "text": "양정삼, Michael Goltz, 한순흥 파라미터 네트워크 기반의 워크플로를 적용한 제품의 설계 변경 대한산업공학회논문집, 제29권, 제2호, pp. 157-164, 2003."
+      },
+      {
+        "position": 28,
+        "sha256": "8fc506d869f1183ee7ed549655cdcb46b7b23b429771afb9f26dfa75bcede8f2",
+        "html": "<li class=\"paper\"><div class=\"authors\">양정삼, 한순흥</div><div class=\"paper-title\">STEP AP214 자동차 설계 데이터 정리 시스템</div><div class=\"source\">한국CAD/CAM학회 논문집, 제7권, 제3호, pp. 170-176, 2002.</div></li>",
+        "text": "양정삼, 한순흥 STEP AP214 자동차 설계 데이터 정리 시스템 한국CAD/CAM학회 논문집, 제7권, 제3호, pp. 170-176, 2002."
+      },
+      {
+        "position": 29,
+        "sha256": "d1136d534b078342e516693af5f3b3ea44baef3f6eadaa02ec12c61195bdd7ba",
+        "html": "<li class=\"paper\"><div class=\"authors\">양정삼, 한순흥, 최영, 박상호</div><div class=\"paper-title\">OpenCASCADE를 이용한 CAD 모델의 오류 진단 시스템의 개발</div><div class=\"source\">한국자동차공학회논문집, 제10권, 제3호, pp. 151-158, 2002.</div></li>",
+        "text": "양정삼, 한순흥, 최영, 박상호 OpenCASCADE를 이용한 CAD 모델의 오류 진단 시스템의 개발 한국자동차공학회논문집, 제10권, 제3호, pp. 151-158, 2002."
+      }
+    ],
+    "publications/patents.html": [
+      {
+        "position": 1,
+        "sha256": "5329b7db892f8917ef92b26babbc7c5bc83236a86808cacd70c5ad393893719c",
+        "html": "<article class=\"item\"><div class=\"meta\"><span class=\"type\">등록특허</span><span>등록번호: 10-2352826</span><span>2022-01-13</span></div><h3>이웃 연결성 합성곱 신경망을 이용한 포인트 클라우드 분류 장치 및 방법</h3><p><b>발명자:</b> 양정삼, 이진원</p></article>",
+        "text": "등록특허 등록번호: 10-2352826 2022-01-13 이웃 연결성 합성곱 신경망을 이용한 포인트 클라우드 분류 장치 및 방법 발명자: 양정삼, 이진원"
+      },
+      {
+        "position": 2,
+        "sha256": "8f908f26cc48c635c3735c98d90eee42d24b74a63d2e93c40beb0e231c976b7d",
+        "html": "<article class=\"item\"><div class=\"meta\"><span class=\"type\">특허출원 (원문 표기)</span><span>출원번호: 10-2020-0154289</span><span>2020-11-18</span></div><h3>3차원 캐드 이미지 모델링 방법</h3><p><b>발명자:</b> 양정삼, 나건열</p></article>",
+        "text": "특허출원 (원문 표기) 출원번호: 10-2020-0154289 2020-11-18 3차원 캐드 이미지 모델링 방법 발명자: 양정삼, 나건열"
+      },
+      {
+        "position": 3,
+        "sha256": "d641d5b15d315ef1854516552803a0cfa492b66f1cb018a86fdc389468b33c04",
+        "html": "<article class=\"item\"><div class=\"meta\"><span class=\"type\">등록특허</span><span>등록번호: 10-2006795</span><span>2019-07-29</span></div><h3>유방 형상 변형 방법 및 장치</h3><p><b>발명자:</b> 양정삼</p></article>",
+        "text": "등록특허 등록번호: 10-2006795 2019-07-29 유방 형상 변형 방법 및 장치 발명자: 양정삼"
+      },
+      {
+        "position": 4,
+        "sha256": "d39e05e7f23a4c4c3c0e0a67e988445f12f73c52df5157fc4b497ec7e3a168f4",
+        "html": "<article class=\"item\"><div class=\"meta\"><span class=\"type\">등록특허</span><span>등록번호: 10-1836125</span><span>2018-12-22</span></div><h3>모델의 형상 특징 정보 생성 방법 및 형상 유사도 분석 방법</h3><p><b>발명자:</b> 양정삼</p></article>",
+        "text": "등록특허 등록번호: 10-1836125 2018-12-22 모델의 형상 특징 정보 생성 방법 및 형상 유사도 분석 방법 발명자: 양정삼"
+      },
+      {
+        "position": 5,
+        "sha256": "aa4c3aea4f5656820edbb66161558e5605063174d934bad7ea2655f45aac1bce",
+        "html": "<article class=\"item\"><div class=\"meta\"><span class=\"type\">저작권 등록</span><span>등록번호: C-2023-032874</span><span>2023-08-07</span></div><h3>ShipCADOptimizer (CAD 모델 간략화 및 FBX 변환 모듈)</h3><p><b>저작자:</b> 양정삼, 유재홍</p></article>",
+        "text": "저작권 등록 등록번호: C-2023-032874 2023-08-07 ShipCADOptimizer (CAD 모델 간략화 및 FBX 변환 모듈) 저작자: 양정삼, 유재홍"
+      },
+      {
+        "position": 6,
+        "sha256": "8a0528245cde2b910fb044fd6984598775e14abddf61a0b22bd5ecbc505bfaa8",
+        "html": "<article class=\"item\"><div class=\"meta\"><span class=\"type\">저작권 등록</span><span>등록번호: C-2022-031775</span><span>2022-08-12</span></div><h3>가상현실 지원 3차원 형상 변환기</h3><p><b>저작자:</b> 양정삼, 나건열</p></article>",
+        "text": "저작권 등록 등록번호: C-2022-031775 2022-08-12 가상현실 지원 3차원 형상 변환기 저작자: 양정삼, 나건열"
+      },
+      {
+        "position": 7,
+        "sha256": "26de423407002ac5b76d514ec10fe8a1e1aa1c11d55399273fe23ebdbd8d0165",
+        "html": "<article class=\"item\"><div class=\"meta\"><span class=\"type\">저작권 등록</span><span>등록번호: C-2021-031943</span><span>2021-09-30</span></div><h3>BIMWebViz (웹 기반 BIM 구성정보 가시화 프로그램)</h3><p><b>저작자:</b> 양정삼, 양광빈</p></article>",
+        "text": "저작권 등록 등록번호: C-2021-031943 2021-09-30 BIMWebViz (웹 기반 BIM 구성정보 가시화 프로그램) 저작자: 양정삼, 양광빈"
+      }
+    ],
+    "publications/standards.html": [
+      {
+        "position": 1,
+        "sha256": "38b600c9fa8ae75bd3fa75b02899da14881b38c077ec4f98e0f874526b388727",
+        "html": "<article class=\"record\"><h3>산업 자동화 시스템 및 통합 – 3D 시각화를 위한 JT 파일 포맷 명세서</h3><p class=\"number\">KS X ISO 14306 : 2018</p></article>",
+        "text": "산업 자동화 시스템 및 통합 – 3D 시각화를 위한 JT 파일 포맷 명세서 KS X ISO 14306 : 2018"
+      },
+      {
+        "position": 2,
+        "sha256": "e42be4b743f44f26cb9aca15f20aa86717d86ac0a8a9afae206764d5ed2e4ca3",
+        "html": "<article class=\"record\"><h3>산업 자동화 시스템 및 통합 – 제품 데이터 표현 및 교환 – 제239부 응용 프로토콜 : 제품 생애주기 지원</h3><p class=\"number\">KS B ISO 10303-239 : 2017</p></article>",
+        "text": "산업 자동화 시스템 및 통합 – 제품 데이터 표현 및 교환 – 제239부 응용 프로토콜 : 제품 생애주기 지원 KS B ISO 10303-239 : 2017"
+      },
+      {
+        "position": 3,
+        "sha256": "5edb4637a634dfc883524746616c80101685583b31753c5530034bb83a256949",
+        "html": "<article class=\"record\"><h3>제품 모델 기본 용어</h3><p class=\"number\">KS X 7071 : 2016</p></article>",
+        "text": "제품 모델 기본 용어 KS X 7071 : 2016"
+      },
+      {
+        "position": 4,
+        "sha256": "8dd17508f477d58acc6217bf70deac7a523a55c23f61cfe19c911cb50f45ae8b",
+        "html": "<article class=\"record\"><h3>산업 자동화 시스템 및 통합 – 제품 데이터 표현 및 교환 – 제1011부 응용모듈 : 개인과 조직</h3><p class=\"number\">KS X ISO 10303-1011 : 2015</p></article>",
+        "text": "산업 자동화 시스템 및 통합 – 제품 데이터 표현 및 교환 – 제1011부 응용모듈 : 개인과 조직 KS X ISO 10303-1011 : 2015"
+      },
+      {
+        "position": 5,
+        "sha256": "d78eca89e5a1c9a0c1fb5d0e516801f5bb2686c05f1637532b1b547b0e0200ad",
+        "html": "<article class=\"record\"><h3>산업 자동화 시스템 및 통합 – 제품 데이터의 표현 및 교환 – 제439부 응용 모듈 : 응용 프로토콜 239 제품 수명주기 지원</h3><p class=\"number\">KS B ISO 10303-439 : 2011</p></article>",
+        "text": "산업 자동화 시스템 및 통합 – 제품 데이터의 표현 및 교환 – 제439부 응용 모듈 : 응용 프로토콜 239 제품 수명주기 지원 KS B ISO 10303-439 : 2011"
+      },
+      {
+        "position": 6,
+        "sha256": "fcaa0e63df55d74d6f324b8383708dd9abd90c85277403723edda1265c36ae3a",
+        "html": "<article class=\"record\"><h3>산업 자동화 시스템 및 통합 – 제품 데이터 표현 및 교환 – 제54부 통합 일반 자원 : 분류 및 집합 이론</h3><p class=\"number\">KS B ISO 10303-54 : 2009</p></article>",
+        "text": "산업 자동화 시스템 및 통합 – 제품 데이터 표현 및 교환 – 제54부 통합 일반 자원 : 분류 및 집합 이론 KS B ISO 10303-54 : 2009"
+      }
+    ],
+    "research/completed.html": [
+      {
+        "position": 1,
+        "sha256": "4b2f2f0bc8c480255f434cbaeb7c00ae49e76229407d5c8461893a8c74450aa8",
+        "html": "<article class=\"project-card\"><h3>AI를 활용한 생산품 수요예측 기술 기반의 맞춤제조 지원 설계 지능화 기술개발</h3><p class=\"period\">2022.04 – 2025.12</p><p class=\"agency\">중소벤처기업부 스마트 제조혁신 기술개발지원사업</p></article>",
+        "text": "AI를 활용한 생산품 수요예측 기술 기반의 맞춤제조 지원 설계 지능화 기술개발 2022.04 – 2025.12 중소벤처기업부 스마트 제조혁신 기술개발지원사업"
+      },
+      {
+        "position": 2,
+        "sha256": "e7ae70039564db96e4bc38e49452bb6d8b595ef2dc721786eb0b5c331ab4fb25",
+        "html": "<article class=\"project-card\"><h3>자율운항선박 핵심 기관시스템 성능 모니터링 및 고장예측 진단 기술 개발</h3><p class=\"period\">2021.01 – 2025.12</p><p class=\"agency\">산업통상자원부 자율운항선박 기술개발사업</p></article>",
+        "text": "자율운항선박 핵심 기관시스템 성능 모니터링 및 고장예측 진단 기술 개발 2021.01 – 2025.12 산업통상자원부 자율운항선박 기술개발사업"
+      },
+      {
+        "position": 3,
+        "sha256": "b1000f077cadaee7f49a842682bbb34e809e45db5febd32ec203e6cc54de8c9a",
+        "html": "<article class=\"project-card\"><h3>유방 재건 보형물 제작을 위한 다중 물리 해석 기반의 유방 형상 생성 및 변형 시스템 개발</h3><p class=\"period\">2018.06 – 2023.05</p><p class=\"agency\">한국연구재단</p></article>",
+        "text": "유방 재건 보형물 제작을 위한 다중 물리 해석 기반의 유방 형상 생성 및 변형 시스템 개발 2018.06 – 2023.05 한국연구재단"
+      },
+      {
+        "position": 4,
+        "sha256": "7f1529b4a0b53c962394eaf58f47c2224ca69ec24046c396f73827a28050ccc4",
+        "html": "<article class=\"project-card\"><h3>대우조선해양 지능형 네스팅 연구</h3><p class=\"period\">2021.01 – 2021.12</p><p class=\"agency\">디에스엠이정보시스템(주)</p></article>",
+        "text": "대우조선해양 지능형 네스팅 연구 2021.01 – 2021.12 디에스엠이정보시스템(주)"
+      },
+      {
+        "position": 5,
+        "sha256": "b1e35c2c92902ecaa15ff1ebd6e4fd8857f7ee8411d4e42b4650f7ed10f47cd6",
+        "html": "<article class=\"project-card\"><h3>건축물 설계품질 향상을 위한 공간과 장비 배치 최적화 기술개발</h3><p class=\"period\">2020.01 – 2021.12</p><p class=\"agency\">국토교통과학기술진흥원</p></article>",
+        "text": "건축물 설계품질 향상을 위한 공간과 장비 배치 최적화 기술개발 2020.01 – 2021.12 국토교통과학기술진흥원"
+      },
+      {
+        "position": 6,
+        "sha256": "61d5fe43de45e527069db79e867c509ee792692ba65c6fb5a1d0724a666cf3dd",
+        "html": "<article class=\"project-card\"><h3>스마트 안전분야 융합신제품 및 서비스실증 리빙랩 기반구축: (2세부)리빙랩 가상공간 설계 및 구축 지원 및 3D 컨텐츠 개발</h3><p class=\"period\">2017.05 – 2021.12</p><p class=\"agency\">한국생산기술연구원</p></article>",
+        "text": "스마트 안전분야 융합신제품 및 서비스실증 리빙랩 기반구축: (2세부)리빙랩 가상공간 설계 및 구축 지원 및 3D 컨텐츠 개발 2017.05 – 2021.12 한국생산기술연구원"
+      },
+      {
+        "position": 7,
+        "sha256": "b2a9767eb3ba1fb1d6308359d7ea8be697a0a9a379537c881ec870612850d1cb",
+        "html": "<article class=\"project-card\"><h3>레이저 가공 데이터 생성을 위한 편집 프로그램 개발</h3><p class=\"period\">2016.11 – 2021.08</p><p class=\"agency\">주식회사 리템</p></article>",
+        "text": "레이저 가공 데이터 생성을 위한 편집 프로그램 개발 2016.11 – 2021.08 주식회사 리템"
+      },
+      {
+        "position": 8,
+        "sha256": "1f827afa4805032484b53afb3e675b02a3ca71ff8e2c5da8dff0e2b2b05a3fbf",
+        "html": "<article class=\"project-card\"><h3>마커리스 핸드 트래킹과 디자인 상황인식을 결합한 제스처 적용형 3D 모델링 플랫폼 개발</h3><p class=\"period\">2015.11 – 2018.10</p><p class=\"agency\">한국연구재단</p></article>",
+        "text": "마커리스 핸드 트래킹과 디자인 상황인식을 결합한 제스처 적용형 3D 모델링 플랫폼 개발 2015.11 – 2018.10 한국연구재단"
+      },
+      {
+        "position": 9,
+        "sha256": "e97671c32751e3d3b1cd6152c37254d17335563a39acf6f3307f095343b858b1",
+        "html": "<article class=\"project-card\"><h3>유방재건수술 결과 예측을 위한 MRI/CT 영상 이미지 처리 기술 개발</h3><p class=\"period\">2017.07 – 2018.01</p><p class=\"agency\">한국연구재단 아주대 LINC 사업단</p></article>",
+        "text": "유방재건수술 결과 예측을 위한 MRI/CT 영상 이미지 처리 기술 개발 2017.07 – 2018.01 한국연구재단 아주대 LINC 사업단"
+      },
+      {
+        "position": 10,
+        "sha256": "4b52bc4ccf2a059e6a1ed957d6dd1fcee45c15d875916e7ffc73eea0d5dfe21a",
+        "html": "<article class=\"project-card\"><h3>형상 유사도 기반 측정공정계획(CAIP) 기술 및 측정 시뮬레이션 모듈 개발</h3><p class=\"period\">2016.11 – 2017.01</p><p class=\"agency\">건솔루션(주)</p></article>",
+        "text": "형상 유사도 기반 측정공정계획(CAIP) 기술 및 측정 시뮬레이션 모듈 개발 2016.11 – 2017.01 건솔루션(주)"
+      },
+      {
+        "position": 11,
+        "sha256": "d9ee33bd021d07eefaba6729769e06412647073b69c650d5a0223bd6593b5351",
+        "html": "<article class=\"project-card\"><h3>반도체 생산장비 산업을 위한 모래시계형 모듈화 설계 기반 제품사양관리</h3><p class=\"period\">2015.08 – 2016.09</p><p class=\"agency\">아주대학교</p></article>",
+        "text": "반도체 생산장비 산업을 위한 모래시계형 모듈화 설계 기반 제품사양관리 2015.08 – 2016.09 아주대학교"
+      },
+      {
+        "position": 12,
+        "sha256": "74f4c0d8763a64a65bb1c0bddc88d086f1c09569468db6031abf2a554eb2e501",
+        "html": "<article class=\"project-card\"><h3>레이저 가공 데이터 생성 및 최적화 알고리즘 및 프로그램 개발</h3><p class=\"period\">2015.11 – 2016.08</p><p class=\"agency\">주식회사 리템</p></article>",
+        "text": "레이저 가공 데이터 생성 및 최적화 알고리즘 및 프로그램 개발 2015.11 – 2016.08 주식회사 리템"
+      },
+      {
+        "position": 13,
+        "sha256": "6e530d2a1f918b90750550b9c277b2d6fd9238fc357c29da548243a68d4d8845",
+        "html": "<article class=\"project-card\"><h3>MAC-OMM 시뮬레이션 플랫폼 개발</h3><p class=\"period\">2015.08 – 2016.08</p><p class=\"agency\">건솔루션(주)</p></article>",
+        "text": "MAC-OMM 시뮬레이션 플랫폼 개발 2015.08 – 2016.08 건솔루션(주)"
+      },
+      {
+        "position": 14,
+        "sha256": "21e870a6f21feb0455dfb6b608a2dfec210ddc3fffa746bfe16d6c2230b93682",
+        "html": "<article class=\"project-card\"><h3>정밀금형 제조 설비의 측정자동화 및 선회보정 시스템 개발</h3><p class=\"period\">2015.07 – 2016.01</p><p class=\"agency\">건솔루션(주)</p></article>",
+        "text": "정밀금형 제조 설비의 측정자동화 및 선회보정 시스템 개발 2015.07 – 2016.01 건솔루션(주)"
+      },
+      {
+        "position": 15,
+        "sha256": "777ffb82f93142b3219fb8fe4520e3af4b1e951acbc7f3ad3ecd69071b5a5dfa",
+        "html": "<article class=\"project-card\"><h3>실시간 휴먼 시뮬레이션을 위한 마커리스 카메라 기반의 자세 판별 및 모션 보간</h3><p class=\"period\">2013.12 – 2015.08</p><p class=\"agency\">아주대학교</p></article>",
+        "text": "실시간 휴먼 시뮬레이션을 위한 마커리스 카메라 기반의 자세 판별 및 모션 보간 2013.12 – 2015.08 아주대학교"
+      },
+      {
+        "position": 16,
+        "sha256": "972aec9c50213deb8f92920c0fb150dd61a35a5fd6ab612f2c5ac0caacb7e7b9",
+        "html": "<article class=\"project-card\"><h3>고무 방현재의 수명 평가를 위한 퍼지 기반의 의사결정 시스템의 개발</h3><p class=\"period\">2014.09 – 2015.07</p><p class=\"agency\">아주대학교</p></article>",
+        "text": "고무 방현재의 수명 평가를 위한 퍼지 기반의 의사결정 시스템의 개발 2014.09 – 2015.07 아주대학교"
+      },
+      {
+        "position": 17,
+        "sha256": "4b8cfc7d96f68eb6e4aa6638e9f5917c65424cb4568fb8993478ba654e69e8a7",
+        "html": "<article class=\"project-card\"><h3>신제품 개발에서 포트폴리오 관리를 위한 지식 기반의 퍼지 추론 커널 라이브러리 개발</h3><p class=\"period\">2012.05 – 2015.04</p><p class=\"agency\">한국연구재단</p></article>",
+        "text": "신제품 개발에서 포트폴리오 관리를 위한 지식 기반의 퍼지 추론 커널 라이브러리 개발 2012.05 – 2015.04 한국연구재단"
+      },
+      {
+        "position": 18,
+        "sha256": "abcc141f227727eefa7116c7200181a7b41b354a986a11f6abca8fd6c2c001c5",
+        "html": "<article class=\"project-card\"><h3>자동차 시트 형상의 생성과 평가를 위한 스케치 기반의 3D 모델링 시스템 개발</h3><p class=\"period\">2013.03 – 2014.08</p><p class=\"agency\">아주대학교</p></article>",
+        "text": "자동차 시트 형상의 생성과 평가를 위한 스케치 기반의 3D 모델링 시스템 개발 2013.03 – 2014.08 아주대학교"
+      },
+      {
+        "position": 19,
+        "sha256": "f9f2faacad049ddc5b3088e90b6c9fcbfad68a005ecbf7f88b40c8dc11d123f4",
+        "html": "<article class=\"project-card\"><h3>레이저 가공을 위한 페이스 사이의 해칭 매칭 알고리듬 개발</h3><p class=\"period\">2013.11 – 2014.01</p><p class=\"agency\">이오테크닉스</p></article>",
+        "text": "레이저 가공을 위한 페이스 사이의 해칭 매칭 알고리듬 개발 2013.11 – 2014.01 이오테크닉스"
+      },
+      {
+        "position": 20,
+        "sha256": "a9d114c1119be31dc320f6a797a22128b4b1519206b6ab5b7a057af1701fab2f",
+        "html": "<article class=\"project-card\"><h3>자동차 생산라인에서의 3D 인체공학 시뮬레이션을 위한 실시간 자세 제어 시스템의 개발</h3><p class=\"period\">2012.06 – 2013.05</p><p class=\"agency\">산학협력재단</p></article>",
+        "text": "자동차 생산라인에서의 3D 인체공학 시뮬레이션을 위한 실시간 자세 제어 시스템의 개발 2012.06 – 2013.05 산학협력재단"
+      },
+      {
+        "position": 21,
+        "sha256": "dc8aebb372c3af27e054d1c615c48cd462477ea43dd8a43184246a1c72a9d9c4",
+        "html": "<article class=\"project-card\"><h3>설계지식의 획득과 추론을 통한 지식기반의 CAD 모델 오류 수정 시스템의 개발</h3><p class=\"period\">2009.05 – 2012.04</p><p class=\"agency\">한국연구재단</p></article>",
+        "text": "설계지식의 획득과 추론을 통한 지식기반의 CAD 모델 오류 수정 시스템의 개발 2009.05 – 2012.04 한국연구재단"
+      },
+      {
+        "position": 22,
+        "sha256": "f26086b0f68c7638feb023deab48ec81ea388fcc18b89407f9870c6803f10089",
+        "html": "<article class=\"project-card\"><h3>제품 개발 프로세스 지원을 위한 온톨로지와 룰 기반의 계층적 통합 지식 체계의 구축</h3><p class=\"period\">2009.05 – 2012.04</p><p class=\"agency\">한국연구재단</p></article>",
+        "text": "제품 개발 프로세스 지원을 위한 온톨로지와 룰 기반의 계층적 통합 지식 체계의 구축 2009.05 – 2012.04 한국연구재단"
+      },
+      {
+        "position": 23,
+        "sha256": "c3f56cbe2cc6b52b61f395fde3a0139d3bd2d8fed962b0f7068c031c8cdaa685",
+        "html": "<article class=\"project-card\"><h3>연속해석 데이터의 상호운용성을 지원하는 CAE 미들웨어와 가시화 시스템의 개발</h3><p class=\"period\">2009.06 – 2010.05</p><p class=\"agency\">산학협력재단</p></article>",
+        "text": "연속해석 데이터의 상호운용성을 지원하는 CAE 미들웨어와 가시화 시스템의 개발 2009.06 – 2010.05 산학협력재단"
+      },
+      {
+        "position": 24,
+        "sha256": "0a9a874cb4196b333af8619bbd7ccb4b029c6ca395355eaa49aaf5383ecbb1b7",
+        "html": "<article class=\"project-card\"><h3>이기종 PDM 시스템 상호간에 데이터를 통합하는 Web 기반의 PDM 프레임웍 개발</h3><p class=\"period\">2006.04 – 2008.03</p><p class=\"agency\">아주대학교</p></article>",
+        "text": "이기종 PDM 시스템 상호간에 데이터를 통합하는 Web 기반의 PDM 프레임웍 개발 2006.04 – 2008.03 아주대학교"
+      },
+      {
+        "position": 25,
+        "sha256": "239205c6723b89984c4b33f17cb2662989e969560fcecad8febd47bc5309f299",
+        "html": "<article class=\"project-card\"><h3>가상 시뮬레이션 가시화를 위한 데이터 변환 기술 개발</h3><p class=\"period\">2006.12 – 2007.05</p><p class=\"agency\">그래픽스연구원</p></article>",
+        "text": "가상 시뮬레이션 가시화를 위한 데이터 변환 기술 개발 2006.12 – 2007.05 그래픽스연구원"
+      },
+      {
+        "position": 26,
+        "sha256": "b79f90898785455e0ddebb2265d2e5e0ba64989dcdc40b182fb93054cf913bfa",
+        "html": "<article class=\"project-card\"><h3>국제표준 SASIG-PDQ V2.0 기반의 제품데이터품질(Product Data Quality) 향상을 위한 가이드라인 및 적용 지침</h3><p class=\"period\">2006.09 – 2006.10</p><p class=\"agency\">한국전자거래협회</p></article>",
+        "text": "국제표준 SASIG-PDQ V2.0 기반의 제품데이터품질(Product Data Quality) 향상을 위한 가이드라인 및 적용 지침 2006.09 – 2006.10 한국전자거래협회"
+      },
+      {
+        "position": 27,
+        "sha256": "e31448d23c809fa8e1693fc14cc48c443b006d40c9e180405f039ee9b05e04a8",
+        "html": "<article class=\"project-card\"><h3>리치 2800mm, 최대도장속도 1200mm/s, 5kg/20kg 기반의 자동차용 도장로봇 시스템 기술 개발: (2세부)자동차용 도장 로봇의 최적 경로 생성을 위한 로봇 시뮬레이션 시스템 개발</h3><p class=\"period\">기간 확인 필요 · Dates to verify</p><p class=\"agency\">주관/지원기관 확인 필요</p></article>",
+        "text": "리치 2800mm, 최대도장속도 1200mm/s, 5kg/20kg 기반의 자동차용 도장로봇 시스템 기술 개발: (2세부)자동차용 도장 로봇의 최적 경로 생성을 위한 로봇 시뮬레이션 시스템 개발 기간 확인 필요 · Dates to verify 주관/지원기관 확인 필요"
+      }
+    ],
+    "research/ongoing.html": [
+      {
+        "position": 1,
+        "sha256": "5ca7ffa183ed2e85ccc4ee8b522262258a4e18b8fd2ffc215d01dc260569eb25",
+        "html": "<article class=\"project\"><h3>자율운항선박 핵심 기관시스템 성능 모니터링 및 고장예측 진단 기술 개발</h3><p class=\"agency\">산업통상자원부 · 자율운항선박 기술개발사업</p><p class=\"period\">2021.01. – 2025.12.</p></article>",
+        "text": "자율운항선박 핵심 기관시스템 성능 모니터링 및 고장예측 진단 기술 개발 산업통상자원부 · 자율운항선박 기술개발사업 2021.01. – 2025.12."
+      },
+      {
+        "position": 2,
+        "sha256": "3007a2c07854ed6c1de89e78a4b6f58bb8a5fafb8e6bc236b98afc4c0273a4b3",
+        "html": "<article class=\"project\"><h3>AI를 활용한 생산품 수요예측 기술 기반의 맞춤제조 지원 설계 지능화 기술개발</h3><p class=\"agency\">중소벤처기업부 · 스마트 제조혁신 기술개발지원사업</p><p class=\"period\">2022.04. – 2025.12.</p></article>",
+        "text": "AI를 활용한 생산품 수요예측 기술 기반의 맞춤제조 지원 설계 지능화 기술개발 중소벤처기업부 · 스마트 제조혁신 기술개발지원사업 2022.04. – 2025.12."
+      }
+    ]
+  },
+  "articles": [
+    {
+      "year": 2011,
+      "title": "당신이 꿈꾸는 대로 그들이 만들어 줄 것이다",
+      "source": "한국CADCAM 학회지 (CADCAM Review), Vol. 17, No. 1, pp.19–23, 2011.04."
+    },
+    {
+      "year": 2010,
+      "title": "첨삭가공(Additive Manufacturing)의 세계적 추세",
+      "source": "한국CADCAM 학회지 (CADCAM Review), Vol. 16, No. 2, pp.25–29, 2010.08."
+    },
+    {
+      "year": 2009,
+      "title": "Autodesk와 Dassault Systemes은 iPhone 응용프로그램을 통해 가상의 냉기 공간에서 선구자의 지위를 얻었다",
+      "source": "한국CADCAM 학회지 (CADCAM Review), Vol. 15, No. 3, pp.21–25, 2009.12."
+    },
+    {
+      "year": 2009,
+      "title": "아주대학교의 3DVIA Virtools 교육사례-3DVIA Virtools를 활용한 게임, 열기구 제작",
+      "source": "PLM Network, Vol. 35, pp.32–33, 2009.06."
+    },
+    {
+      "year": 2009,
+      "title": "3D CAD 모델의 유효성 검증",
+      "source": "한국CADCAM 학회지 (CADCAM Review), Vol. 15, No. 1, pp.15–19, 2009.04."
+    },
+    {
+      "year": 2008,
+      "title": "CAD/CAM에서의 새로운 변화: 치과 기공소용 CAD/CAM 시스템",
+      "source": "한국CADCAM 학회지 (CADCAM Review), Vol. 14, No. 2, pp.12–18, 2008.08."
+    },
+    {
+      "year": 2007,
+      "title": "3DLive는 차세대 혁신 기술의 출발선인가?",
+      "source": "한국CADCAM 학회지 (CADCAM Review), Vol. 13, No. 3, pp.19–24, 2007.12."
+    },
+    {
+      "year": 2007,
+      "title": "[표준화문서]국제표준 SASIG-PDQ V2.1 기반의 제품데이터 품질향상을 위한 가이드라인 및 적용지침",
+      "source": "전자상거래표준화포럼 (www.ecif.or.kr), ECIF:157:2007, 2007."
+    },
+    {
+      "year": 2006,
+      "title": "미래에 대한 불안, 그 탈출구는?",
+      "source": "아주대학보 (제465호), 2006.05.29."
+    },
+    {
+      "year": 2004,
+      "title": "[표준화문서]자동차 산업용 제품데이터품질에 대한 CAD시스템 적용지침",
+      "source": "전자상거래표준화포럼 (www.ecif.or.kr), ECIF:109:2004, 2004."
+    },
+    {
+      "year": 2003,
+      "title": "[표준화문서]자동차산업용 제품데이터품질(PDQ)에 대한 적용지침",
+      "source": "전자상거래표준화포럼 (www.ecif.or.kr), ECIF:91:2003, 2003."
+    }
+  ]
+}
