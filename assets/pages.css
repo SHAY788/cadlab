@@ -126,3 +126,11 @@
 .page-korean .year-block li{padding:18px 8px}
 .page-korean .year-block li:before{content:none}
 @media(max-width:430px){.page-members .grid{grid-template-columns:1fr}.page-members .card{grid-template-columns:60px minmax(0,1fr);gap:6px 12px}.person-photo-placeholder{width:60px}.year-nav span{width:100%}}
+
+/* Confirmation fields preserve source periods separately from actual status. */
+.confirmation-note,.field-label{font-size:13px;color:var(--muted)}
+.field-label{margin:14px 0 4px}
+.project-status{margin:14px 0 0;padding-top:12px;border-top:1px solid var(--line);font-size:14px;font-weight:700;color:var(--navy)}
+.page-members .member-dates{font-size:14px;line-height:1.8}
+.person-photo-placeholder{object-fit:contain}
+.person-photo-placeholder img{display:block;width:100%;height:100%;object-fit:contain;border-radius:inherit}

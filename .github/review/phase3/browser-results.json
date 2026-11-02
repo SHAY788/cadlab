@@ -452,5 +452,5 @@
     }
   ],
   "failures": [],
-  "checks": "15 pages × 6 widths; immutable record text comparison; homepage entry counts; year navigation; alumni order; actual page/News navigation; breakpoint reset; external map stubbed"
+  "checks": "15 pages × 6 widths; 5 current members; 27 unchanged alumni; 97 immutable outputs; authorized project redistribution 1/26; source-field comparisons; links/year navigation; keyboard/touch; external map stubbed"
 }

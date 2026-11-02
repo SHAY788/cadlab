@@ -57,23 +57,27 @@ Homepage cards now link to the existing full records. Publication pages provide
 static category/year navigation; Articles also renders without JavaScript.
 Alumni is ordered by recorded graduation year and month, with stable ties.
 
-Original citation wording, people fields, project records and source project
-categories are preserved. Unconfirmed current affiliations, contact details and
-project states remain explicitly unverified. Editorial operation notes and a
-unique project verification register are under `.github/maintenance/phase3/`.
-See its README before changing factual records.
+Original citation wording, source personnel fields and historical project records
+are preserved. The 2026-11-02 laboratory confirmation establishes five current
+members, 27 alumni records, 97 output records and project distribution of one
+ongoing/extended and 26 closed. Unconfirmed detailed academic stages, legal status
+and missing actual dates remain qualified. Public confirmation scope and the
+project register are under `.github/maintenance/phase3/`; internal operation notes
+are removed from the current public tree after an outside-repository backup.
+See its README for privacy boundaries before changing factual records.
 
 The earlier Phase 2 whole-main comparison is a historical check for that phase.
 For the intentional Phase 3 content/ordering changes, use the record-level guard:
 
 ```sh
 mkdir -p /tmp/cadlab-phase3-baseline
-git archive 61dd7e9c8d26229811e4f9670fc6a1f42677abd8 | tar -x -C /tmp/cadlab-phase3-baseline
+git archive 34afb7f37feb26f2e405c917bd5c254dc26f53e8 | tar -x -C /tmp/cadlab-phase3-baseline
 python tools/check-content.py --baseline /tmp/cadlab-phase3-baseline
 CADLAB_BASELINE=/tmp/cadlab-phase3-baseline REVIEW_OUTPUT=/tmp/cadlab-phase3-review node tools/check-content-browser.cjs
 ```
 
 The browser prerequisites and local-map testing boundary are the same as Phase 2.
 Audit results and before/after screenshots are in `.github/review/phase3/REPORT.md`.
-No third-party evidence, DOI, citation metric or actual project completion date
-has been inferred or invented by this cleanup.
+No DOI, citation metric or unprovided actual project date has been inferred.
+P001 has the expressly supplied actual end month 2025.12; other missing actual
+dates remain unknown. The public `.github` directory is not private storage.

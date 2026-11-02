@@ -1,80 +1,77 @@
-# CADLAB 第三阶段变更与验证报告
+# CADLAB 第三阶段最终资料更新审核报告
 
-## 基线与范围
+## 版本与确认范围
 
-基线：`61dd7e9c8d26229811e4f9670fc6a1f42677abd8`，包含已合并的 PR #2。独立分支：`content/phase3-information`。本变更为 Draft PR 待审内容，未合并、未发布。
+- PR 整体基线：`61dd7e9`，包含第二阶段 PR #2。
+- 本轮更新前：`34afb7f`；本轮截图以这个现有 Draft PR #3 版本为“修改前”。
+- 分支继续使用 `content/phase3-information`，没有新建 PR；本轮仅更新 Draft PR #3。
+- 来源：用户转达的 **2026 年 11 月 2 日实验室人员确认**。这不是独立出版商、专利机关或标准机构核验。
 
-本阶段只根据仓库现有资料整理展示与入口，没有做外部事实核实，没有新造人员、论文、项目或新闻。
+## 已应用的确认结果
 
-## 修改内容
+### Professor
 
-### 首页
+양정삼（Jeongsam Yang）仍在 Ajou University 任职；팔달관 817호、031-219-1879、jyang@ajou.ac.kr 已确认。删除与这些字段相矛盾的待核实提示；历史兼职、委员会任期和既往经历原文保留，不扩大为“目前均有效”。
 
-- 删除教授“尚待添加”、校友“尚待整理”、论文“准备中”和项目“将来添加”等与既有子页相矛盾的占位摘要。
-- 3 个 People、5 个 Publications、2 个 Research 卡片标题作为原生详情链接；简介区增加 Contact 入口。
-- 不在首页展示未经核实的人员、论文或项目数量；项目入口明确说明原分类与当前状态仍待确认。
-- 保留原有简介、研究方向、新闻记录、插画、留白和第二阶段设计。没有新增装饰图片。
+### Members
 
-### People
+当前 5 名成员：송인호、김영준、여인웅、박진성、김도균。原三人的身份与联系方式原文字段不变，确认其仍为成员，但没有把具体学籍阶段或邮箱有效性一并标为已核实。
 
-- Professor 资料字段不改，补充当前任职、办公室和联系方式待核实提示，并增加同级页面入口。
-- Members 的三张卡片原字段完整保留；添加与历史照片区域一致的占位样式，没有伪造人物照片；明确邮箱等联系方式当前有效性待核实。
-- Members 内部编辑说明移入维护文档，公开页面不再展示操作记录；本阶段未按该旧说明再次删除、恢复或修改任何人员。
-- Alumni 27 张原始卡片按现有毕业年月倒序排列，覆盖 2009–2026 的 13 个年份；同月稳定排序，全部历史记录保留。多学位卡片按现有分组对应的毕业年月排序；未填补缺失的其他学位日期。
-- 校友单位、职位仍为原文，并明确历史来源不等于已核实的现任单位。
+박진성显示 석사과정、2026 年 2 月加入、2026 年 3 月开始硕士课程，不推算当前学期。김도균显示 학부 4학년 · 연구실 인턴，不增加未经提供的邮箱、电话或入学时间。五人均有相同尺寸设计的 PHOTO 占位，可后续用本人授权真实照片直接替换；没有生成或搜索人物照片。
 
-### Publications
+### Alumni
 
-- 五类成果增加共同分类入口和年份导航；全部记录同时可读，点击年份只跳转，不隐藏历史记录。
-- 国际和韩国论文原有年份顺序已经倒序；韩国列表增加年份分组。作者、题名、期刊、卷期、页码和日期原文不变。
-- Articles 11 条资料由原脚本数组转为静态 HTML，保留逐字段原文，同时存档原始数组。
-- 专利与软件版权保留分组及其各自明确日期的倒序；标准按原有版本年份倒序，未推断当前法律或有效状态。
-- 71 条成果只明确到年份，保留原同年顺序并进入人工核实清单；不把 No./Vol. 当作月份。
-- 没有将学位论文并入期刊列表，没有新增 DOI、论文 URL 或引用次数，也没有未经证据统一改写作者拼写或期刊名称。
+全部 27 张卡片、学位、毕业年月、原单位及博士/硕士学位论文题目完整保留。毕业和现职单位确认限定于 2026-11-02，说明未来可能变动；保留年份及月份倒序、同月稳定顺序和全部照片区域。
 
 ### Research
 
-- 两页 29 次展示按精确项目名匹配为 27 个唯一项目。
-- 两个 2025.12 计划结束的项目仍各保留在 Ongoing 和 Closed 原页面、原位置；新增冲突提示及相互对照链接。
-- 建立唯一项目 ID、每处资助机构/研究期限原文、原页面与位置、状态待核实情况。实际结项日期保持 null，不用计划日期代替。
-- 其他原 Closed 记录只保留来源分类，不宣称已取得独立结项证明。最后一条原文缺少资助机构及研究期限，已明确列为待办。
+| 项目 | 当前页 | 确认状态 | 实际日期与原研究期限 |
+|---|---|---|---|
+| P001 | Closed | 正式结项 | 实际结束 2025.12；原期限原文保留 |
+| P002 | Ongoing | 仍在进行或延期 | 原计划 2022.04–2025.12；实际结束年月未知，没有新造期限 |
+| P003–P026 | Closed | 全部正式结项 | 原名称、资助机构、研究期限保留；实际结项年月未提供，不拿原期限代替 |
+| P027 | Closed | 正式结项 | 资助机构、实际开始及实际结束年月未知，明确提示 |
 
-## 原文保留结果
+最终为 **27 个唯一项目，Ongoing 1 个、Closed 26 个**。P001 从 Ongoing 移除重复展示，P002 从 Closed 移除重复展示，其余不丢失。项目卡片以唯一 ID 标识，原研究期限与实际状态/实际结束字段分开。Closed 的年份分组沿用原记录研究期限的结束年份，不表示已确认的实际结项年份。
 
-| 范围 | 检查结果 |
-|---|---|
-| Professor | 原简介卡片和三组履历/研究方向列表 HTML 完全一致 |
-| Members | 原 3 张卡片去除新增的纯展示照片占位后，HTML 完全一致 |
-| Alumni | 原 27 张卡片 HTML 逐条完全一致；仅按明确毕业年月稳定重排 |
-| 国际 / 韩国论文 | 44 / 29 条 li HTML 完全一致，原相对顺序保留 |
-| Articles | 原 11 条 title/source/year 逐字段一致；静态列表文本一致 |
-| Patents / Standards | 7 / 6 条 article HTML 完全一致；分类和顺序保留 |
-| Research | 两页各 2 / 27 条项目 HTML、原顺序和归属完全一致 |
-| 图片与统一导航 | 所有原有 JPG/SVG/PNG 不变；15 页页头页脚和 navigation.js 字节一致 |
-| 共享 CSS | 第二阶段 styles.css / pages.css 原内容保持为前缀，只追加本阶段局部样式 |
-| 首页事实性数据 | about、research、news 与基线逐字段一致 |
+历史 29 次展示及每处原有资助机构/期限原文均保存在 [project-register.json](../../maintenance/phase3/project-register.json) 的 `historical_occurrences`，并保留原始卡片快照，不改写历史备份。
 
-原文快照和 SHA-256 位于 [source-records.json](../../maintenance/phase3/source-records.json)。这不是外部真伪认证，而是防止本次整理误改仓库资料的校验。
+### Publications
 
-## 测试结果
+44 国际期刊、29 韩国期刊、11 Articles、7 专利/软件版权、6 标准，共 **97 条**，逐条原文比较不变。删除“所有书目信息尚待核实”的笼统提示；保留分类、年份导航和仅有年份时的原精度，不补 DOI、月份、链接或引用次数。
 
-系统 Chromium + Playwright 的真实本地浏览器测试，15 页 × 375、430、768、900、1024、1440px，共 **90/90 通过**。900px 及以下启用触屏模拟，视口高度 1000px。
+原学位论文仍留在人员卡片，不误算为期刊成果。专利法律状态、官方登记现状与标准现行有效性没有单独确认，仍保留该范围的提示；不以实验室确认冒充官方核验。
 
-- Logo 加载与比例、汉堡默认状态、四组下拉菜单、aria-expanded、Tab、Enter、Space、方向键进入和 Esc 关闭/焦点恢复通过。
-- 逐页比对浏览器渲染的原始记录文本；允许校友重排，不允许记录减少或字段改变。
-- 无页面横向溢出、下拉菜单越界或 JavaScript 运行错误。
-- 分类入口、年份锚点、27 张校友卡片及年份倒序、首页 10 个详情入口检查通过。
-- 补充实点首页全部 10 个详情入口，目标页面正确；跨页 News 锚点和 900↔1024px 重置通过。
-- 六个宽度补测最终 Members 提示及年份标题没有被固定页头遮挡；关闭 JavaScript 后 Articles 的 11 条记录和年份导航仍可阅读。
-- 静态检查：15 页结构、唯一 ID、587 个本地链接/资源/锚点，原文守护检查、JS 语法、git diff --check，全部通过。
+### 首页和设计
 
-机器结果：[全站浏览器](browser-results.json) · [补充检查](extra-results.json) · [原文与静态检查](static-results.json)。可复现脚本：`tools/check-content.py`、`tools/check-content-browser.cjs`，命令见仓库 README。
+首页 People / Alumni / Research 摘要与上述确认同步，移除旧的全局待核实或重复项目提示。原简介、研究方向、新闻和插画不变；15 页页头页脚、共享导航脚本、正式 Logo 及历史 Logo 不变。沿用白色、深蓝与科技蓝，无新前端框架。
 
-测试边界：未使用实体设备、Safari 或 Firefox；Google Maps 外部 iframe 在全站回归中本地替代，未验证外部地图服务。favicon 请求由测试服务器返回 204，不据此宣称补齐了 favicon。所有截图均来自本地基线/分支，不是正式网站已发布证明。
+## 维护记录和隐私处理
 
-## 前后对比截图
+公开 GitHub 的 `.github` 并不私有。内部编辑说明文件在删除当前副本前，已保存仓库外受限临时副本，并创建、验证完整 Git bundle；备份目录权限 0700、文件 0600。没有把唯一副本直接删除，没有向外部存储擅自上传。
 
-以下截图为同宽度的原始浏览器视口图（高度 1000px）。首页为滚动到 People / Publications / Projects 区域后截图，其他页面为首屏；并非完整页面。全量记录保留通过独立校验验证，不以截图替代。
+一张旧审核截图曾包含内部编辑说明，本轮已用更新前 `34afb7f` 的截图替换；新公开报告不重述内部内容。这里的移除只指 **PR #3 当前分支树**，main 和正式网站尚未随 Draft 更新。旧提交、PR 差异、缓存或已有副本仍可能访问旧内容，不能宣称已全面私密化。
+
+用户已选择先提供私有保存方案、稍后指定位置。建议负责人指定学校受限团队盘、仅授权成员可读的私有文档库或加密离线存储，再校验备份及访问名单。临时执行环境不是长期保管库。若以后需要处理历史暴露，应另行授权协调；本次未重写历史、未强推。
+
+## 验证结果
+
+系统 Chromium + Playwright 真实本地浏览器检查：15 页 × 375、430、768、900、1024、1440px，**90/90 通过**；900px 及以下启用触屏模拟。
+
+- 检查 Logo、汉堡默认状态、触屏/键盘菜单、Esc 与焦点恢复、跨页链接、年份导航、页面及下拉横向边界；未发现 JavaScript 运行错误。
+- 原三位成员的角色/邮箱字段逐项不变，新两人和五个照片区齐全；27 张校友卡片原文不变；97 条成果 li/article 原文不变。
+- 逐页核对项目 1/26 分布、27 个唯一 ID、所有原项目核心字段与历史 29 次展示；仅 P001 具有用户明确给出的实际结束年月。
+- 补测首页全部 10 个详情链接实际跳转，关闭 JavaScript 后 Articles 的 11 条和年份导航，六种宽度的最终项目标签及年份标题可见性。
+- 五个照片区尺寸一致；补充 375/1440px Members 整页图，便于核对全部 5 人。
+- 静态 HTML 结构、唯一 ID、585 个站内链接/资源/锚点、JS 语法、原图及共享导航完整性、文档链接和 git diff --check 均通过。
+
+机器结果：[全站浏览器](browser-results.json) · [补充检查](extra-results.json) · [记录与静态守护](static-results.json)。可复现命令见根 README。
+
+边界：未测试实体设备、Safari、Firefox；全站测试中的外部 Google Maps iframe 使用本地替代，不代表地图服务核验；favicon 请求由测试服务器返回 204。截图来自本地分支，不代表已发布。
+
+## 本轮修改前后截图
+
+下列普通截图为 1000px 高视口；首页截图定位到对应内容区。`members-full` 是整页图。所有“修改前”均来自 `34afb7f`，以避免沿用含内部编辑说明的早期截图。
 
 | 页面 / 位置 / 宽度 | 修改前 | 修改后 |
 |---|---|---|
@@ -89,34 +86,83 @@
 | korean-1440 | ![修改前](screenshots/korean-1440-before.png) | ![修改后](screenshots/korean-1440-after.png) |
 | members-1440 | ![修改前](screenshots/members-1440-before.png) | ![修改后](screenshots/members-1440-after.png) |
 | members-375 | ![修改前](screenshots/members-375-before.png) | ![修改后](screenshots/members-375-after.png) |
+| members-full-1440 | ![修改前](screenshots/members-full-1440-before.png) | ![修改后](screenshots/members-full-1440-after.png) |
+| members-full-375 | ![修改前](screenshots/members-full-375-before.png) | ![修改后](screenshots/members-full-375-after.png) |
 | ongoing-1440 | ![修改前](screenshots/ongoing-1440-before.png) | ![修改后](screenshots/ongoing-1440-after.png) |
 | professor-1440 | ![修改前](screenshots/professor-1440-before.png) | ![修改后](screenshots/professor-1440-after.png) |
 | professor-375 | ![修改前](screenshots/professor-375-before.png) | ![修改后](screenshots/professor-375-after.png) |
 
-## 待人工核实清单
+## 仍需人工决定的事项
 
-请重点审核 [中文核实清单](../../maintenance/phase3/PHASE3-VERIFICATION.md) 及 [维护说明](../../maintenance/phase3/README.md)：
+- 为内部备份指定长期私有存储位置；若需历史或缓存处理，另行决定及授权。
+- 原三位成员的详细学籍阶段、邮箱有效性及教授其他历史兼职/委员会任期，尚未单独确认。
+- P002 的具体延期安排及实际结束年月，P003–P026 的实际结项年月，P027 的资助机构及实际起止年月。
+- 若要展示专利当前法律状态或标准当前有效性，需要单独官方依据。
 
-1. Professor 与 Members 的当前身份、任职、办公室及联系方式。
-2. Alumni 历史单位、同名跨类别记录、未提供的其他学位日期；不得因版面整理删除旧校友。
-3. 两个双重分类项目的真实状态和实际结项日期；其余项目的来源证明；缺失期限/资助机构的项目。
-4. 71 条只明确到年份的成果日期精度，以及待核对的卷期、online publication 最终信息、专利登记与标准现状。
+完整确认范围见 [确认结果与剩余事项](../../maintenance/phase3/PHASE3-VERIFICATION.md)，私有保存方案见 [维护说明](../../maintenance/phase3/README.md)。
 
-## 文件清单
+## 本轮实际修改文件及原因
 
-展示层修改：
+下表相对 `34afb7f`，列出本轮每个实际修改文件；不是整份 PR 相对 main 的累计清单。
 
-- `index.html`
-- `assets/content.js`、`assets/site.js`、`assets/styles.css`、`assets/pages.css`
-- `people/professor.html`、`people/members.html`、`people/alumni.html`
-- `publications/international.html`、`publications/korean.html`、`publications/articles.html`、`publications/patents.html`、`publications/standards.html`
-- `research/ongoing.html`、`research/completed.html`
+| 文件 | 原因 |
+|---|---|
+| `.github/maintenance/phase3/PHASE3-VERIFICATION.md` | 更新必要确认摘要、剩余事项和私有保存方案 |
+| `.github/maintenance/phase3/README.md` | 更新必要确认摘要、剩余事项和私有保存方案 |
+| `.github/maintenance/phase3/member-editorial-history.md` | 删除当前公开树副本；删除前已保存受限临时副本与完整Git bundle，不重述内容 |
+| `.github/maintenance/phase3/project-register.json` | 记录确认状态、当前归属和实际日期；完整保留历史29次展示 |
+| `.github/maintenance/phase3/publication-audit.json` | 更新97条内容确认来源及日期，不将日期精度或法律状态扩大确认 |
+| `.github/review/phase3/REPORT.md` | 更新中文审核报告、确认范围和本轮逐文件说明 |
+| `.github/review/phase3/browser-results.json` | 更新确认版机器验证结果 |
+| `.github/review/phase3/extra-results.json` | 更新确认版机器验证结果 |
+| `.github/review/phase3/screenshots/alumni-1440-after.png` | 使用本轮确认前/后的浏览器截图；替换过期或含内部说明的旧版本，整页图展示五人 |
+| `.github/review/phase3/screenshots/alumni-1440-before.png` | 使用本轮确认前/后的浏览器截图；替换过期或含内部说明的旧版本，整页图展示五人 |
+| `.github/review/phase3/screenshots/alumni-375-after.png` | 使用本轮确认前/后的浏览器截图；替换过期或含内部说明的旧版本，整页图展示五人 |
+| `.github/review/phase3/screenshots/alumni-375-before.png` | 使用本轮确认前/后的浏览器截图；替换过期或含内部说明的旧版本，整页图展示五人 |
+| `.github/review/phase3/screenshots/articles-1440-after.png` | 使用本轮确认前/后的浏览器截图；替换过期或含内部说明的旧版本，整页图展示五人 |
+| `.github/review/phase3/screenshots/articles-1440-before.png` | 使用本轮确认前/后的浏览器截图；替换过期或含内部说明的旧版本，整页图展示五人 |
+| `.github/review/phase3/screenshots/completed-1440-after.png` | 使用本轮确认前/后的浏览器截图；替换过期或含内部说明的旧版本，整页图展示五人 |
+| `.github/review/phase3/screenshots/completed-1440-before.png` | 使用本轮确认前/后的浏览器截图；替换过期或含内部说明的旧版本，整页图展示五人 |
+| `.github/review/phase3/screenshots/home-entries-1440-after.png` | 使用本轮确认前/后的浏览器截图；替换过期或含内部说明的旧版本，整页图展示五人 |
+| `.github/review/phase3/screenshots/home-entries-1440-before.png` | 使用本轮确认前/后的浏览器截图；替换过期或含内部说明的旧版本，整页图展示五人 |
+| `.github/review/phase3/screenshots/home-projects-1440-after.png` | 使用本轮确认前/后的浏览器截图；替换过期或含内部说明的旧版本，整页图展示五人 |
+| `.github/review/phase3/screenshots/home-projects-1440-before.png` | 使用本轮确认前/后的浏览器截图；替换过期或含内部说明的旧版本，整页图展示五人 |
+| `.github/review/phase3/screenshots/home-publications-1440-after.png` | 使用本轮确认前/后的浏览器截图；替换过期或含内部说明的旧版本，整页图展示五人 |
+| `.github/review/phase3/screenshots/home-publications-1440-before.png` | 使用本轮确认前/后的浏览器截图；替换过期或含内部说明的旧版本，整页图展示五人 |
+| `.github/review/phase3/screenshots/international-1440-after.png` | 使用本轮确认前/后的浏览器截图；替换过期或含内部说明的旧版本，整页图展示五人 |
+| `.github/review/phase3/screenshots/international-1440-before.png` | 使用本轮确认前/后的浏览器截图；替换过期或含内部说明的旧版本，整页图展示五人 |
+| `.github/review/phase3/screenshots/korean-1440-after.png` | 使用本轮确认前/后的浏览器截图；替换过期或含内部说明的旧版本，整页图展示五人 |
+| `.github/review/phase3/screenshots/korean-1440-before.png` | 使用本轮确认前/后的浏览器截图；替换过期或含内部说明的旧版本，整页图展示五人 |
+| `.github/review/phase3/screenshots/members-1440-after.png` | 使用本轮确认前/后的浏览器截图；替换过期或含内部说明的旧版本，整页图展示五人 |
+| `.github/review/phase3/screenshots/members-1440-before.png` | 使用本轮确认前/后的浏览器截图；替换过期或含内部说明的旧版本，整页图展示五人 |
+| `.github/review/phase3/screenshots/members-375-after.png` | 使用本轮确认前/后的浏览器截图；替换过期或含内部说明的旧版本，整页图展示五人 |
+| `.github/review/phase3/screenshots/members-375-before.png` | 使用本轮确认前/后的浏览器截图；替换过期或含内部说明的旧版本，整页图展示五人 |
+| `.github/review/phase3/screenshots/members-full-1440-after.png` | 使用本轮确认前/后的浏览器截图；替换过期或含内部说明的旧版本，整页图展示五人 |
+| `.github/review/phase3/screenshots/members-full-1440-before.png` | 使用本轮确认前/后的浏览器截图；替换过期或含内部说明的旧版本，整页图展示五人 |
+| `.github/review/phase3/screenshots/members-full-375-after.png` | 使用本轮确认前/后的浏览器截图；替换过期或含内部说明的旧版本，整页图展示五人 |
+| `.github/review/phase3/screenshots/members-full-375-before.png` | 使用本轮确认前/后的浏览器截图；替换过期或含内部说明的旧版本，整页图展示五人 |
+| `.github/review/phase3/screenshots/ongoing-1440-after.png` | 使用本轮确认前/后的浏览器截图；替换过期或含内部说明的旧版本，整页图展示五人 |
+| `.github/review/phase3/screenshots/ongoing-1440-before.png` | 使用本轮确认前/后的浏览器截图；替换过期或含内部说明的旧版本，整页图展示五人 |
+| `.github/review/phase3/screenshots/professor-1440-after.png` | 使用本轮确认前/后的浏览器截图；替换过期或含内部说明的旧版本，整页图展示五人 |
+| `.github/review/phase3/screenshots/professor-1440-before.png` | 使用本轮确认前/后的浏览器截图；替换过期或含内部说明的旧版本，整页图展示五人 |
+| `.github/review/phase3/screenshots/professor-375-after.png` | 使用本轮确认前/后的浏览器截图；替换过期或含内部说明的旧版本，整页图展示五人 |
+| `.github/review/phase3/screenshots/professor-375-before.png` | 使用本轮确认前/后的浏览器截图；替换过期或含内部说明的旧版本，整页图展示五人 |
+| `.github/review/phase3/static-results.json` | 更新确认版机器验证结果 |
+| `README.md` | 更新确认范围、隐私边界及本轮验证基线 |
+| `assets/content.js` | 同步首页已确认人员、校友和项目摘要 |
+| `assets/pages.css` | 支持确认字段、原期限/实际状态分离及真实照片等比替换 |
+| `index.html` | 移除过时全局待核实提示，明确确认日期和项目分布 |
+| `people/alumni.html` | 将27条记录标记为确认日毕业及现职信息，不改卡片原文 |
+| `people/members.html` | 五名成员与统一照片区，保留原三人原字段及详细字段确认边界 |
+| `people/professor.html` | 限定已确认教授字段与未单独确认的历史任期 |
+| `publications/articles.html` | 确认记录内容正确；保留引文/导航并限定法律或标准有效性确认范围 |
+| `publications/international.html` | 确认记录内容正确；保留引文/导航并限定法律或标准有效性确认范围 |
+| `publications/korean.html` | 确认记录内容正确；保留引文/导航并限定法律或标准有效性确认范围 |
+| `publications/patents.html` | 确认记录内容正确；保留引文/导航并限定法律或标准有效性确认范围 |
+| `publications/standards.html` | 确认记录内容正确；保留引文/导航并限定法律或标准有效性确认范围 |
+| `research/completed.html` | 展示26个已结项项目，P001实际结束和其他缺失日期分开 |
+| `research/ongoing.html` | 仅展示P002，区分原计划期限与未知实际结束 |
+| `tools/check-content-browser.cjs` | 更新确认版逐页浏览器断言及五人整页截图 |
+| `tools/check-content.py` | 对确认范围、不可改引文、五人及项目1/26分布进行守护 |
 
-维护与验证：
-
-- `README.md`
-- `tools/check-content.py`、`tools/check-content-browser.cjs`
-- `.github/maintenance/phase3/`：维护说明、人工核实清单、项目登记、成果审计、人员操作记录、校友顺序、原始记录快照和 Articles 源数据。
-- `.github/review/phase3/`：本报告、三个机器结果文件及 28 张对比截图。
-
-其余原有页面、图片、历史审核资料、共享导航脚本、布局模板和发布配置未更改；没有删除原有文件。
+PR #3 保持 Draft，未合并 main、未发布网站；没有新增 PR，没有强推或改写 Git 历史。

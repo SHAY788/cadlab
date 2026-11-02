@@ -11,9 +11,9 @@ about: "The CAD (Computer-Aided Design) Laboratory is an integral unit of the De
     { title: "AR / VR", description: "Immersive visualization and engineering education." }
   ],
   people: [
-    {title: "Professor", description: "Jeongsam Yang — academic profile, education and research interests. Historical appointments require confirmation.", href: "people/professor.html"},
-    {title: "Members", description: "Recorded researchers and students. Current membership and contact details remain to be confirmed.", href: "people/members.html"},
-    {title: "Alumni", description: "Graduation records, degree theses and historical affiliations, from the newest recorded year to the earliest.", href: "people/alumni.html"}
+    {title: "Professor", description: "Jeongsam Yang — Ajou University professor. Current appointment and contact details confirmed on 2 November 2026; earlier concurrent roles remain historical.", href: "people/professor.html"},
+    {title: "Members", description: "Five current members confirmed on 2 November 2026. Previously recorded academic stages and email validity have not been separately confirmed.", href: "people/members.html"},
+    {title: "Alumni", description: "Graduation and current affiliations confirmed on 2 November 2026. All 27 alumni records and original degree-thesis titles are retained.", href: "people/alumni.html"}
   ],
   publications: [
     {title: "International Journal Papers", detail: "Year-organized journal records with original bibliographic details.", href: "publications/international.html"},
@@ -23,8 +23,8 @@ about: "The CAD (Computer-Aided Design) Laboratory is an integral unit of the De
     {title: "Korean Industrial Standards", detail: "Historical standards records; consult the official catalogue for current status.", href: "publications/standards.html"}
   ],
   projects: [
-    {title: "Ongoing Projects — source listing", description: "Projects retained in the original Ongoing category. Current status and actual completion dates are not confirmed.", href: "research/ongoing.html"},
-    {title: "Closed Projects — source listing", description: "Historical project records. Two entries also appear in Ongoing and remain subject to status verification.", href: "research/completed.html"}
+    {title: "Ongoing Projects", description: "One project remains ongoing or extended. Its original planned end date is retained; the actual end date is unknown.", href: "research/ongoing.html"},
+    {title: "Closed Projects", description: "26 projects confirmed closed on 2 November 2026. Actual completion dates remain unknown except where explicitly supplied.", href: "research/completed.html"}
   ],
   news: [
     {title: "Website renewal in progress", date: "2026", description: "We are rebuilding the laboratory website and organizing historical content."}

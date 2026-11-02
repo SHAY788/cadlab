@@ -1,20 +1,20 @@
 {
   "status": "PASS",
   "pages": 15,
-  "local_references": 587,
-  "record_counts": {
-    "people/alumni.html": 27,
-    "people/members.html": 3,
-    "people/professor.html": 4,
-    "publications/international.html": 44,
-    "publications/korean.html": 29,
-    "publications/patents.html": 7,
-    "publications/standards.html": 6,
-    "research/completed.html": 27,
-    "research/ongoing.html": 2
-  },
-  "articles": 11,
-  "projects_unique": 27,
-  "project_occurrences": 29,
-  "duplicates_pending": 2
+  "local_references": 585,
+  "members": 5,
+  "alumni": 27,
+  "publication_counts": [
+    44,
+    29,
+    11,
+    7,
+    6
+  ],
+  "publications_total": 97,
+  "ongoing": 1,
+  "closed": 26,
+  "unique_projects": 27,
+  "historical_project_occurrences": 29,
+  "internal_note_in_current_tree": false
 }

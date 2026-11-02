@@ -7,21 +7,30 @@ const server=http.createServer((req,res)=>{const parts=decodeURIComponent(req.ur
 const pages=[];function scan(dir,prefix=''){for(const f of fs.readdirSync(dir,{withFileTypes:true})){if(f.name==='.git')continue;const rel=path.join(prefix,f.name);if(f.isDirectory())scan(path.join(dir,f.name),rel);else if(f.name.endsWith('.html'))pages.push(rel)}}scan(roots.after);
 const samples={'index.html':'home-entries','people/professor.html':'professor','people/members.html':'members','people/alumni.html':'alumni','publications/international.html':'international','publications/korean.html':'korean','publications/articles.html':'articles','research/ongoing.html':'ongoing','research/completed.html':'completed'};
 const results=[],failures=[],baselines={};
-const getContent=(p,rel)=>p.evaluate(rel=>{
+const destinations=Object.fromEntries(JSON.parse(fs.readFileSync(path.join(roots.after,'.github/maintenance/phase3/project-register.json'),'utf8')).map(x=>[x.name,x.current_page]));
+const getContent=(p,rel)=>p.evaluate(({rel,destinations})=>{
  const selectors={'people/alumni.html':'main article','people/members.html':'main article','people/professor.html':'main .intro,main dl','publications/international.html':'main .year-block li','publications/korean.html':'main li.paper','publications/articles.html':'main .papers li','publications/patents.html':'main article','publications/standards.html':'main article','research/ongoing.html':'main article','research/completed.html':'main article'};
- const selector=selectors[rel];if(!selector)return null;
- return [...document.querySelectorAll(selector)].map(e=>{const c=e.cloneNode(true);c.querySelectorAll('.person-photo-placeholder').forEach(x=>x.remove());return c.textContent.replace(/\s+/g,' ').trim()}).sort();
-},rel);
+ const selector=selectors[rel];if(!selector)return null;const clean=s=>(s||'').replace(/\s+/g,' ').trim();
+ let nodes=[...document.querySelectorAll(selector)];
+ if(rel==='people/members.html')return nodes.slice(0,3).map(e=>['h3','.role','.email'].map(q=>clean(e.querySelector(q)?.textContent)).join('|')).sort();
+ if(rel.startsWith('research/'))return nodes.filter(e=>destinations[clean(e.querySelector('h3').textContent)]===rel).map(e=>['h3','.agency','.period'].map(q=>clean(e.querySelector(q)?.textContent)).join('|')).sort();
+ return nodes.map(e=>clean(e.textContent)).sort();
+},{rel,destinations});
 async function extraChecks(browser,origin){
  const checks=[];
  for(const width of [375,430,768,900,1024,1440]){
   const ctx=await browser.newContext({viewport:{width,height:1000},hasTouch:width<=900,reducedMotion:'reduce'});const page=await ctx.newPage();
-  await page.goto(`${origin}/after/people/members.html`);assert(await page.locator('main').textContent().then(t=>t.includes('current validity has not been verified')));
+  await page.goto(`${origin}/after/people/members.html`);assert(await page.locator('main').textContent().then(t=>t.includes('현재 구성원 5명')));
   assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
   if(width===375)await page.screenshot({path:`${out}/members-375-after.png`});
   await page.goto(`${origin}/after/publications/international.html`);await page.locator('.year-nav a').last().click();
   const y=await page.locator('#year-2004').boundingBox(),head=await page.locator('.header').boundingBox();assert(y.y>=head.y+head.height-1 && y.y<1000,'Year heading obscured');
-  checks.push(`final Members notice and year-anchor visibility @${width}`);await ctx.close();
+  for(const projectPage of ['ongoing','completed']){
+   await page.goto(`${origin}/after/research/${projectPage}.html`);assert.equal(await page.locator('main article').count(),projectPage==='ongoing'?1:26);assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+   assert(await page.locator('.field-label').first().textContent().then(t=>t.includes(projectPage==='ongoing'?'Original planned period':'Original recorded research period')));
+   if(width===1440)await page.screenshot({path:`${out}/${projectPage}-1440-after.png`});
+  }
+  checks.push(`final Members, year-anchor visibility and 1/26 project display @${width}`);await ctx.close();
  }
  const ctx=await browser.newContext({viewport:{width:1440,height:1000},reducedMotion:'reduce'});const page=await ctx.newPage();
  await page.goto(`${origin}/after/index.html`);const links=await page.locator('#peopleList a,#publicationList a,#projectList a').evaluateAll(xs=>xs.map(x=>({href:x.getAttribute('href'),text:x.textContent})));
@@ -29,7 +38,17 @@ async function extraChecks(browser,origin){
  for(const link of links){await page.goto(`${origin}/after/index.html`);await page.locator(`main a[href="${link.href}"]`).first().click();assert.equal(new URL(page.url()).pathname,`/after/${link.href}`)}
  checks.push('All 10 homepage record links navigate to their real detail pages');
  for(const mode of ['before','after'])for(const section of ['publications','projects']){await page.goto(`${origin}/${mode}/index.html`);await page.locator(`#${section}`).scrollIntoViewIfNeeded();await page.screenshot({path:`${out}/home-${section}-1440-${mode}.png`})}
+ for(const mode of ['before','after']){
+  await page.goto(`${origin}/${mode}/people/members.html`);
+  if(mode==='after'){
+   const sizes=await page.locator('.person-photo-placeholder').evaluateAll(xs=>xs.map(e=>{const r=e.getBoundingClientRect();return [r.width,r.height]}));assert.equal(sizes.length,5);assert(sizes.every(x=>Math.abs(x[0]-sizes[0][0])<1&&Math.abs(x[1]-sizes[0][1])<1));
+  }
+  await page.screenshot({path:`${out}/members-full-1440-${mode}.png`,fullPage:true});
+ }
  await ctx.close();
+ const mobileContext=await browser.newContext({viewport:{width:375,height:1000},hasTouch:true,reducedMotion:'reduce'});const mobilePage=await mobileContext.newPage();
+ for(const mode of ['before','after']){await mobilePage.goto(`${origin}/${mode}/people/members.html`);await mobilePage.screenshot({path:`${out}/members-full-375-${mode}.png`,fullPage:true})}await mobileContext.close();
+ checks.push('Five uniform photo placeholders and full-page Members comparisons at 375/1440');
  const nojs=await browser.newContext({viewport:{width:1440,height:1000},javaScriptEnabled:false});const staticPage=await nojs.newPage();await staticPage.goto(`${origin}/after/publications/articles.html`);assert.equal(await staticPage.locator('#article-list li').count(),11);assert(await staticPage.locator('#article-list li').first().isVisible());await staticPage.locator('.year-nav a').last().click();assert(staticPage.url().endsWith('#year-2003'));await nojs.close();checks.push('Articles: 11 readable records and year navigation without JavaScript');
  fs.writeFileSync(path.join(out,'extra-results.json'),JSON.stringify({status:'PASS',checks},null,2));console.log('Supplemental checks: PASS');
 }
@@ -86,7 +105,8 @@ async function extraChecks(browser,origin){
     if(rel==='people/alumni.html'){
       const years=await p.locator('main h2.year').allTextContents();assert.deepEqual(years,[...years].sort((a,b)=>Number(b)-Number(a)));assert.equal(await p.locator('main article').count(),27);
     }
-    if(rel==='people/members.html'){assert.equal(await p.locator('main article').count(),3);assert(!await p.locator('main').textContent().then(t=>t.includes('요청에 따라')))}
+    if(rel==='people/members.html'){assert.equal(await p.locator('main article').count(),5);assert.equal(await p.locator('.person-photo-placeholder').count(),5);assert.deepEqual(await p.locator('main article h3').allTextContents(),['송인호','김영준','여인웅','박진성','김도균']);assert(await p.locator('main').textContent().then(t=>t.includes('2026년 3월 석사과정 시작')))}
+    if(rel.startsWith('research/')){assert.equal(await p.locator('main article').count(),rel.includes('ongoing')?1:26);assert(await p.locator('.project-status').first().isVisible().catch(()=>false)||await p.locator('.project-status').count()>0);}
     if(rel==='index.html'){
       assert.equal(await p.locator('#peopleList a').count(),3);assert.equal(await p.locator('#publicationList a').count(),5);assert.equal(await p.locator('#projectList a').count(),2);
       assert(!await p.locator('main').textContent().then(t=>/archive under preparation|Faculty information will be added/.test(t)));
@@ -102,5 +122,5 @@ async function extraChecks(browser,origin){
  await p.locator('#menuButton').tap();await p.locator('#navigation > a').filter({hasText:/^News$/}).click();await p.waitForURL('**/after/index.html#news');assert(!await p.locator('#navigation').isVisible());
  await p.locator('#menuButton').tap();await p.locator('[aria-controls="research-submenu"]').tap();await p.setViewportSize({width:1024,height:1000});assert.equal(await p.locator('#menuButton').getAttribute('aria-expanded'),'false');assert(!await p.locator('#research-submenu').isVisible());await p.setViewportSize({width:900,height:1000});assert(!await p.locator('#navigation').isVisible());
  await extraChecks(browser,origin);
- await browser.close();server.close();fs.writeFileSync(path.join(out,'browser-results.json'),JSON.stringify({results,failures,checks:'15 pages × 6 widths; immutable record text comparison; homepage entry counts; year navigation; alumni order; actual page/News navigation; breakpoint reset; external map stubbed'},null,2));if(failures.length)process.exitCode=1;console.log('TOTAL',results.length,'passed;',failures.length,'failed');
+ await browser.close();server.close();fs.writeFileSync(path.join(out,'browser-results.json'),JSON.stringify({results,failures,checks:'15 pages × 6 widths; 5 current members; 27 unchanged alumni; 97 immutable outputs; authorized project redistribution 1/26; source-field comparisons; links/year navigation; keyboard/touch; external map stubbed'},null,2));if(failures.length)process.exitCode=1;console.log('TOTAL',results.length,'passed;',failures.length,'failed');
 })().catch(e=>{console.error(e);process.exit(1)});

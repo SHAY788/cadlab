@@ -1,13 +1,14 @@
 {
   "status": "PASS",
   "checks": [
-    "final Members notice and year-anchor visibility @375",
-    "final Members notice and year-anchor visibility @430",
-    "final Members notice and year-anchor visibility @768",
-    "final Members notice and year-anchor visibility @900",
-    "final Members notice and year-anchor visibility @1024",
-    "final Members notice and year-anchor visibility @1440",
+    "final Members, year-anchor visibility and 1/26 project display @375",
+    "final Members, year-anchor visibility and 1/26 project display @430",
+    "final Members, year-anchor visibility and 1/26 project display @768",
+    "final Members, year-anchor visibility and 1/26 project display @900",
+    "final Members, year-anchor visibility and 1/26 project display @1024",
+    "final Members, year-anchor visibility and 1/26 project display @1440",
     "All 10 homepage record links navigate to their real detail pages",
+    "Five uniform photo placeholders and full-page Members comparisons at 375/1440",
     "Articles: 11 readable records and year navigation without JavaScript"
   ]
 }
