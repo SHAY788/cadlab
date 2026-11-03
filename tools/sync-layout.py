@@ -29,7 +29,7 @@ def header(page):
             {chr(10).join(link(name, target) for name,target in children)}
           </div>
         </div>''')
-    chunks.extend([link('News','index.html#news'),link('Archive','archive/index.html'),link('Contact','lab/contact.html')])
+    chunks.extend([link('Contact','lab/contact.html')])
     return f'''<!-- shared-header:start -->
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="header">

@@ -27,5 +27,5 @@ const addEntry = (id, items) => {
   });
 };
 document.getElementById('aboutText').textContent=data.about||'';
-addCard('researchList',data.research);addCard('peopleList',data.people);addCard('projectList',data.projects);addEntry('publicationList',data.publications);addEntry('newsList',data.news);
+addCard('researchList',data.research);addCard('peopleList',data.people);addCard('projectList',data.projects);addEntry('publicationList',data.publications);
 })();
