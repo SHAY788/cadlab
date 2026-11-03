@@ -1,0 +1,706 @@
+{
+  "commit": "1d4651f19ad6aa77ecc052977e1b4a55997d06fd",
+  "browser": "Installed Google Chrome / Playwright",
+  "widths": [
+    360,
+    375,
+    390,
+    430,
+    768,
+    900,
+    1024,
+    1440,
+    1920
+  ],
+  "results": [
+    {
+      "width": 360,
+      "page": "archive/index.html",
+      "status": "PASS"
+    },
+    {
+      "width": 360,
+      "page": "index.html",
+      "status": "PASS"
+    },
+    {
+      "width": 360,
+      "page": "lab/contact.html",
+      "status": "PASS"
+    },
+    {
+      "width": 360,
+      "page": "lab/introduction.html",
+      "status": "PASS"
+    },
+    {
+      "width": 360,
+      "page": "lab/motto.html",
+      "status": "PASS"
+    },
+    {
+      "width": 360,
+      "page": "people/alumni.html",
+      "status": "PASS"
+    },
+    {
+      "width": 360,
+      "page": "people/members.html",
+      "status": "PASS"
+    },
+    {
+      "width": 360,
+      "page": "people/professor.html",
+      "status": "PASS"
+    },
+    {
+      "width": 360,
+      "page": "publications/articles.html",
+      "status": "PASS"
+    },
+    {
+      "width": 360,
+      "page": "publications/international.html",
+      "status": "PASS"
+    },
+    {
+      "width": 360,
+      "page": "publications/korean.html",
+      "status": "PASS"
+    },
+    {
+      "width": 360,
+      "page": "publications/patents.html",
+      "status": "PASS"
+    },
+    {
+      "width": 360,
+      "page": "publications/standards.html",
+      "status": "PASS"
+    },
+    {
+      "width": 360,
+      "page": "research/completed.html",
+      "status": "PASS"
+    },
+    {
+      "width": 360,
+      "page": "research/ongoing.html",
+      "status": "PASS"
+    },
+    {
+      "width": 375,
+      "page": "archive/index.html",
+      "status": "PASS"
+    },
+    {
+      "width": 375,
+      "page": "index.html",
+      "status": "PASS"
+    },
+    {
+      "width": 375,
+      "page": "lab/contact.html",
+      "status": "PASS"
+    },
+    {
+      "width": 375,
+      "page": "lab/introduction.html",
+      "status": "PASS"
+    },
+    {
+      "width": 375,
+      "page": "lab/motto.html",
+      "status": "PASS"
+    },
+    {
+      "width": 375,
+      "page": "people/alumni.html",
+      "status": "PASS"
+    },
+    {
+      "width": 375,
+      "page": "people/members.html",
+      "status": "PASS"
+    },
+    {
+      "width": 375,
+      "page": "people/professor.html",
+      "status": "PASS"
+    },
+    {
+      "width": 375,
+      "page": "publications/articles.html",
+      "status": "PASS"
+    },
+    {
+      "width": 375,
+      "page": "publications/international.html",
+      "status": "PASS"
+    },
+    {
+      "width": 375,
+      "page": "publications/korean.html",
+      "status": "PASS"
+    },
+    {
+      "width": 375,
+      "page": "publications/patents.html",
+      "status": "PASS"
+    },
+    {
+      "width": 375,
+      "page": "publications/standards.html",
+      "status": "PASS"
+    },
+    {
+      "width": 375,
+      "page": "research/completed.html",
+      "status": "PASS"
+    },
+    {
+      "width": 375,
+      "page": "research/ongoing.html",
+      "status": "PASS"
+    },
+    {
+      "width": 390,
+      "page": "archive/index.html",
+      "status": "PASS"
+    },
+    {
+      "width": 390,
+      "page": "index.html",
+      "status": "PASS"
+    },
+    {
+      "width": 390,
+      "page": "lab/contact.html",
+      "status": "PASS"
+    },
+    {
+      "width": 390,
+      "page": "lab/introduction.html",
+      "status": "PASS"
+    },
+    {
+      "width": 390,
+      "page": "lab/motto.html",
+      "status": "PASS"
+    },
+    {
+      "width": 390,
+      "page": "people/alumni.html",
+      "status": "PASS"
+    },
+    {
+      "width": 390,
+      "page": "people/members.html",
+      "status": "PASS"
+    },
+    {
+      "width": 390,
+      "page": "people/professor.html",
+      "status": "PASS"
+    },
+    {
+      "width": 390,
+      "page": "publications/articles.html",
+      "status": "PASS"
+    },
+    {
+      "width": 390,
+      "page": "publications/international.html",
+      "status": "PASS"
+    },
+    {
+      "width": 390,
+      "page": "publications/korean.html",
+      "status": "PASS"
+    },
+    {
+      "width": 390,
+      "page": "publications/patents.html",
+      "status": "PASS"
+    },
+    {
+      "width": 390,
+      "page": "publications/standards.html",
+      "status": "PASS"
+    },
+    {
+      "width": 390,
+      "page": "research/completed.html",
+      "status": "PASS"
+    },
+    {
+      "width": 390,
+      "page": "research/ongoing.html",
+      "status": "PASS"
+    },
+    {
+      "width": 430,
+      "page": "archive/index.html",
+      "status": "PASS"
+    },
+    {
+      "width": 430,
+      "page": "index.html",
+      "status": "PASS"
+    },
+    {
+      "width": 430,
+      "page": "lab/contact.html",
+      "status": "PASS"
+    },
+    {
+      "width": 430,
+      "page": "lab/introduction.html",
+      "status": "PASS"
+    },
+    {
+      "width": 430,
+      "page": "lab/motto.html",
+      "status": "PASS"
+    },
+    {
+      "width": 430,
+      "page": "people/alumni.html",
+      "status": "PASS"
+    },
+    {
+      "width": 430,
+      "page": "people/members.html",
+      "status": "PASS"
+    },
+    {
+      "width": 430,
+      "page": "people/professor.html",
+      "status": "PASS"
+    },
+    {
+      "width": 430,
+      "page": "publications/articles.html",
+      "status": "PASS"
+    },
+    {
+      "width": 430,
+      "page": "publications/international.html",
+      "status": "PASS"
+    },
+    {
+      "width": 430,
+      "page": "publications/korean.html",
+      "status": "PASS"
+    },
+    {
+      "width": 430,
+      "page": "publications/patents.html",
+      "status": "PASS"
+    },
+    {
+      "width": 430,
+      "page": "publications/standards.html",
+      "status": "PASS"
+    },
+    {
+      "width": 430,
+      "page": "research/completed.html",
+      "status": "PASS"
+    },
+    {
+      "width": 430,
+      "page": "research/ongoing.html",
+      "status": "PASS"
+    },
+    {
+      "width": 768,
+      "page": "archive/index.html",
+      "status": "PASS"
+    },
+    {
+      "width": 768,
+      "page": "index.html",
+      "status": "PASS"
+    },
+    {
+      "width": 768,
+      "page": "lab/contact.html",
+      "status": "PASS"
+    },
+    {
+      "width": 768,
+      "page": "lab/introduction.html",
+      "status": "PASS"
+    },
+    {
+      "width": 768,
+      "page": "lab/motto.html",
+      "status": "PASS"
+    },
+    {
+      "width": 768,
+      "page": "people/alumni.html",
+      "status": "PASS"
+    },
+    {
+      "width": 768,
+      "page": "people/members.html",
+      "status": "PASS"
+    },
+    {
+      "width": 768,
+      "page": "people/professor.html",
+      "status": "PASS"
+    },
+    {
+      "width": 768,
+      "page": "publications/articles.html",
+      "status": "PASS"
+    },
+    {
+      "width": 768,
+      "page": "publications/international.html",
+      "status": "PASS"
+    },
+    {
+      "width": 768,
+      "page": "publications/korean.html",
+      "status": "PASS"
+    },
+    {
+      "width": 768,
+      "page": "publications/patents.html",
+      "status": "PASS"
+    },
+    {
+      "width": 768,
+      "page": "publications/standards.html",
+      "status": "PASS"
+    },
+    {
+      "width": 768,
+      "page": "research/completed.html",
+      "status": "PASS"
+    },
+    {
+      "width": 768,
+      "page": "research/ongoing.html",
+      "status": "PASS"
+    },
+    {
+      "width": 900,
+      "page": "archive/index.html",
+      "status": "PASS"
+    },
+    {
+      "width": 900,
+      "page": "index.html",
+      "status": "PASS"
+    },
+    {
+      "width": 900,
+      "page": "lab/contact.html",
+      "status": "PASS"
+    },
+    {
+      "width": 900,
+      "page": "lab/introduction.html",
+      "status": "PASS"
+    },
+    {
+      "width": 900,
+      "page": "lab/motto.html",
+      "status": "PASS"
+    },
+    {
+      "width": 900,
+      "page": "people/alumni.html",
+      "status": "PASS"
+    },
+    {
+      "width": 900,
+      "page": "people/members.html",
+      "status": "PASS"
+    },
+    {
+      "width": 900,
+      "page": "people/professor.html",
+      "status": "PASS"
+    },
+    {
+      "width": 900,
+      "page": "publications/articles.html",
+      "status": "PASS"
+    },
+    {
+      "width": 900,
+      "page": "publications/international.html",
+      "status": "PASS"
+    },
+    {
+      "width": 900,
+      "page": "publications/korean.html",
+      "status": "PASS"
+    },
+    {
+      "width": 900,
+      "page": "publications/patents.html",
+      "status": "PASS"
+    },
+    {
+      "width": 900,
+      "page": "publications/standards.html",
+      "status": "PASS"
+    },
+    {
+      "width": 900,
+      "page": "research/completed.html",
+      "status": "PASS"
+    },
+    {
+      "width": 900,
+      "page": "research/ongoing.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1024,
+      "page": "archive/index.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1024,
+      "page": "index.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1024,
+      "page": "lab/contact.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1024,
+      "page": "lab/introduction.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1024,
+      "page": "lab/motto.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1024,
+      "page": "people/alumni.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1024,
+      "page": "people/members.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1024,
+      "page": "people/professor.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1024,
+      "page": "publications/articles.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1024,
+      "page": "publications/international.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1024,
+      "page": "publications/korean.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1024,
+      "page": "publications/patents.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1024,
+      "page": "publications/standards.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1024,
+      "page": "research/completed.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1024,
+      "page": "research/ongoing.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1440,
+      "page": "archive/index.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1440,
+      "page": "index.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1440,
+      "page": "lab/contact.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1440,
+      "page": "lab/introduction.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1440,
+      "page": "lab/motto.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1440,
+      "page": "people/alumni.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1440,
+      "page": "people/members.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1440,
+      "page": "people/professor.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1440,
+      "page": "publications/articles.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1440,
+      "page": "publications/international.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1440,
+      "page": "publications/korean.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1440,
+      "page": "publications/patents.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1440,
+      "page": "publications/standards.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1440,
+      "page": "research/completed.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1440,
+      "page": "research/ongoing.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1920,
+      "page": "archive/index.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1920,
+      "page": "index.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1920,
+      "page": "lab/contact.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1920,
+      "page": "lab/introduction.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1920,
+      "page": "lab/motto.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1920,
+      "page": "people/alumni.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1920,
+      "page": "people/members.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1920,
+      "page": "people/professor.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1920,
+      "page": "publications/articles.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1920,
+      "page": "publications/international.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1920,
+      "page": "publications/korean.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1920,
+      "page": "publications/patents.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1920,
+      "page": "publications/standards.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1920,
+      "page": "research/completed.html",
+      "status": "PASS"
+    },
+    {
+      "width": 1920,
+      "page": "research/ongoing.html",
+      "status": "PASS"
+    }
+  ],
+  "failures": [],
+  "checkedInternalLinks": 105,
+  "counts": {
+    "people/members.html": 5,
+    "people/alumni.html": 27,
+    "publications/international.html": 44,
+    "publications/korean.html": 29,
+    "publications/articles.html": 11,
+    "publications/patents.html": 7,
+    "publications/standards.html": 6,
+    "research/ongoing.html": 1,
+    "research/completed.html": 26
+  },
+  "externalServices": "Stubbed; external map availability not tested"
+}
