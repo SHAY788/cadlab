@@ -9,6 +9,7 @@ for(const file of pages.filter(p=>p!=='index.html')){
  const approved=s=>s.replace(/<p class="catalogue-note">[\s\S]*?<\/p>/g,'').replace(/<nav class="year-nav"[\s\S]*?<\/nav>/g,'').replace(/<p class="summary">[\s\S]*?<\/p>/g,'');
  let expected=main(before);
  if(file==='publications/international.html') expected=approved(expected);
+ if(file==='publications/patents.html') expected=expected.replace(/<nav class="year-nav" aria-label="software years">[\s\S]*?<\/nav>/g,'').replace(/<p class="note">The laboratory confirmed[\s\S]*?<\/p>/g,'');
  if(file==='research/ongoing.html') expected=expected.replace(/<p class="notice">[\s\S]*?<\/p>/g,'');
  if(file==='people/professor.html') expected=expected.replace(/<p class="notice">양정삼 교수의[\s\S]*?<\/p>/g,'');
  if(file==='people/members.html') expected=expected.replace(/<p class="(?:notice|catalogue-note)">[\s\S]*?<\/p>/g,'').replace(/（旧网站记录）/g,'');

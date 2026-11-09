@@ -112,7 +112,7 @@ const server = http.createServer((req,res) => {
       await page.goto(`http://127.0.0.1:${server.address().port}/publications/patents.html`);
       assert.equal(await page.locator('.catalogue-note,.intro,nav[aria-label="patents years"]').count(),0);
       assert.equal(await page.locator('article.item').count(),7);
-      assert.equal(await page.locator('nav[aria-label="software years"]').count(),1);
+      assert.equal(await page.locator('nav[aria-label="software years"]').count(),0);
       assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
       if([390,1440].includes(width)) await page.screenshot({path:path.join(out,`patents-${width}.png`)});
       await page.goto(`http://127.0.0.1:${server.address().port}/publications/standards.html`);
