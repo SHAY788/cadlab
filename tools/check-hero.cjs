@@ -68,8 +68,16 @@ const server = http.createServer((req,res) => {
       assert.equal(photoData.nw,513);
       assert.equal(photoData.nh,342);
       assert(Math.abs(photoData.w/photoData.h-photoData.nw/photoData.nh)<0.02,'group photo aspect ratio changed');
+      const facilities=page.locator('.about-facilities img');
+      await facilities.scrollIntoViewIfNeeded();
+      await facilities.evaluate(i=>i.decode());
+      const equipment=await facilities.evaluate(i=>({w:i.width,h:i.height,nw:i.naturalWidth,nh:i.naturalHeight}));
+      assert(equipment.nw>=2000,'restored facilities image resolution');
+      assert(Math.abs(equipment.w/equipment.h-equipment.nw/equipment.nh)<0.02,'facilities image aspect ratio changed');
+      const groupBox=await photo.boundingBox(),equipmentBox=await facilities.boundingBox();
+      assert(equipmentBox.y>=groupBox.y+groupBox.height,'facilities overlaps group photo');
       assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
-      await page.locator('#about').screenshot({path:path.join(out,`about-${width}.png`)});
+      await page.locator('#about').screenshot({path:path.join(out,`about-${width}.png`),style:'.header{visibility:hidden !important}'});
       for(const id of ['research','people']) {
         assert.equal(await page.locator(`#${id} .section-heading > p`).count(),0);
         assert.equal(await page.locator(`#${id} .card`).count(),3);
