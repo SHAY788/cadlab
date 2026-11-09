@@ -22,7 +22,7 @@ const server = http.createServer((req,res) => {
   if (!file.startsWith(root + path.sep)) {res.writeHead(403); return res.end();}
   try {
     if (fs.statSync(file).isDirectory()) file = path.join(file,'index.html');
-    const mime = {'.html':'text/html','.css':'text/css','.js':'text/javascript','.png':'image/png','.svg':'image/svg+xml','.jpg':'image/jpeg'};
+    const mime = {'.html':'text/html','.css':'text/css','.js':'text/javascript','.png':'image/png','.webp':'image/webp','.svg':'image/svg+xml','.jpg':'image/jpeg'};
     res.setHeader('Content-Type',mime[path.extname(file)] || 'application/octet-stream');
     res.end(fs.readFileSync(file));
   } catch {res.writeHead(404);res.end();}
@@ -61,6 +61,28 @@ const server = http.createServer((req,res) => {
         assert(box.x>=0 && box.x+box.width<=width,'image exceeds viewport');
       }
       await page.screenshot({path:path.join(out,`${phase}-${width}.png`)});
+      assert.equal(await page.locator('[data-image-viewer]').count(),2);
+      if([390,1440].includes(width)) {
+        for(const link of await page.locator('[data-image-viewer]').all()) {
+          await link.focus();await page.keyboard.press('Enter');
+          const dialog=page.locator('dialog.image-viewer');
+          assert(await dialog.isVisible());
+          await dialog.locator('img').evaluate(i=>i.decode());
+          await dialog.getByRole('button',{name:'100% · 실제 크기',exact:true}).click();
+          assert.equal(await dialog.locator('button').first().getAttribute('aria-pressed'),'true');
+          assert(await dialog.locator('img').evaluate(i=>i.getBoundingClientRect().width===i.naturalWidth));
+          assert(await dialog.locator('.image-viewer-viewport').evaluate(e=>e.scrollWidth>e.clientWidth));
+          if(await link.evaluate(a=>a.closest('.hero-art')!==null)) await page.screenshot({path:path.join(out,`image-viewer-${width}.png`)});
+          await dialog.getByRole('button',{name:'Fit to screen · 화면에 맞추기',exact:true}).click();
+          for(let i=0;i<5;i++)await page.keyboard.press('Tab');
+          assert(await dialog.evaluate(d=>d.contains(document.activeElement)));
+          await page.keyboard.press('Escape');assert(!await dialog.isVisible());
+          assert(await link.evaluate(a=>document.activeElement===a));
+          assert.equal(await page.evaluate(()=>document.body.style.overflow),'');
+          await link.click();await dialog.getByRole('button',{name:'Close · 닫기 ×',exact:true}).click();
+          assert(!await dialog.isVisible());
+        }
+      }
       const photo=page.locator('.about-photo');
       assert.equal(await page.getByRole('link',{name:'Location & contact →',exact:true}).count(),0);
       assert((await page.locator('#aboutText').innerText()).includes('commercial C3PE systems (CAD/CAM/CAE/PDM/ERP)'));

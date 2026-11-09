@@ -115,3 +115,7 @@ Validation: five responsive widths for existing checks, all 15 HTML pages at des
 ## Public-facing copy cleanup
 
 Completed the three approved audit items: removed residual internal verification/old-site language, simplified all five member badges to 현재 구성원, and corrected English singular/plural, capitalization and laboratory-history grammar. Kept corresponding-author notation and all personnel, publication and project records. The explicit text replacement map in tools/public-copy-edits.json is also used by the record guard. Five-width browser checks, all-page image/layout checks, 30 Logo navigations, record guard and git diff --check passed.
+
+## Image reading and loading optimization
+
+Adds progressive image links for the homepage diagram and facilities panorama. The dialog supports fit-to-screen and actual-size scrolling, bilingual controls, Escape/close-button dismissal, focus containment and return to the triggering link. Without JavaScript, links open the image directly. WebP replaces the served diagram (1,714,294 to 911,070 bytes, pixel-identical lossless conversion) and panorama (549,640 to 328,762 bytes, quality 90). Original assets remain available. Combined image payload is reduced about 45%. Five-width checks, desktop/mobile dialog keyboard/zoom/focus checks, all-page image decoding, 30 Logo navigations, record guard and git diff --check passed.
