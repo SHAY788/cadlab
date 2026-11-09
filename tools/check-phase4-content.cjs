@@ -9,6 +9,7 @@ for(const file of pages.filter(p=>p!=='index.html')){
  const approved=s=>s.replace(/<p class="catalogue-note">[\s\S]*?<\/p>/g,'').replace(/<nav class="year-nav"[\s\S]*?<\/nav>/g,'').replace(/<p class="summary">[\s\S]*?<\/p>/g,'');
  let expected=main(before);
  if(file==='publications/international.html') expected=approved(expected);
+ if(file==='publications/patents.html') expected=expected.replace(/<p class="catalogue-note">[\s\S]*?<\/p>/g,'').replace(/<p class="intro">7 records[\s\S]*?<\/p>/g,'').replace(/<nav class="year-nav" aria-label="patents years">[\s\S]*?<\/nav>/g,'');
  if(file==='publications/articles.html') expected=expected.replace(/<p class="catalogue-note">[\s\S]*?<\/p>/g,'').replace(/<nav class="year-nav"[\s\S]*?<\/nav>/g,'').replace(/<p[^>]*>11 articles and technical writings[\s\S]*?<\/p>/g,'');
  if(file==='publications/korean.html') expected=expected.replace(/<p class="catalogue-note">[\s\S]*?<\/p>/g,'').replace(/<nav class="year-nav"[\s\S]*?<\/nav>/g,'').replace('<span class="count">29 papers · 2002–2024</span>','');
  assert.equal(main(current),expected,`${file}: unexpected main content change`);

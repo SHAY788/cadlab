@@ -49,3 +49,7 @@ Removed the requested top catalogue note, year-navigation bar and 29-paper stati
 ## Articles page
 
 Removed the requested catalogue note, year navigation and introductory 11-article paragraph. Title, year groups and all 11 articles remain unchanged. Five-width checks passed and screenshots refreshed; the content guard permits exactly these three removals.
+
+## Patents page
+
+Removed the requested catalogue note, seven-record introduction and patents year-navigation bar. All seven patent/software records, headings and the software year navigation outside the selected area remain unchanged. Five-width checks passed; screenshots refreshed and the content guard permits exactly these removals.
