@@ -62,7 +62,7 @@ for path in sorted(ROOT.rglob('*.html')):
     existing = re.search(r'<small class="footer-context">(.*?)</small>',source,re.S)
     old_footer = re.search(r'<footer\b.*?</footer>',source,re.S)
     if existing: context = existing[1]
-    elif page == 'index.html': context = 'Content published subject to laboratory verification and approval.'
+    elif page == 'index.html': context = 'Ajou University · CAD Laboratory'
     elif old_footer: context = re.sub(r'<[^>]+>', '', old_footer[0]).strip()
     else: context = 'CADLAB · Historical Archive'
     if '<!-- shared-header:start -->' in source:

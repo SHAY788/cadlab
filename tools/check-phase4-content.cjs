@@ -3,6 +3,7 @@ const base='b450917c0a17f6b4a7902b98af1c4eb05b6caa0c';
 const git=(...args)=>cp.execFileSync('git',args,{encoding:'utf8'});
 const pages=git('ls-files','*.html').trim().split('\n');
 const clean=s=>s.replace(/\r\n/g,'\n');
+const copyEdits=JSON.parse(fs.readFileSync('tools/public-copy-edits.json','utf8'));
 for(const file of pages.filter(p=>p!=='index.html')){
  const current=clean(fs.readFileSync(file,'utf8')),before=git('show',`${base}:${file}`);
  const main=s=>s.match(/<main[\s\S]*?<\/main>/)[0];
@@ -24,6 +25,7 @@ for(const file of pages.filter(p=>p!=='index.html')){
  if(file==='publications/korean.html') expected=expected.replace(/<p class="catalogue-note">[\s\S]*?<\/p>/g,'').replace(/<nav class="year-nav"[\s\S]*?<\/nav>/g,'').replace('<span class="count">29 papers · 2002–2024</span>','');
  if(file==='lab/introduction.html') expected=expected.replace('<p class="intro">The CAD Lab is an interdepartmental laboratory in the School of Engineering with four major goals:</p>\n','');
  if(file==='lab/introduction.html') expected=expected.replace(/<p class="note">Historical website record:[\s\S]*?<\/p>\n/g,'');
+ for(const [from,to] of copyEdits[file]||[]) expected=expected.split(from).join(to);
  const actual=file==='lab/introduction.html'?main(current).replace(/<span class="goal-ko" lang="ko">[^<]*<\/span>/g,''):main(current);
  assert.equal(actual,expected,`${file}: unexpected main content change`);
 }
