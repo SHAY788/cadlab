@@ -17,7 +17,9 @@ for(const file of pages.filter(p=>p!=='index.html')){
  if(file==='publications/patents.html') expected=expected.replace(/<p class="catalogue-note">[\s\S]*?<\/p>/g,'').replace(/<p class="intro">7 records[\s\S]*?<\/p>/g,'').replace(/<nav class="year-nav" aria-label="patents years">[\s\S]*?<\/nav>/g,'');
  if(file==='publications/articles.html') expected=expected.replace(/<p class="catalogue-note">[\s\S]*?<\/p>/g,'').replace(/<nav class="year-nav"[\s\S]*?<\/nav>/g,'').replace(/<p[^>]*>11 articles and technical writings[\s\S]*?<\/p>/g,'');
  if(file==='publications/korean.html') expected=expected.replace(/<p class="catalogue-note">[\s\S]*?<\/p>/g,'').replace(/<nav class="year-nav"[\s\S]*?<\/nav>/g,'').replace('<span class="count">29 papers · 2002–2024</span>','');
- assert.equal(main(current),expected,`${file}: unexpected main content change`);
+ if(file==='lab/introduction.html') expected=expected.replace('<p class="intro">The CAD Lab is an interdepartmental laboratory in the School of Engineering with four major goals:</p>\n','');
+ const actual=file==='lab/introduction.html'?main(current).replace(/<span class="goal-ko" lang="ko">[^<]*<\/span>/g,''):main(current);
+ assert.equal(actual,expected,`${file}: unexpected main content change`);
 }
 const load=s=>{const sandbox={window:{}};require('node:vm').runInNewContext(s,sandbox);return JSON.parse(JSON.stringify(sandbox.window.CADLAB_CONTENT));};
 const currentData=load(fs.readFileSync('assets/content.js','utf8')),beforeData=load(git('show',`${base}:assets/content.js`));

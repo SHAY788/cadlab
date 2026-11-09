@@ -101,3 +101,7 @@ Increased the group photo cap from 480 to its native 513 px width and centered i
 ## Compact homepage Hero
 
 Constrained the Hero to 1240 px with centered outer margins and subtle rounded corners, reduced desktop minimum height to 490 px, tightened copy padding and capped the diagram at 440 px. Inner text aligns closely with the main content column. Mobile uses 18 px outer margins and reduced padding. Full image framing and text preserved. Five-width checks and 30 Logo navigation checks passed; screenshots refreshed.
+
+## Bilingual laboratory goals
+
+Removed the selected introductory sentence above Four major goals. Added Korean translations beneath each of the four original English goals, retaining numbering and all other content. Korean text uses lang=ko and consistent spacing. Five-width browser checks, 30 Logo clicks and record protection passed; goal screenshots refreshed.

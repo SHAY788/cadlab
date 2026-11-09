@@ -145,6 +145,12 @@ const server = http.createServer((req,res) => {
       assert.equal(await page.locator('.quote').innerText(),'Do your worst and i will do my best');
       assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
       if([390,1440].includes(width)) await page.screenshot({path:path.join(out,`motto-${width}.png`)});
+      await page.goto(`http://127.0.0.1:${server.address().port}/lab/introduction.html`);
+      assert.equal(await page.locator('main>.intro').count(),0);
+      assert.equal(await page.locator('.goals li').count(),4);
+      assert.equal(await page.locator('.goals .goal-ko[lang="ko"]').count(),4);
+      assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+      if([390,1440].includes(width)) await page.locator('.goals').screenshot({path:path.join(out,`goals-${width}.png`),style:'.header{visibility:hidden !important}'});
       await page.close();
     }
     const pages=require('node:child_process').execFileSync('git',['ls-files','*.html'],{cwd:root,encoding:'utf8'}).trim().split('\n');
