@@ -3,28 +3,28 @@
 window.CADLAB_CONTENT = {
   
 
-about: "The CAD (Computer-Aided Design) Laboratory is an integral unit of the Department of Industrial Engineering at Ajou University.",
+about: "The CAD (Computer-Aided Design) Laboratory in the Department of Industrial Engineering at Ajou University conducts research in geometric modeling and the integration of information technologies for product development, with the goal of enabling product lifecycle management (PLM) in manufacturing. The laboratory develops applications that address industrial requirements and support commercial C3PE systems (CAD/CAM/CAE/PDM/ERP). Through industry–university collaboration, its research combines practical engineering applications with the development of foundational technologies that deliver value to industry.",
 
   research: [
-    { title: "CAD / CAM", description: "Computer-aided design and manufacturing research." },
-    { title: "Intelligent Robotics", description: "Robotic systems, sensing and advanced automation." },
-    { title: "AR / VR", description: "Immersive visualization and engineering education." }
+    { title: "CAD / CAM", description: "Computer-aided design and manufacturing research.", descriptionKo: "컴퓨터 지원 설계 및 제조 연구." },
+    { title: "Intelligent Robotics", description: "Robotic systems, sensing and advanced automation.", descriptionKo: "로봇 시스템, 센싱 및 첨단 자동화 기술." },
+    { title: "AR / VR", description: "Immersive visualization and engineering education.", descriptionKo: "몰입형 시각화 및 공학 교육." }
   ],
   people: [
-    {title: "Professor", description: "Jeongsam Yang — Ajou University professor. Current appointment and contact details confirmed on 2 November 2026; earlier concurrent roles remain historical.", href: "people/professor.html"},
-    {title: "Members", description: "Five current members confirmed on 2 November 2026. Previously recorded academic stages and email validity have not been separately confirmed.", href: "people/members.html"},
-    {title: "Alumni", description: "Graduation and current affiliations confirmed on 2 November 2026. All 27 alumni records and original degree-thesis titles are retained.", href: "people/alumni.html"}
+    {title: "Professor", description: "Jeongsam Yang, Professor at Ajou University. Academic profile, research interests and professional background.", descriptionKo: "아주대 양정삼 교수의 학력, 연구 분야 및 주요 경력.", href: "people/professor.html"},
+    {title: "Members", description: "Academic backgrounds and research profiles of the five CAD Laboratory members.", descriptionKo: "CAD 연구실 구성원 5명의 학력 및 연구 분야.", href: "people/members.html"},
+    {title: "Alumni", description: "Academic achievements, graduate research and professional careers of CAD Laboratory’s 27 alumni.", descriptionKo: "CAD 연구실 졸업생의 학술 성과, 학위 연구 및 진로.", href: "people/alumni.html"}
   ],
   publications: [
-    {title: "International Journal Papers", detail: "Year-organized journal records with original bibliographic details.", href: "publications/international.html"},
-    {title: "Korean Journal Papers", detail: "Korean journal records and year navigation.", href: "publications/korean.html"},
-    {title: "Articles", detail: "Historical articles and technical writings.", href: "publications/articles.html"},
-    {title: "Patents & Software Copyrights", detail: "Recorded applications, registrations and software copyrights; legal status requires verification.", href: "publications/patents.html"},
-    {title: "Korean Industrial Standards", detail: "Historical standards records; consult the official catalogue for current status.", href: "publications/standards.html"}
+    {title: "International Journal Papers", detail: "Research papers published in international academic journals.", href: "publications/international.html"},
+    {title: "Korean Journal Papers", detail: "Research papers published in Korean academic journals.", href: "publications/korean.html"},
+    {title: "Articles", detail: "Technical articles on research findings and engineering applications.", href: "publications/articles.html"},
+    {title: "Patents & Software Copyrights", detail: "Patent applications, registered patents and software copyrights resulting from the laboratory’s research.", href: "publications/patents.html"},
+    {title: "Korean Industrial Standards", detail: "Korean industrial standards related to the laboratory’s research and technical expertise.", href: "publications/standards.html"}
   ],
   projects: [
-    {title: "Ongoing Projects", description: "One project remains ongoing or extended. Its original planned end date is retained; the actual end date is unknown.", href: "research/ongoing.html"},
-    {title: "Closed Projects", description: "26 projects confirmed closed on 2 November 2026. Actual completion dates remain unknown except where explicitly supplied.", href: "research/completed.html"}
+    {title: "Ongoing Projects", description: "AI-driven demand forecasting and intelligent design technologies for customized manufacturing.", href: "research/ongoing.html"},
+    {title: "Closed Projects", description: "A portfolio of 26 completed research projects in engineering and technology development.", href: "research/completed.html"}
   ],
   news: [
     {title: "Website renewal in progress", date: "2026", description: "We are rebuilding the laboratory website and organizing historical content."}

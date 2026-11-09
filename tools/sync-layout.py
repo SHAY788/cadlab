@@ -9,7 +9,7 @@ from html import escape
 
 ROOT = Path(__file__).resolve().parents[1]
 GROUPS = [
-    ('CAD Lab', 'about', 'lab', [('Introduction','lab/introduction.html'),('Motto & Logo','lab/motto.html'),('Contact','lab/contact.html')]),
+    ('CAD Lab', 'about', 'lab', [('Introduction','lab/introduction.html'),('Motto & Logo','lab/motto.html')]),
     ('People', 'people', 'people', [('Professor','people/professor.html'),('Members','people/members.html'),('Alumni','people/alumni.html')]),
     ('Publications', 'publications', 'publications', [('International Journal Papers','publications/international.html'),('Korean Journal Papers','publications/korean.html'),('Articles','publications/articles.html'),('Patents','publications/patents.html'),('Korean Industrial Standards','publications/standards.html')]),
     ('Research', 'research', 'research', [('Ongoing Projects','research/ongoing.html'),('Closed Projects','research/completed.html')]),

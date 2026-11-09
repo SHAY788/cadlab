@@ -15,6 +15,11 @@ const addCard = (id, items) => {
   (items || []).forEach(item => {
     const card = e('article', 'card');
     card.append(heading('h3', item), e('p', '', item.description || ''));
+    if (item.descriptionKo) {
+      const korean = e('p', 'card-description-ko', item.descriptionKo);
+      korean.lang = 'ko';
+      card.append(korean);
+    }
     root.append(card);
   });
 };
