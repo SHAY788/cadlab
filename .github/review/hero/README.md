@@ -25,3 +25,5 @@ Rewrites the three homepage People card descriptions for public-facing presentat
 ## Hero lower strips removed
 
 Removed the entire Hero bottom divider, CADLAB / RESEARCH & INNOVATION text, scroll prompt and OUR FOCUS strip as requested. The About section now follows the Hero directly. Five-width checks passed and Hero screenshots were refreshed.
+
+Removed the requested historical-context note at the end of the homepage About introduction. The remaining introduction and photo are preserved. Five-width checks passed; About screenshots refreshed.
