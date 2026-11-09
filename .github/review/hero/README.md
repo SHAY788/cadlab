@@ -53,3 +53,7 @@ Removed the requested catalogue note, year navigation and introductory 11-articl
 ## Patents page
 
 Removed the requested catalogue note, seven-record introduction and patents year-navigation bar. All seven patent/software records, headings and the software year navigation outside the selected area remain unchanged. Five-width checks passed; screenshots refreshed and the content guard permits exactly these removals.
+
+## Standards page
+
+Removed the requested catalogue note, year navigation, six-record statistics paragraph and gray notice. Standard heading, year groups and all six standard records remain unchanged. Five-width checks passed; screenshots refreshed, and the content guard permits exactly these removals.

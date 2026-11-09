@@ -9,6 +9,7 @@ for(const file of pages.filter(p=>p!=='index.html')){
  const approved=s=>s.replace(/<p class="catalogue-note">[\s\S]*?<\/p>/g,'').replace(/<nav class="year-nav"[\s\S]*?<\/nav>/g,'').replace(/<p class="summary">[\s\S]*?<\/p>/g,'');
  let expected=main(before);
  if(file==='publications/international.html') expected=approved(expected);
+ if(file==='publications/standards.html') expected=expected.replace(/<p class="(?:catalogue-note|intro|notice)">[\s\S]*?<\/p>/g,'').replace(/<nav class="year-nav"[\s\S]*?<\/nav>/g,'');
  if(file==='publications/patents.html') expected=expected.replace(/<p class="catalogue-note">[\s\S]*?<\/p>/g,'').replace(/<p class="intro">7 records[\s\S]*?<\/p>/g,'').replace(/<nav class="year-nav" aria-label="patents years">[\s\S]*?<\/nav>/g,'');
  if(file==='publications/articles.html') expected=expected.replace(/<p class="catalogue-note">[\s\S]*?<\/p>/g,'').replace(/<nav class="year-nav"[\s\S]*?<\/nav>/g,'').replace(/<p[^>]*>11 articles and technical writings[\s\S]*?<\/p>/g,'');
  if(file==='publications/korean.html') expected=expected.replace(/<p class="catalogue-note">[\s\S]*?<\/p>/g,'').replace(/<nav class="year-nav"[\s\S]*?<\/nav>/g,'').replace('<span class="count">29 papers · 2002–2024</span>','');
@@ -22,4 +23,4 @@ for(let i=0;i<5;i++) currentData.publications[i].detail=beforeData.publications[
 for(let i=0;i<2;i++) currentData.projects[i].description=beforeData.projects[i].description;
 assert.deepEqual(currentData,beforeData,'Unexpected homepage data change');
 assert.equal(git('diff',base,'--','.github/maintenance/phase3/'),'','Source records changed');
-console.log('PASS: all detailed records unchanged; only approved homepage summaries and international catalogue introduction removals differ.');
+console.log('PASS: all detailed records unchanged; only approved homepage summaries and publication-page presentation removals differ.');
