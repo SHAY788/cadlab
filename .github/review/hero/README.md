@@ -41,3 +41,7 @@ Removed the requested Projects heading paragraph. Rewrote both summaries as dire
 ## International journal page
 
 Removed the entire requested catalogue note, year-navigation bar and introductory statistics paragraph from publications/international.html. All 44 papers and year headings remain unchanged. The content guard compares the full page against the baseline with exactly these three removals allowed. Five-width checks passed, confirming 44 entries and no overflow; screenshots refreshed.
+
+## Korean journal page
+
+Removed the requested top catalogue note, year-navigation bar and 29-paper statistics label. The Journal Publications heading and all 29 papers remain unchanged. Five-width checks passed; screenshots refreshed. The content guard permits exactly these removals.

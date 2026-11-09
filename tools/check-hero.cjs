@@ -73,6 +73,12 @@ const server = http.createServer((req,res) => {
       assert.equal(await page.locator('.year-block li').count(),44);
       assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
       if([390,1440].includes(width)) await page.screenshot({path:path.join(out,`international-${width}.png`)});
+      await page.goto(`http://127.0.0.1:${server.address().port}/publications/korean.html`);
+      assert.equal(await page.locator('.catalogue-note,.year-nav,.overview .count').count(),0);
+      assert.equal(await page.locator('.year-block li').count(),29);
+      assert.equal(await page.locator('.overview h2').innerText(),'논문 목록 · Journal Publications');
+      assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+      if([390,1440].includes(width)) await page.screenshot({path:path.join(out,`korean-${width}.png`)});
       await page.close();
     }
     console.log(`${phase}: 5 viewport checks passed`);
