@@ -77,3 +77,7 @@ Removed the selected parenthetical note from the second attribution and the hist
 ## Navigation Contact deduplication
 
 Removed Contact from the CAD Lab submenu on all 15 HTML pages. The top-level Contact link is retained. Updated the shared layout generator to prevent the duplicate from returning. Static checks cover all page headers; browser checks verify two CAD Lab submenu entries and one top-level Contact at five widths, with desktop/mobile menu screenshots.
+
+## Logo home navigation
+
+The existing header Logo is already a homepage link on all 15 pages. Added real-click browser coverage at 390 and 1440 px: clicking the Logo image from every page returned to index.html (30 checks passed). No product code change was needed.

@@ -136,6 +136,18 @@ const server = http.createServer((req,res) => {
       if([390,1440].includes(width)) await page.screenshot({path:path.join(out,`motto-${width}.png`)});
       await page.close();
     }
-    console.log(`${phase}: 5 viewport checks passed`);
+    const pages=require('node:child_process').execFileSync('git',['ls-files','*.html'],{cwd:root,encoding:'utf8'}).trim().split('\n');
+    for(const width of [390,1440]) {
+      const page=await browser.newPage({viewport:{width,height:1000}});
+      await page.route('**/*',r=>r.request().url().startsWith('http://127.0.0.1:')?r.continue():r.fulfill({status:200,body:''}));
+      for(const file of pages) {
+        await page.goto(`http://127.0.0.1:${server.address().port}/${file.trim()}`);
+        await page.locator('.header .brand img').click();
+        await page.waitForURL(`http://127.0.0.1:${server.address().port}/index.html`);
+        assert.equal(await page.locator('.hero h1').innerText(),'CAD is\nthe future.');
+      }
+      await page.close();
+    }
+    console.log(`${phase}: 5 viewport checks and 30 desktop/mobile Logo home-navigation checks passed`);
   } finally {await browser.close();server.close();}
 })().catch(e=>{console.error(e);server.close();process.exitCode=1});
