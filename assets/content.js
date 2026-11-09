@@ -12,7 +12,7 @@ about: "The CAD (Computer-Aided Design) Laboratory in the Department of Industri
   ],
   people: [
     {title: "Professor", description: "Jeongsam Yang, Professor at Ajou University. Academic profile, research interests and professional background.", descriptionKo: "아주대 양정삼 교수의 학력, 연구 분야 및 주요 경력.", href: "people/professor.html"},
-    {title: "Members", description: "Academic backgrounds and research profiles of the five CAD Laboratory members.", descriptionKo: "CAD 연구실 구성원 5명의 학력 및 연구 분야.", href: "people/members.html"},
+    {title: "Members", description: "Academic backgrounds and research profiles of the five CAD Laboratory members.", descriptionKo: "현재 CAD 연구실 구성원 5명의 학력 및 연구 분야.", href: "people/members.html"},
     {title: "Alumni", description: "Academic achievements, graduate research and professional careers of CAD Laboratory’s 27 alumni.", descriptionKo: "CAD 연구실 졸업생의 학술 성과, 학위 연구 및 진로.", href: "people/alumni.html"}
   ],
   publications: [
