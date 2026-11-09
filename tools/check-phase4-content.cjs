@@ -9,6 +9,7 @@ for(const file of pages.filter(p=>p!=='index.html')){
  const approved=s=>s.replace(/<p class="catalogue-note">[\s\S]*?<\/p>/g,'').replace(/<nav class="year-nav"[\s\S]*?<\/nav>/g,'').replace(/<p class="summary">[\s\S]*?<\/p>/g,'');
  let expected=main(before);
  if(file==='publications/international.html') expected=approved(expected);
+ if(file==='research/ongoing.html') expected=expected.replace(/<p class="notice">[\s\S]*?<\/p>/g,'');
  if(file==='publications/standards.html') expected=expected.replace(/<p class="(?:catalogue-note|intro|notice)">[\s\S]*?<\/p>/g,'').replace(/<nav class="year-nav"[\s\S]*?<\/nav>/g,'');
  if(file==='publications/patents.html') expected=expected.replace(/<p class="catalogue-note">[\s\S]*?<\/p>/g,'').replace(/<p class="intro">7 records[\s\S]*?<\/p>/g,'').replace(/<nav class="year-nav" aria-label="patents years">[\s\S]*?<\/nav>/g,'');
  if(file==='publications/articles.html') expected=expected.replace(/<p class="catalogue-note">[\s\S]*?<\/p>/g,'').replace(/<nav class="year-nav"[\s\S]*?<\/nav>/g,'').replace(/<p[^>]*>11 articles and technical writings[\s\S]*?<\/p>/g,'');

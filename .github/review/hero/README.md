@@ -57,3 +57,7 @@ Removed the requested catalogue note, seven-record introduction and patents year
 ## Standards page
 
 Removed the requested catalogue note, year navigation, six-record statistics paragraph and gray notice. Standard heading, year groups and all six standard records remain unchanged. Five-width checks passed; screenshots refreshed, and the content guard permits exactly these removals.
+
+## Ongoing projects page
+
+Removed the two selected gray notices. The page heading, project title, funding agency, planned period and status remain unchanged. Five-width checks passed; screenshots refreshed. The content guard permits only the two notice removals.
