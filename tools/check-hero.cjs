@@ -65,6 +65,9 @@ const server = http.createServer((req,res) => {
       assert.equal(await page.locator('#publications .section-heading > p').count(),0);
       assert.equal(await page.locator('#publicationList .entry').count(),5);
       if([390,1440].includes(width)) await page.locator('#publications').screenshot({path:path.join(out,`publications-${width}.png`)});
+      assert.equal(await page.locator('#projects .section-heading > p').count(),0);
+      assert.equal(await page.locator('#projectList .card').count(),2);
+      if([390,1440].includes(width)) await page.locator('#projects').screenshot({path:path.join(out,`projects-${width}.png`)});
       await page.close();
     }
     console.log(`${phase}: 5 viewport checks passed`);

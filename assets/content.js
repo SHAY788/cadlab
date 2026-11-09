@@ -23,8 +23,8 @@ about: "The CAD (Computer-Aided Design) Laboratory is an integral unit of the De
     {title: "Korean Industrial Standards", detail: "Korean industrial standards related to the laboratory’s research and technical expertise.", href: "publications/standards.html"}
   ],
   projects: [
-    {title: "Ongoing Projects", description: "One project remains ongoing or extended. Its original planned end date is retained; the actual end date is unknown.", href: "research/ongoing.html"},
-    {title: "Closed Projects", description: "26 projects confirmed closed on 2 November 2026. Actual completion dates remain unknown except where explicitly supplied.", href: "research/completed.html"}
+    {title: "Ongoing Projects", description: "AI-driven demand forecasting and intelligent design technologies for customized manufacturing.", href: "research/ongoing.html"},
+    {title: "Closed Projects", description: "A portfolio of 26 completed research projects in engineering and technology development.", href: "research/completed.html"}
   ],
   news: [
     {title: "Website renewal in progress", date: "2026", description: "We are rebuilding the laboratory website and organizing historical content."}
