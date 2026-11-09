@@ -16,11 +16,11 @@ about: "The CAD (Computer-Aided Design) Laboratory is an integral unit of the De
     {title: "Alumni", description: "Explore the academic achievements, graduate research and professional paths of our 27 alumni.", href: "people/alumni.html"}
   ],
   publications: [
-    {title: "International Journal Papers", detail: "Year-organized journal records with original bibliographic details.", href: "publications/international.html"},
-    {title: "Korean Journal Papers", detail: "Korean journal records and year navigation.", href: "publications/korean.html"},
-    {title: "Articles", detail: "Historical articles and technical writings.", href: "publications/articles.html"},
-    {title: "Patents & Software Copyrights", detail: "Recorded applications, registrations and software copyrights; legal status requires verification.", href: "publications/patents.html"},
-    {title: "Korean Industrial Standards", detail: "Historical standards records; consult the official catalogue for current status.", href: "publications/standards.html"}
+    {title: "International Journal Papers", detail: "Explore the laboratory’s research published in international academic journals.", href: "publications/international.html"},
+    {title: "Korean Journal Papers", detail: "Discover the laboratory’s research contributions published in Korean academic journals.", href: "publications/korean.html"},
+    {title: "Articles", detail: "Read technical articles sharing research insights and engineering perspectives.", href: "publications/articles.html"},
+    {title: "Patents & Software Copyrights", detail: "Explore patent applications, patent registrations and software copyrights arising from the laboratory’s research.", href: "publications/patents.html"},
+    {title: "Korean Industrial Standards", detail: "Explore Korean industrial standards related to the laboratory’s research and technical expertise.", href: "publications/standards.html"}
   ],
   projects: [
     {title: "Ongoing Projects", description: "One project remains ongoing or extended. Its original planned end date is retained; the actual end date is unknown.", href: "research/ongoing.html"},
