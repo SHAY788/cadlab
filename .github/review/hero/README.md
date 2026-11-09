@@ -69,3 +69,7 @@ Removed the selected status notice and introductory paragraph. All year groups a
 ## Contact map controls
 
 Removed only the selected Paldal Hall map-search button and campus walking-route notice. Map iframe and walking-directions link remain unchanged. Five-width checks passed. Local map screenshots use an empty external-resource response, so Google map rendering is outside this local check.
+
+## Motto page
+
+Removed the selected parenthetical note from the second attribution and the historical-transcription notice. Quotes, remaining attribution text and the first attribution remain unchanged. Five-width checks passed; screenshots refreshed.

@@ -115,6 +115,12 @@ const server = http.createServer((req,res) => {
       assert.equal(await page.getByRole('link',{name:'정문 → 팔달관 도보 길찾기 ↗',exact:true}).count(),1);
       assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
       if([390,1440].includes(width)) await page.locator('.map-section').screenshot({path:path.join(out,`contact-map-${width}.png`)});
+      await page.goto(`http://127.0.0.1:${server.address().port}/lab/motto.html`);
+      assert.equal(await page.locator('.attribution').nth(1).innerText(),'— Charles Mingus, an artist and member of Oasis');
+      assert.equal(await page.getByText(/Historical transcription:/).count(),0);
+      assert.equal(await page.locator('.quote').innerText(),'Do your worst and i will do my best');
+      assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+      if([390,1440].includes(width)) await page.screenshot({path:path.join(out,`motto-${width}.png`)});
       await page.close();
     }
     console.log(`${phase}: 5 viewport checks passed`);
