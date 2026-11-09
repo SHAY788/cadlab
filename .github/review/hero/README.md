@@ -45,3 +45,7 @@ Removed the entire requested catalogue note, year-navigation bar and introductor
 ## Korean journal page
 
 Removed the requested top catalogue note, year-navigation bar and 29-paper statistics label. The Journal Publications heading and all 29 papers remain unchanged. Five-width checks passed; screenshots refreshed. The content guard permits exactly these removals.
+
+## Articles page
+
+Removed the requested catalogue note, year navigation and introductory 11-article paragraph. Title, year groups and all 11 articles remain unchanged. Five-width checks passed and screenshots refreshed; the content guard permits exactly these three removals.
