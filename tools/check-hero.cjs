@@ -159,6 +159,12 @@ const server = http.createServer((req,res) => {
       await page.route('**/*',r=>r.request().url().startsWith('http://127.0.0.1:')?r.continue():r.fulfill({status:200,body:''}));
       for(const file of pages) {
         await page.goto(`http://127.0.0.1:${server.address().port}/${file.trim()}`);
+        await page.evaluate(async()=>{for(const img of document.images) img.loading='eager';await Promise.all([...document.images].map(i=>i.decode()));});
+        assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),`${file}: horizontal overflow at ${width}`);
+        if(['index.html','lab/introduction.html','people/professor.html','lab/motto.html'].includes(file.trim())) {
+          await page.evaluate(()=>{document.activeElement.blur();scrollTo(0,0)});
+          await page.screenshot({path:path.join(out,`layout-${file.trim().replace(/[/.]/g,'-')}-${width}.png`),fullPage:true,style:'.header{position:relative !important}'});
+        }
         await page.locator('.header .brand img').click();
         await page.waitForURL(`http://127.0.0.1:${server.address().port}/index.html`);
         assert.equal(await page.locator('.hero h1').innerText(),'CAD is\nthe future.');

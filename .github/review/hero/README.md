@@ -105,3 +105,9 @@ Constrained the Hero to 1240 px with centered outer margins and subtle rounded c
 ## Bilingual laboratory goals
 
 Removed the selected introductory sentence above Four major goals. Added Korean translations beneath each of the four original English goals, retaining numbering and all other content. Korean text uses lang=ko and consistent spacing. Five-width browser checks, 30 Logo clicks and record protection passed; goal screenshots refreshed.
+
+## Whole-site layout polish
+
+Styles only: tightened home section spacing; balanced About columns and paragraph typography; anchored the group photo below the heading instead of distributing empty vertical space; centered facilities panorama with a 1040 px cap; two-card tablet layout; improved publication summary readability. Inner pages gain readable prose widths, consistent navigation spacing, a restrained centered logo, balanced bilingual goal spacing and wider singleton project cards. All original content and image pixels are preserved.
+
+Validation: five responsive widths for existing checks, all 15 HTML pages at desktop 1440 and mobile 390 with decoded images and no horizontal overflow, plus 30 real Logo home navigations. Full-page screenshots for home, introduction, professor and motto are named layout-*.png. About desktop/mobile and motto desktop screenshots visually reviewed. Content guard and git diff --check passed. External map content excluded from local rendering.
