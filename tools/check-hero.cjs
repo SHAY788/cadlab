@@ -38,6 +38,7 @@ const server = http.createServer((req,res) => {
       const img=page.locator('.hero-art img');
       assert.equal(await page.locator('.hero h1').innerText(),'CAD is\nthe future.');
       assert.equal(await page.locator('.hero-actions,.hero-copy .cta,.hero-copy .cta-secondary').count(),0);
+      assert.equal(await page.locator('.hero-bottom,.focus-strip').count(),0);
       assert(await img.evaluate(i=>i.naturalWidth>0));
       if(phase==='after') {
         const data=await img.evaluate(i=>({w:i.width,h:i.height,nw:i.naturalWidth,nh:i.naturalHeight,fit:getComputedStyle(i).objectFit}));
