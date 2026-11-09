@@ -28,7 +28,7 @@ a:focus-visible,button:focus-visible{outline:3px solid #65b9ff;outline-offset:3p
 .cta:hover{background:#ecf3ff}
 .cta-secondary:hover{background:#ffffff15}
 .hero-art{text-align:center;min-width:0}
-.hero-art img{display:block;width:100%;max-width:420px;height:auto;margin:auto}
+.hero-art img{display:block;width:100%;max-width:100%;height:auto;object-fit:contain;margin:auto}
 .hero-art p{color:#b9d0e8;font-size:10px;letter-spacing:2px;font-weight:700;margin:5px 0 0}
 .hero-bottom{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:66px;border-top:1px solid #ffffff24;color:#c2d3e6;font-size:11px;letter-spacing:1px}
 .hero-bottom a{color:#e3eefc;text-decoration:none}
@@ -70,8 +70,7 @@ h2{font-size:clamp(30px,3.8vw,46px);line-height:1.15;letter-spacing:-1.5px;color
 .hero-layout{grid-template-columns:1fr;gap:0;min-height:auto}
 .hero-copy{padding:70px 0 20px}
 .hero h1{letter-spacing:-2px}
-.hero-art{max-width:480px;margin:0 auto 22px}
-.hero-art img{max-height:270px;object-fit:contain}
+.hero-art{width:100%;max-width:480px;margin:0 auto 22px}
 .hero-bottom{font-size:10px}
 .section{padding:66px 0}
 .section-grid{grid-template-columns:1fr;gap:8px}
