@@ -31,3 +31,5 @@ Removed the requested historical-context note at the end of the homepage About i
 ## Publications presentation
 
 Removed the requested Publications heading description and rewrote all five category summaries as professional public-facing copy. Titles, links, detailed pages and all 97 output records remain unchanged. Five-width browser checks passed; desktop and mobile Publications screenshots were visually reviewed. The content guard allows only the approved People and Publications summary fields to differ.
+
+People and Publications summaries now use direct descriptive wording, removing introductory calls to action such as Explore, Discover, Read and Meet. Five-width checks passed and screenshots refreshed.
