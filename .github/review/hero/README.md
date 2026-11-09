@@ -13,3 +13,7 @@ Run the browser check with Playwright installed (or `PLAYWRIGHT_MODULE` pointing
 ## Laboratory photo
 
 Adds the user's original `img-cad.gif` as `assets/cadlab-group.gif` below the Korean laboratory name in the left About column. Original pixels and full framing are preserved; the image scales proportionally to the column and stacks above the introduction on mobile. No caption or changes to the existing introduction. Five-width checks passed for image loading, source dimensions (513 × 342), aspect ratio and no overflow. `about-WIDTH.png` contains section screenshots; desktop 1440 and mobile 390 were visually reviewed.
+
+## Section heading cleanup
+
+Removed the two requested description paragraphs beside Research areas and Our people. All six cards and source records are preserved. Five-width checks confirm both paragraphs are absent and each section retains three cards. Desktop and mobile section screenshots are included.

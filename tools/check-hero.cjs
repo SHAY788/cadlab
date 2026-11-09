@@ -56,6 +56,11 @@ const server = http.createServer((req,res) => {
       assert(Math.abs(photoData.w/photoData.h-photoData.nw/photoData.nh)<0.02,'group photo aspect ratio changed');
       assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
       await page.locator('#about').screenshot({path:path.join(out,`about-${width}.png`)});
+      for(const id of ['research','people']) {
+        assert.equal(await page.locator(`#${id} .section-heading > p`).count(),0);
+        assert.equal(await page.locator(`#${id} .card`).count(),3);
+        if([390,1440].includes(width)) await page.locator(`#${id}`).screenshot({path:path.join(out,`${id}-${width}.png`)});
+      }
       await page.close();
     }
     console.log(`${phase}: 5 viewport checks passed`);
