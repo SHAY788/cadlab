@@ -39,7 +39,9 @@ a:focus-visible,button:focus-visible{outline:3px solid #65b9ff;outline-offset:3p
 .section.light{background:var(--light)}
 .section-grid{display:grid;grid-template-columns:1fr 1fr;gap:55px}
 .about-layout{row-gap:36px;align-items:start}
-.about-photo{display:block;width:100%;max-width:480px;height:auto;object-fit:contain;margin:28px 0 0;border-radius:8px}
+.about-layout>div:first-child{align-self:stretch;display:flex;flex-direction:column;align-items:flex-start}
+.about-layout>div:first-child>.muted{margin-bottom:32px}
+.about-photo{display:block;width:100%;max-width:513px;height:auto;object-fit:contain;margin:auto 0;border-radius:8px}
 .about-facilities{grid-column:1/-1;min-width:0}
 .about-facilities img{display:block;width:100%;height:auto;object-fit:contain;border-radius:8px}
 .overline{font-size:11px;letter-spacing:2px;color:var(--blue);font-weight:800;margin:0 0 14px}
@@ -80,6 +82,7 @@ h2{font-size:clamp(30px,3.8vw,46px);line-height:1.15;letter-spacing:-1.5px;color
 .section{padding:66px 0}
 .section-grid{grid-template-columns:1fr;gap:8px}
 .about-layout{row-gap:28px}
+.about-photo{margin:0 auto}
 .section-heading{display:block}
 .section-heading>p{margin-top:12px}
 .cards{grid-template-columns:1fr}

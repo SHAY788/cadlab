@@ -93,3 +93,7 @@ Added Korean descriptions beneath the existing English in all three Research are
 ## Expanded English introduction
 
 Removed the selected Location & contact link. Expanded the English About paragraph from the existing Korean introduction: geometric modeling, product-development information integration, manufacturing PLM, commercial C3PE application development and industry–university collaboration. Korean copy and detailed records remain unchanged. Updated both the HTML fallback and dynamic content source; five-width checks and existing regressions passed.
+
+## Group photo balance
+
+Increased the group photo cap from 480 to its native 513 px width and centered it vertically in the space below the left heading, balancing the expanded bilingual introduction. Mobile uses normal document flow with centered proportional imagery. Five-width checks and 30 Logo navigation checks passed; About screenshots refreshed.
