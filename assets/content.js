@@ -11,9 +11,9 @@ about: "The CAD (Computer-Aided Design) Laboratory is an integral unit of the De
     { title: "AR / VR", description: "Immersive visualization and engineering education." }
   ],
   people: [
-    {title: "Professor", description: "Jeongsam Yang — Ajou University professor. Current appointment and contact details confirmed on 2 November 2026; earlier concurrent roles remain historical.", href: "people/professor.html"},
-    {title: "Members", description: "Five current members confirmed on 2 November 2026. Previously recorded academic stages and email validity have not been separately confirmed.", href: "people/members.html"},
-    {title: "Alumni", description: "Graduation and current affiliations confirmed on 2 November 2026. All 27 alumni records and original degree-thesis titles are retained.", href: "people/alumni.html"}
+    {title: "Professor", description: "Meet Professor Jeongsam Yang of Ajou University and explore his academic profile, research interests and professional background.", href: "people/professor.html"},
+    {title: "Members", description: "Meet the five members of CAD Laboratory and explore their academic backgrounds and research.", href: "people/members.html"},
+    {title: "Alumni", description: "Explore the academic achievements, graduate research and professional paths of our 27 alumni.", href: "people/alumni.html"}
   ],
   publications: [
     {title: "International Journal Papers", detail: "Year-organized journal records with original bibliographic details.", href: "publications/international.html"},

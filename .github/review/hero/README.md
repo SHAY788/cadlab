@@ -17,3 +17,7 @@ Adds the user's original `img-cad.gif` as `assets/cadlab-group.gif` below the Ko
 ## Section heading cleanup
 
 Removed the two requested description paragraphs beside Research areas and Our people. All six cards and source records are preserved. Five-width checks confirm both paragraphs are absent and each section retains three cards. Desktop and mobile section screenshots are included.
+
+## Professional People summaries
+
+Rewrites the three homepage People card descriptions for public-facing presentation. Removes verification dates and internal record-maintenance caveats. Professor, Members and Alumni detail pages and all underlying records remain unchanged. The content guard permits only these three approved summary descriptions to differ from its original baseline; all other homepage data remains protected. Five-width layout checks passed and People screenshots were refreshed.
