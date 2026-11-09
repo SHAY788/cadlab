@@ -47,6 +47,15 @@ const server = http.createServer((req,res) => {
         assert(box.x>=0 && box.x+box.width<=width,'image exceeds viewport');
       }
       await page.screenshot({path:path.join(out,`${phase}-${width}.png`)});
+      const photo=page.locator('.about-photo');
+      await photo.scrollIntoViewIfNeeded();
+      await photo.evaluate(i=>i.decode());
+      const photoData=await photo.evaluate(i=>({w:i.width,h:i.height,nw:i.naturalWidth,nh:i.naturalHeight}));
+      assert.equal(photoData.nw,513);
+      assert.equal(photoData.nh,342);
+      assert(Math.abs(photoData.w/photoData.h-photoData.nw/photoData.nh)<0.02,'group photo aspect ratio changed');
+      assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+      await page.locator('#about').screenshot({path:path.join(out,`about-${width}.png`)});
       await page.close();
     }
     console.log(`${phase}: 5 viewport checks passed`);

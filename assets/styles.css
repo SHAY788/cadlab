@@ -38,6 +38,7 @@ a:focus-visible,button:focus-visible{outline:3px solid #65b9ff;outline-offset:3p
 .section{padding:92px 0}
 .section.light{background:var(--light)}
 .section-grid{display:grid;grid-template-columns:1fr 1fr;gap:55px}
+.about-photo{display:block;width:100%;height:auto;object-fit:contain;margin:28px 0 0}
 .overline{font-size:11px;letter-spacing:2px;color:var(--blue);font-weight:800;margin:0 0 14px}
 h2{font-size:clamp(30px,3.8vw,46px);line-height:1.15;letter-spacing:-1.5px;color:var(--navy);margin:0 0 22px}
 .muted,.section-heading>p{color:var(--muted)}
