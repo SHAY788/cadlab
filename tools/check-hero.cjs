@@ -7,6 +7,12 @@ const root = path.resolve(__dirname, '..');
 const baseline = require('node:child_process').execFileSync('git',['show','origin/main:index.html'],{cwd:root,encoding:'utf8'});
 const copyText = s => ['eyebrow','hero-descriptor','hero-summary'].map(c => s.match(new RegExp('<(?:div|p) class="'+c+'">(.*?)</(?:div|p)>'))[1]);
 const current = fs.readFileSync(path.join(root,'index.html'),'utf8');
+for(const file of require('node:child_process').execFileSync('git',['ls-files','*.html'],{cwd:root,encoding:'utf8'}).trim().split('\n')) {
+  const html=fs.readFileSync(path.join(root,file.trim()),'utf8');
+  const submenu=html.match(/id="lab-submenu">([\s\S]*?)<\/div>/)[1];
+  assert(!submenu.includes('Contact'),`${file}: duplicate Contact`);
+  assert(html.match(/<nav id="navigation"[\s\S]*?<\/nav>/)[0].includes('>Contact</a>'),`${file}: top-level Contact missing`);
+}
 assert.deepEqual(copyText(current),copyText(baseline),'Supporting Hero copy changed');
 const phase = process.argv[2] || 'after';
 const out = path.join(root, '.github/review/hero');
@@ -33,6 +39,13 @@ const server = http.createServer((req,res) => {
       await page.goto(`http://127.0.0.1:${server.address().port}/index.html`);
       await page.evaluate(()=>document.fonts.ready);
       await page.waitForFunction(()=>document.querySelector('.hero-art img').complete);
+      if(width<=900) await page.locator('#menuButton').click();
+      await page.locator('[aria-controls="lab-submenu"]').click();
+      assert.equal(await page.locator('#lab-submenu a').count(),2);
+      assert.equal(await page.locator('#navigation > a').filter({hasText:/^Contact$/}).count(),1);
+      if([390,1440].includes(width)) await page.screenshot({path:path.join(out,`navigation-${width}.png`)});
+      await page.keyboard.press('Escape');
+      if(width<=900) await page.keyboard.press('Escape');
       assert.equal(errors.length,0);
       assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
       const img=page.locator('.hero-art img');
