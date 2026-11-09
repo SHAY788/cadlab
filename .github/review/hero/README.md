@@ -89,3 +89,7 @@ Added an AI-restored version of the supplied three-panel facilities photo (2120 
 ## Bilingual Research and People cards
 
 Added Korean descriptions beneath the existing English in all three Research areas cards and three Our people cards. English, titles, links and records are preserved. Korean paragraphs use lang=ko with consistent 12 px spacing and Korean word wrapping. Five-width bilingual checks and existing regressions passed; Research/People screenshots refreshed.
+
+## Expanded English introduction
+
+Removed the selected Location & contact link. Expanded the English About paragraph from the existing Korean introduction: geometric modeling, product-development information integration, manufacturing PLM, commercial C3PE application development and industry–university collaboration. Korean copy and detailed records remain unchanged. Updated both the HTML fallback and dynamic content source; five-width checks and existing regressions passed.

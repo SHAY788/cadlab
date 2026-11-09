@@ -21,6 +21,7 @@ for(const file of pages.filter(p=>p!=='index.html')){
 }
 const load=s=>{const sandbox={window:{}};require('node:vm').runInNewContext(s,sandbox);return JSON.parse(JSON.stringify(sandbox.window.CADLAB_CONTENT));};
 const currentData=load(fs.readFileSync('assets/content.js','utf8')),beforeData=load(git('show',`${base}:assets/content.js`));
+currentData.about=beforeData.about;
 // The user approved rewriting the homepage People, Publications and Projects summaries.
 for(let i=0;i<3;i++) currentData.people[i].description=beforeData.people[i].description;
 for(let i=0;i<5;i++) currentData.publications[i].detail=beforeData.publications[i].detail;

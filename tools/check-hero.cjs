@@ -62,6 +62,8 @@ const server = http.createServer((req,res) => {
       }
       await page.screenshot({path:path.join(out,`${phase}-${width}.png`)});
       const photo=page.locator('.about-photo');
+      assert.equal(await page.getByRole('link',{name:'Location & contact →',exact:true}).count(),0);
+      assert((await page.locator('#aboutText').innerText()).includes('commercial C3PE systems (CAD/CAM/CAE/PDM/ERP)'));
       await photo.scrollIntoViewIfNeeded();
       await photo.evaluate(i=>i.decode());
       const photoData=await photo.evaluate(i=>({w:i.width,h:i.height,nw:i.naturalWidth,nh:i.naturalHeight}));

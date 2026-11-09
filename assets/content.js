@@ -3,7 +3,7 @@
 window.CADLAB_CONTENT = {
   
 
-about: "The CAD (Computer-Aided Design) Laboratory is an integral unit of the Department of Industrial Engineering at Ajou University.",
+about: "The CAD (Computer-Aided Design) Laboratory in the Department of Industrial Engineering at Ajou University conducts research in geometric modeling and the integration of information technologies for product development, with the goal of enabling product lifecycle management (PLM) in manufacturing. The laboratory develops applications that address industrial requirements and support commercial C3PE systems (CAD/CAM/CAE/PDM/ERP). Through industry–university collaboration, its research combines practical engineering applications with the development of foundational technologies that deliver value to industry.",
 
   research: [
     { title: "CAD / CAM", description: "Computer-aided design and manufacturing research.", descriptionKo: "컴퓨터 지원 설계 및 제조 연구." },
