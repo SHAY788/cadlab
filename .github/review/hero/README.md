@@ -61,3 +61,7 @@ Removed the requested catalogue note, year navigation, six-record statistics par
 ## Ongoing projects page
 
 Removed the two selected gray notices. The page heading, project title, funding agency, planned period and status remain unchanged. Five-width checks passed; screenshots refreshed. The content guard permits only the two notice removals.
+
+## Closed projects page
+
+Removed the selected status notice and introductory paragraph. All year groups and 26 project records remain unchanged. Five-width checks passed; screenshots refreshed. The content guard allows only the two paragraph removals.

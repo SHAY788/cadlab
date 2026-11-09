@@ -10,6 +10,7 @@ for(const file of pages.filter(p=>p!=='index.html')){
  let expected=main(before);
  if(file==='publications/international.html') expected=approved(expected);
  if(file==='research/ongoing.html') expected=expected.replace(/<p class="notice">[\s\S]*?<\/p>/g,'');
+ if(file==='research/completed.html') expected=expected.replace(/<p class="(?:notice|intro)">[\s\S]*?<\/p>/g,'');
  if(file==='publications/standards.html') expected=expected.replace(/<p class="(?:catalogue-note|intro|notice)">[\s\S]*?<\/p>/g,'').replace(/<nav class="year-nav"[\s\S]*?<\/nav>/g,'');
  if(file==='publications/patents.html') expected=expected.replace(/<p class="catalogue-note">[\s\S]*?<\/p>/g,'').replace(/<p class="intro">7 records[\s\S]*?<\/p>/g,'').replace(/<nav class="year-nav" aria-label="patents years">[\s\S]*?<\/nav>/g,'');
  if(file==='publications/articles.html') expected=expected.replace(/<p class="catalogue-note">[\s\S]*?<\/p>/g,'').replace(/<nav class="year-nav"[\s\S]*?<\/nav>/g,'').replace(/<p[^>]*>11 articles and technical writings[\s\S]*?<\/p>/g,'');
@@ -24,4 +25,4 @@ for(let i=0;i<5;i++) currentData.publications[i].detail=beforeData.publications[
 for(let i=0;i<2;i++) currentData.projects[i].description=beforeData.projects[i].description;
 assert.deepEqual(currentData,beforeData,'Unexpected homepage data change');
 assert.equal(git('diff',base,'--','.github/maintenance/phase3/'),'','Source records changed');
-console.log('PASS: all detailed records unchanged; only approved homepage summaries and publication-page presentation removals differ.');
+console.log('PASS: all detailed records unchanged; only approved summaries and page presentation removals differ.');

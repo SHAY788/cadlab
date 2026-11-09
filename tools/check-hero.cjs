@@ -102,6 +102,11 @@ const server = http.createServer((req,res) => {
       assert(await page.locator('#P002 .period').isVisible());
       assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
       if([390,1440].includes(width)) await page.screenshot({path:path.join(out,`ongoing-${width}.png`)});
+      await page.goto(`http://127.0.0.1:${server.address().port}/research/completed.html`);
+      assert.equal(await page.locator('.notice,.intro').count(),0);
+      assert.equal(await page.locator('article.project-card').count(),26);
+      assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+      if([390,1440].includes(width)) await page.screenshot({path:path.join(out,`completed-${width}.png`)});
       await page.close();
     }
     console.log(`${phase}: 5 viewport checks passed`);
