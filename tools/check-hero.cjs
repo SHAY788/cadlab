@@ -142,7 +142,7 @@ const server = http.createServer((req,res) => {
       await page.goto(`http://127.0.0.1:${server.address().port}/lab/motto.html`);
       assert.equal(await page.locator('.attribution').nth(1).innerText(),'— Charles Mingus, an artist and member of Oasis');
       assert.equal(await page.getByText(/Historical transcription:/).count(),0);
-      assert.equal(await page.locator('.quote').innerText(),'Do your worst and i will do my best');
+      assert.equal(await page.locator('.quote').innerText(),'Do your worst and I will do my best');
       assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
       if([390,1440].includes(width)) await page.screenshot({path:path.join(out,`motto-${width}.png`)});
       await page.goto(`http://127.0.0.1:${server.address().port}/lab/introduction.html`);
