@@ -12,6 +12,7 @@ for(const file of pages.filter(p=>p!=='index.html')){
  if(file==='research/ongoing.html') expected=expected.replace(/<p class="notice">[\s\S]*?<\/p>/g,'');
  if(file==='people/professor.html') expected=expected.replace(/<p class="notice">양정삼 교수의[\s\S]*?<\/p>/g,'');
  if(file==='people/members.html') expected=expected.replace(/<p class="(?:notice|catalogue-note)">[\s\S]*?<\/p>/g,'').replace(/（旧网站记录）/g,'');
+ if(file==='people/alumni.html') expected=expected.replace(/<p class="notice">졸업 및 소속 정보는[\s\S]*?<\/p>/g,'');
  if(file==='people/professor.html') expected=expected.replace(/<p class="[^"]*">Current Ajou University appointment[\s\S]*?<\/p>/g,'');
  if(file==='lab/motto.html') expected=expected.replace('— Charles Mingus, an artist and member of Oasis (attribution as displayed on the original laboratory page)','— Charles Mingus, an artist and member of Oasis').replace(/<p class="note">Historical transcription:[\s\S]*?<\/p>/g,'');
  if(file==='lab/contact.html') expected=expected.replace(/<a class="button secondary"[^>]*>팔달관 지도에서 보기 ↗<\/a>/g,'').replace(/<p class="note">주의: 캠퍼스[\s\S]*?<\/p>/g,'');
