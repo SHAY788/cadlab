@@ -81,6 +81,7 @@ const server = http.createServer((req,res) => {
       for(const id of ['research','people']) {
         assert.equal(await page.locator(`#${id} .section-heading > p`).count(),0);
         assert.equal(await page.locator(`#${id} .card`).count(),3);
+        assert.equal(await page.locator(`#${id} .card-description-ko[lang="ko"]`).count(),3);
         if([390,1440].includes(width)) await page.locator(`#${id}`).screenshot({path:path.join(out,`${id}-${width}.png`)});
       }
       assert.equal(await page.locator('#publications .section-heading > p').count(),0);

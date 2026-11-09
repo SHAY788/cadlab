@@ -25,6 +25,7 @@ const currentData=load(fs.readFileSync('assets/content.js','utf8')),beforeData=l
 for(let i=0;i<3;i++) currentData.people[i].description=beforeData.people[i].description;
 for(let i=0;i<5;i++) currentData.publications[i].detail=beforeData.publications[i].detail;
 for(let i=0;i<2;i++) currentData.projects[i].description=beforeData.projects[i].description;
+for(const group of ['research','people']) for(const item of currentData[group]) delete item.descriptionKo;
 assert.deepEqual(currentData,beforeData,'Unexpected homepage data change');
 assert.equal(git('diff',base,'--','.github/maintenance/phase3/'),'','Source records changed');
 console.log('PASS: all detailed records unchanged; only approved summaries and page presentation removals differ.');

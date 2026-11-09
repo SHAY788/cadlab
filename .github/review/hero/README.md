@@ -85,3 +85,7 @@ The existing header Logo is already a homepage link on all 15 pages. Added real-
 ## Restored facilities image and About layout
 
 Added an AI-restored version of the supplied three-panel facilities photo (2120 × 742), exported as a high-quality JPEG. Restoration improves noise, sharpness and exposure while retaining the triptych composition; it is not a new documentary source. The original input remains on the user's Desktop. The group photo is capped at 480 px and the facilities image spans both columns below the introduction, with matching 8 px corners and 36 px row spacing (28 px on mobile). Both images retain their natural aspect ratios without cropping. Browser checks verify loading, proportions and no overlap at five widths. About section screenshots hide the sticky header only during capture to avoid overlay artifacts.
+
+## Bilingual Research and People cards
+
+Added Korean descriptions beneath the existing English in all three Research areas cards and three Our people cards. English, titles, links and records are preserved. Korean paragraphs use lang=ko with consistent 12 px spacing and Korean word wrapping. Five-width bilingual checks and existing regressions passed; Research/People screenshots refreshed.
