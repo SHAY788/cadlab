@@ -65,3 +65,7 @@ Removed the two selected gray notices. The page heading, project title, funding 
 ## Closed projects page
 
 Removed the selected status notice and introductory paragraph. All year groups and 26 project records remain unchanged. Five-width checks passed; screenshots refreshed. The content guard allows only the two paragraph removals.
+
+## Contact map controls
+
+Removed only the selected Paldal Hall map-search button and campus walking-route notice. Map iframe and walking-directions link remain unchanged. Five-width checks passed. Local map screenshots use an empty external-resource response, so Google map rendering is outside this local check.

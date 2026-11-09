@@ -10,6 +10,7 @@ for(const file of pages.filter(p=>p!=='index.html')){
  let expected=main(before);
  if(file==='publications/international.html') expected=approved(expected);
  if(file==='research/ongoing.html') expected=expected.replace(/<p class="notice">[\s\S]*?<\/p>/g,'');
+ if(file==='lab/contact.html') expected=expected.replace(/<a class="button secondary"[^>]*>팔달관 지도에서 보기 ↗<\/a>/g,'').replace(/<p class="note">주의: 캠퍼스[\s\S]*?<\/p>/g,'');
  if(file==='research/completed.html') expected=expected.replace(/<p class="(?:notice|intro)">[\s\S]*?<\/p>/g,'');
  if(file==='publications/standards.html') expected=expected.replace(/<p class="(?:catalogue-note|intro|notice)">[\s\S]*?<\/p>/g,'').replace(/<nav class="year-nav"[\s\S]*?<\/nav>/g,'');
  if(file==='publications/patents.html') expected=expected.replace(/<p class="catalogue-note">[\s\S]*?<\/p>/g,'').replace(/<p class="intro">7 records[\s\S]*?<\/p>/g,'').replace(/<nav class="year-nav" aria-label="patents years">[\s\S]*?<\/nav>/g,'');

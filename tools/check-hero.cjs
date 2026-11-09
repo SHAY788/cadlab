@@ -107,6 +107,14 @@ const server = http.createServer((req,res) => {
       assert.equal(await page.locator('article.project-card').count(),26);
       assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
       if([390,1440].includes(width)) await page.screenshot({path:path.join(out,`completed-${width}.png`)});
+      await page.goto(`http://127.0.0.1:${server.address().port}/lab/contact.html`);
+      assert.equal(await page.locator('.map-section .button.secondary').count(),0);
+      assert.equal(await page.getByText('팔달관 지도에서 보기 ↗',{exact:true}).count(),0);
+      assert.equal(await page.locator('.map-section .note').count(),0);
+      assert.equal(await page.locator('.map-frame iframe').count(),1);
+      assert.equal(await page.getByRole('link',{name:'정문 → 팔달관 도보 길찾기 ↗',exact:true}).count(),1);
+      assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+      if([390,1440].includes(width)) await page.locator('.map-section').screenshot({path:path.join(out,`contact-map-${width}.png`)});
       await page.close();
     }
     console.log(`${phase}: 5 viewport checks passed`);
