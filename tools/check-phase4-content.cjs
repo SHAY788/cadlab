@@ -18,6 +18,7 @@ for(const file of pages.filter(p=>p!=='index.html')){
  if(file==='publications/articles.html') expected=expected.replace(/<p class="catalogue-note">[\s\S]*?<\/p>/g,'').replace(/<nav class="year-nav"[\s\S]*?<\/nav>/g,'').replace(/<p[^>]*>11 articles and technical writings[\s\S]*?<\/p>/g,'');
  if(file==='publications/korean.html') expected=expected.replace(/<p class="catalogue-note">[\s\S]*?<\/p>/g,'').replace(/<nav class="year-nav"[\s\S]*?<\/nav>/g,'').replace('<span class="count">29 papers · 2002–2024</span>','');
  if(file==='lab/introduction.html') expected=expected.replace('<p class="intro">The CAD Lab is an interdepartmental laboratory in the School of Engineering with four major goals:</p>\n','');
+ if(file==='lab/introduction.html') expected=expected.replace(/<p class="note">Historical website record:[\s\S]*?<\/p>\n/g,'');
  const actual=file==='lab/introduction.html'?main(current).replace(/<span class="goal-ko" lang="ko">[^<]*<\/span>/g,''):main(current);
  assert.equal(actual,expected,`${file}: unexpected main content change`);
 }
