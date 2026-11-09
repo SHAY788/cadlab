@@ -5,7 +5,9 @@ const pages=git('ls-files','*.html').trim().split('\n');
 const clean=s=>s.replace(/\r\n/g,'\n');
 for(const file of pages.filter(p=>p!=='index.html')){
  const current=clean(fs.readFileSync(file,'utf8')),before=git('show',`${base}:${file}`);
- assert.equal(current.match(/<main[\s\S]*?<\/main>/)[0],before.match(/<main[\s\S]*?<\/main>/)[0],`${file}: main content changed`);
+ const main=s=>s.match(/<main[\s\S]*?<\/main>/)[0];
+ const approved=s=>s.replace(/<p class="catalogue-note">[\s\S]*?<\/p>/g,'').replace(/<nav class="year-nav"[\s\S]*?<\/nav>/g,'').replace(/<p class="summary">[\s\S]*?<\/p>/g,'');
+ assert.equal(main(current),file==='publications/international.html'?approved(main(before)):main(before),`${file}: unexpected main content change`);
 }
 const load=s=>{const sandbox={window:{}};require('node:vm').runInNewContext(s,sandbox);return JSON.parse(JSON.stringify(sandbox.window.CADLAB_CONTENT));};
 const currentData=load(fs.readFileSync('assets/content.js','utf8')),beforeData=load(git('show',`${base}:assets/content.js`));
@@ -15,4 +17,4 @@ for(let i=0;i<5;i++) currentData.publications[i].detail=beforeData.publications[
 for(let i=0;i<2;i++) currentData.projects[i].description=beforeData.projects[i].description;
 assert.deepEqual(currentData,beforeData,'Unexpected homepage data change');
 assert.equal(git('diff',base,'--','.github/maintenance/phase3/'),'','Source records changed');
-console.log('PASS: 14 inner-page main contents and Phase 3 records unchanged; only approved People, Publications and Projects summaries differ.');
+console.log('PASS: all detailed records unchanged; only approved homepage summaries and international catalogue introduction removals differ.');

@@ -37,3 +37,7 @@ People and Publications summaries now use direct descriptive wording, removing i
 ## Projects presentation
 
 Removed the requested Projects heading paragraph. Rewrote both summaries as direct professional descriptions: the ongoing project summary reflects its source topic of AI demand forecasting and intelligent design for customized manufacturing; the closed portfolio retains its 26-project count. Detailed project pages and records remain unchanged. Five-width checks passed and project screenshots were reviewed.
+
+## International journal page
+
+Removed the entire requested catalogue note, year-navigation bar and introductory statistics paragraph from publications/international.html. All 44 papers and year headings remain unchanged. The content guard compares the full page against the baseline with exactly these three removals allowed. Five-width checks passed, confirming 44 entries and no overflow; screenshots refreshed.

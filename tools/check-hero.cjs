@@ -68,6 +68,11 @@ const server = http.createServer((req,res) => {
       assert.equal(await page.locator('#projects .section-heading > p').count(),0);
       assert.equal(await page.locator('#projectList .card').count(),2);
       if([390,1440].includes(width)) await page.locator('#projects').screenshot({path:path.join(out,`projects-${width}.png`)});
+      await page.goto(`http://127.0.0.1:${server.address().port}/publications/international.html`);
+      assert.equal(await page.locator('.catalogue-note,.year-nav,.summary').count(),0);
+      assert.equal(await page.locator('.year-block li').count(),44);
+      assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+      if([390,1440].includes(width)) await page.screenshot({path:path.join(out,`international-${width}.png`)});
       await page.close();
     }
     console.log(`${phase}: 5 viewport checks passed`);
