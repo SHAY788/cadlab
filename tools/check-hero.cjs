@@ -5,8 +5,9 @@ const assert = require('node:assert/strict');
 const {chromium} = require(process.env.PLAYWRIGHT_MODULE || 'playwright');
 const root = path.resolve(__dirname, '..');
 const baseline = require('node:child_process').execFileSync('git',['show','origin/main:index.html'],{cwd:root,encoding:'utf8'});
-const heroCopy = s => s.slice(s.indexOf('<div class="hero-copy">'),s.indexOf('<div class="hero-art"')).replace(/\r\n/g,'\n');
-assert.equal(heroCopy(fs.readFileSync(path.join(root,'index.html'),'utf8')),heroCopy(baseline),'Hero left copy changed');
+const copyText = s => ['eyebrow','hero-descriptor','hero-summary'].map(c => s.match(new RegExp('<(?:div|p) class="'+c+'">(.*?)</(?:div|p)>'))[1]);
+const current = fs.readFileSync(path.join(root,'index.html'),'utf8');
+assert.deepEqual(copyText(current),copyText(baseline),'Supporting Hero copy changed');
 const phase = process.argv[2] || 'after';
 const out = path.join(root, '.github/review/hero');
 fs.mkdirSync(out, {recursive:true});
@@ -35,6 +36,8 @@ const server = http.createServer((req,res) => {
       assert.equal(errors.length,0);
       assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
       const img=page.locator('.hero-art img');
+      assert.equal(await page.locator('.hero h1').innerText(),'CAD is\nthe future.');
+      assert.equal(await page.locator('.hero-actions,.hero-copy .cta,.hero-copy .cta-secondary').count(),0);
       assert(await img.evaluate(i=>i.naturalWidth>0));
       if(phase==='after') {
         const data=await img.evaluate(i=>({w:i.width,h:i.height,nw:i.naturalWidth,nh:i.naturalHeight,fit:getComputedStyle(i).objectFit}));
