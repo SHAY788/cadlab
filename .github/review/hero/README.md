@@ -97,3 +97,7 @@ Removed the selected Location & contact link. Expanded the English About paragra
 ## Group photo balance
 
 Increased the group photo cap from 480 to its native 513 px width and centered it vertically in the space below the left heading, balancing the expanded bilingual introduction. Mobile uses normal document flow with centered proportional imagery. Five-width checks and 30 Logo navigation checks passed; About screenshots refreshed.
+
+## Compact homepage Hero
+
+Constrained the Hero to 1240 px with centered outer margins and subtle rounded corners, reduced desktop minimum height to 490 px, tightened copy padding and capped the diagram at 440 px. Inner text aligns closely with the main content column. Mobile uses 18 px outer margins and reduced padding. Full image framing and text preserved. Five-width checks and 30 Logo navigation checks passed; screenshots refreshed.
